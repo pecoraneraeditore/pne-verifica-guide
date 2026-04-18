@@ -8,17 +8,16 @@ Variabili d'ambiente richieste:
   GITHUB_TOKEN   – Personal Access Token GitHub (scope: repo)
   GITHUB_REPO    – es. "nome_utente/pne-verifica-guide"
 
-Struttura attesa nella cartella dello script:
-  data/
-    Milano_2027.xlsx
-    Roma_2027.xlsx
-    Torino_2027.xlsx
-    Milano_dati_2026_per_2027.xlsx
-    Roma_dati_2026_per_2027.xlsx
-    Torino_dati_2026_per_2027.xlsx
-    Verifica_Milano_2027.xlsx   (creato/aggiornato ad ogni run)
-    Verifica_Roma_2027.xlsx
-    Verifica_Torino_2027.xlsx
+Struttura attesa nella cartella dello script (stessa cartella, no sottocartelle):
+  Milano_2027.xlsx
+  Roma_2027.xlsx
+  Torino_2027.xlsx
+  Milano_dati_2026_per_2027.xlsx
+  Roma_dati_2026_per_2027.xlsx
+  Torino_dati_2026_per_2027.xlsx
+  Verifica_Milano_2027.xlsx   (creato/aggiornato ad ogni run)
+  Verifica_Roma_2027.xlsx
+  Verifica_Torino_2027.xlsx
 """
 
 import os
@@ -44,7 +43,7 @@ import requests
 
 # ── configurazione ──────────────────────────────────────────────────────────
 SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR      = os.path.join(SCRIPT_DIR, "data")
+DATA_DIR      = SCRIPT_DIR  # tutti i file xlsx nella stessa cartella dello script
 
 BREVO_API_KEY = os.environ.get("BREVO_API_KEY", "")
 GITHUB_TOKEN  = os.environ.get("GITHUB_TOKEN", "")
@@ -333,7 +332,7 @@ else:
         subprocess.run(["git", "config", "user.email", SENDER_EMAIL],    cwd=SCRIPT_DIR, check=True)
         subprocess.run(["git", "config", "user.name",  "PNE Routine Bot"], cwd=SCRIPT_DIR, check=True)
         for city in ["Milano", "Roma", "Torino"]:
-            subprocess.run(["git", "add", f"data/Verifica_{city}_2027.xlsx"], cwd=SCRIPT_DIR, check=True)
+            subprocess.run(["git", "add", f"Verifica_{city}_2027.xlsx"], cwd=SCRIPT_DIR, check=True)
         diff = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=SCRIPT_DIR)
         if diff.returncode != 0:
             subprocess.run(["git", "commit", "-m", f"Verifica {today_str}"], cwd=SCRIPT_DIR, check=True)
