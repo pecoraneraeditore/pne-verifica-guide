@@ -50,6 +50,7 @@ cutoff_30d = today - timedelta(days=30)
 MAX_SOCIAL   = 300   # handle massimi da controllare per run
 CONCURRENCY  = 3     # pagine parallele
 TIMEOUT_MS   = 8000  # timeout per pagina
+SOCIAL_DAYS  = 40    # giorni entro cui un post social conta come "attività recente"
 
 CONFIRMED_APERTO = {
     "Ristorante D O":  {"note": "Michelin 2026 confermato (Cornaredo)",
@@ -391,7 +392,44 @@ else:
         print("\nNessun handle social da verificare.")
 
 # ══════════════════════════════════════════════════════════════════════════
-# 3. SALVA EXCEL CON COLORI
+# 3. PROMOZIONE AUTOMATICA BASATA SU ATTIVITÀ SOCIAL RECENTE
+#    INCERTO → APERTO se ha un post social negli ultimi 40 giorni
+# ══════════════════════════════════════════════════════════════════════════
+
+cutoff_social = today - timedelta(days=SOCIAL_DAYS)
+promoted_total = 0
+
+for city in ["Milano", "Roma", "Torino"]:
+    promoted = 0
+    for row in rows_by_city[city]:
+        if row["Status"] != "INCERTO":
+            continue
+        for col in ["Ultimo post Facebook", "Ultimo post Instagram"]:
+            date_str = row.get(col, "")
+            if not date_str or not date_str[:2].isdigit():
+                continue
+            try:
+                post_date = datetime.strptime(date_str, "%d/%m/%Y")
+                if post_date >= cutoff_social:
+                    row["Status"] = "APERTO"
+                    row["Note aggiuntive"] = (
+                        f"Promosso ad APERTO: post {col.split()[-1]} del {date_str}"
+                    )
+                    promoted += 1
+                    break
+            except:
+                pass
+    if promoted:
+        print(f"  {city}: {promoted} ristoranti promossi INCERTO→APERTO per post social recente")
+        stats[city]["aperto"]  += promoted
+        stats[city]["incerto"] -= promoted
+        promoted_total         += promoted
+
+if promoted_total:
+    print(f"Totale promossi: {promoted_total}")
+
+# ══════════════════════════════════════════════════════════════════════════
+# 4. SALVA EXCEL CON COLORI
 # ══════════════════════════════════════════════════════════════════════════
 
 for city in ["Milano","Roma","Torino"]:
@@ -418,7 +456,7 @@ for city in ["Milano","Roma","Torino"]:
     print(f"  Salvato: Verifica_{city}_2027.xlsx | Social verificati: {stats[city]['social_checked']}")
 
 # ══════════════════════════════════════════════════════════════════════════
-# 4. RIEPILOGO
+# 5. RIEPILOGO
 # ══════════════════════════════════════════════════════════════════════════
 
 print("\n=== RIEPILOGO ===")
@@ -427,7 +465,7 @@ for city, s in stats.items():
     print(f"  Mantenuti:{s['mantenuti']} Confermati:{s['verificati_oggi']} Social:{s['social_checked']}")
 
 # ══════════════════════════════════════════════════════════════════════════
-# 5. EMAIL VIA BREVO
+# 6. EMAIL VIA BREVO
 # ══════════════════════════════════════════════════════════════════════════
 
 print("\n=== INVIO EMAIL ===")
@@ -460,7 +498,7 @@ else:
         print(f"Eccezione email: {e}")
 
 # ══════════════════════════════════════════════════════════════════════════
-# 6. GIT PUSH
+# 7. GIT PUSH
 # ══════════════════════════════════════════════════════════════════════════
 
 print("\n=== GIT PUSH ===")
