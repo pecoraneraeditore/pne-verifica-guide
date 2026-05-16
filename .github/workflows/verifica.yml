@@ -2,16 +2,16 @@ name: Verifica Apertura Ristoranti
 
 on:
   schedule:
-    - cron: '30 7 * * 1,4'
-  workflow_dispatch:
+    - cron: '30 7 * * 1,4'  # 9:30 ora italiana (UTC+2 estate)
+  workflow_dispatch:          # permette avvio manuale dal tab Actions
 
 permissions:
-  contents: write
+  contents: write  # necessario per il git push dei file Verifica aggiornati
 
 jobs:
   verifica:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 60       # max 1 ora (SerpAPI + scraping leggero)
 
     steps:
       - name: Checkout repository
@@ -23,17 +23,12 @@ jobs:
           python-version: '3.11'
 
       - name: Installa dipendenze Python
-        run: pip install pandas openpyxl requests playwright -q
-
-      - name: Installa browser Playwright
-        run: playwright install chromium --with-deps
+        run: pip install pandas openpyxl requests beautifulsoup4 -q
 
       - name: Esegui verifica e invia email
         env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPO: pecoraneraeditore/pne-verifica-guide
-          DROPBOX_APP_KEY: ${{ secrets.DROPBOX_APP_KEY }}
-          DROPBOX_APP_SECRET: ${{ secrets.DROPBOX_APP_SECRET }}
-          DROPBOX_REFRESH_TOKEN: ${{ secrets.DROPBOX_REFRESH_TOKEN }}
-        run: python verifica_routine.py
+          GITHUB_REPO: ${{ github.repository }}
+        run: python verifica_v5.py
