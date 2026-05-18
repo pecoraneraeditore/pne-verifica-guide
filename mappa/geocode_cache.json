@@ -19,6 +19,12 @@
     "lat": 41.9064522,
     "lon": 12.4565357
   },
+  "266 la barraca|lungomare delle meduse, 266|torvaianica": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.6065839,
+    "lon": 12.4779935
+  },
   "53 untitled|via del monte della farina, 53|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.89519,
@@ -33,6 +39,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.9179818,
     "lon": 12.461342
+  },
+  "acqua pazza|via dietro la chiesa, 3/4|ponza": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 40.8932368,
+    "lon": 12.9630622
   },
   "acquolina|via del vantaggio, 14|roma": {
     "geocoded_at": "2026-05-18",
@@ -79,6 +91,12 @@
     "lat": 41.914043,
     "lon": 12.4730678
   },
+  "alla magnatora|via volubro, 4|piglio": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8308503,
+    "lon": 13.146399
+  },
   "amaranto|via adige, 19/21|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.9221152,
@@ -113,6 +131,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 42.1444015,
     "lon": 12.3762328
+  },
+  "armando al pantheon|salita dei crescenzi, 31|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
   },
   "aromaticus|via natale del grande, 6/7|roma": {
     "geocoded_at": "2026-05-18",
@@ -209,6 +233,12 @@
     "lat": 41.8931171,
     "lon": 12.5183989
   },
+  "bistrot 64|via gugliemo calderini, 64|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
+  },
   "bless|via dell’indipendenza, 208|gaeta": {
     "geocoded_at": "2026-05-18",
     "lat": 41.2191799,
@@ -223,6 +253,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8891672,
     "lon": 12.5264768
+  },
+  "bottega popolare|via andrea doria, 41 mercato trionfale box 113|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9093235,
+    "lon": 12.4527349
   },
   "bottega tredici|via dei falegnami, 14|roma": {
     "geocoded_at": "2026-05-18",
@@ -253,6 +289,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8561133,
     "lon": 12.5633715
+  },
+  "caffè doria|galleria doria pamphilj, via della gatta, 1|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8968239,
+    "lon": 12.4806459
   },
   "caffè fleming|via flaminia, 677/a|roma": {
     "geocoded_at": "2026-05-18",
@@ -289,10 +331,22 @@
     "lat": 41.9170258,
     "lon": 12.4592331
   },
+  "casale verdeluna|località civitella, 3|piglio": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8308503,
+    "lon": 13.146399
+  },
   "casaloca|corso di francia, 207|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.9282157,
     "lon": 12.4739559
+  },
+  "chalet del lago|via reginaldo belloni, 28/29|anguillara sabazia": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.0837101,
+    "lon": 12.2830132
   },
   "charlotte|via vercelli, 12/14|roma": {
     "geocoded_at": "2026-05-18",
@@ -313,6 +367,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.9021623,
     "lon": 12.4759646
+  },
+  "ciaparat|piazza san donà del piave, 14|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
   },
   "claudio torcè|piazza euclide, 25|roma": {
     "geocoded_at": "2026-05-18",
@@ -374,6 +434,12 @@
     "lat": 41.8163635,
     "lon": 12.4618273
   },
+  "cremeria alpi|via dei basadella|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
+  },
   "cremeria alpi|via padre reginaldo giuliani, 16|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.8662675,
@@ -403,6 +469,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.9463174,
     "lon": 12.5560308
+  },
+  "cuoco e camicia|via di monte polacco, 2/4|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
   },
   "cus cus|via arezzo, 39|roma": {
     "geocoded_at": "2026-05-18",
@@ -464,6 +536,12 @@
     "lat": 41.9585754,
     "lon": 12.5845757
   },
+  "de novo e d'antico|via santa margherita, 1|cori": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.6431038,
+    "lon": 12.9158514
+  },
   "dieci|via tortolini, 3/a|nepi": {
     "geocoded_at": "2026-05-18",
     "lat": 42.2415569,
@@ -483,6 +561,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8760818,
     "lon": 12.5093199
+  },
+  "don choc|via flaminia vecchia, 732/e-f-g-h|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
   },
   "dondolo|via di monte sacro, 23|roma": {
     "geocoded_at": "2026-05-18",
@@ -714,6 +798,12 @@
     "lat": 41.8860303,
     "lon": 12.5189942
   },
+  "gelasio|via portuense, 727 f/g|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8536526,
+    "lon": 12.4373246
+  },
   "gelateria dare|via bisagno, 19|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.923443,
@@ -729,6 +819,12 @@
     "lat": 41.9096515,
     "lon": 12.4761148
   },
+  "gelateria dei gracchi|viale delle province, 30|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
+  },
   "gelateria i gemelli|via fonte buono, 114|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.8479553,
@@ -743,6 +839,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8912445,
     "lon": 12.5599937
+  },
+  "gelato d'essai|viale b. bardanzellu, 77|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
   },
   "gelato romano|piazza santa maria consolatrice, 15/16|roma": {
     "geocoded_at": "2026-05-18",
@@ -798,6 +900,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8859462,
     "lon": 12.4583109
+  },
+  "green t.|via di pie' di marmo, 28|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
   },
   "günther gelato|piazza di sant'eustachio, 47|roma": {
     "geocoded_at": "2026-05-18",
@@ -879,6 +987,12 @@
     "lat": 41.9015324,
     "lon": 12.4725158
   },
+  "il giardino|via degli ulivi, 43|ventotene": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 40.796002,
+    "lon": 13.431213
+  },
   "il goccetto|via dei banchi vecchi, 14|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.8977958,
@@ -933,6 +1047,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8122336,
     "lon": 12.485254
+  },
+  "il vecchio mulino|via g. marconi, 25/a|lubriano": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.636231,
+    "lon": 12.108759
   },
   "indigeno - osteria ribelle|via renzo da ceri, 6/6a|roma": {
     "geocoded_at": "2026-05-18",
@@ -1019,6 +1139,12 @@
     "lat": 41.8980948,
     "lon": 12.4901504
   },
+  "la bottega delle tre sorelle|via giovanni xxiii, snc|montelanico": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.6566547,
+    "lon": 13.0433907
+  },
   "la briciola di adriana|via domenichino, 14|grottaferrata": {
     "geocoded_at": "2026-05-18",
     "lat": 41.7874014,
@@ -1033,6 +1159,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8968095,
     "lon": 12.4768677
+  },
+  "la differenza|largo magna grecia, 4|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
   },
   "la galleria di sopra|via leonardo murialdo, 9|albano laziale": {
     "geocoded_at": "2026-05-18",
@@ -1054,6 +1186,24 @@
     "lat": 41.9004533,
     "lon": 12.1575633
   },
+  "la locanda del bere|via foro appio, 64 - loc. borgo faiti|latina": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.4666795,
+    "lon": 12.9967697
+  },
+  "la locanda della chiocciola|localita seripola|orte": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.4605984,
+    "lon": 12.3856056
+  },
+  "la palazzina|via del carzolese, 1 ang. via casilina|san cesareo": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8289054,
+    "lon": 12.7913013
+  },
   "la parolina|via giacomo leopardi, 1|trevinano": {
     "geocoded_at": "2026-05-18",
     "lat": 42.8215503,
@@ -1063,6 +1213,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.9188764,
     "lon": 12.446681
+  },
+  "la perla|via collebianco, 11|arpino": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.6479826,
+    "lon": 13.6101414
   },
   "la punta expendio de agave|via di santa cecilia, 8|roma": {
     "geocoded_at": "2026-05-18",
@@ -1078,6 +1234,36 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8811488,
     "lon": 12.4847946
+  },
+  "la tana dei carbonari|via xx settembre, 35|roccagorga": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.5253154,
+    "lon": 13.1559249
+  },
+  "la taverna dei corsari|piazza vittorio veneto, 10|montopoli di sabina": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.245927,
+    "lon": 12.692077
+  },
+  "la tavernaccia|via giovanni di castel bolognese, 63|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
+  },
+  "la trota|via santa susanna, 33|rivodutri": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.516434,
+    "lon": 12.854977
+  },
+  "la villetta|via del porticciolo romano, snc|formia": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.252307,
+    "lon": 13.6754676
   },
   "latta - fermenti e miscele|via antonio pacinotti, 83|roma": {
     "geocoded_at": "2026-05-18",
@@ -1128,6 +1314,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.9161556,
     "lon": 12.4986442
+  },
+  "lo stuzzichino|contrada taverna|campodimele": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.3904463,
+    "lon": 13.5303355
   },
   "locanda altobelli|via annunziata, 121|terracina": {
     "geocoded_at": "2026-05-18",
@@ -1234,10 +1426,22 @@
     "lat": 41.410182,
     "lon": 13.0430945
   },
+  "mater|via pier paolo pasolini, snc|fiano romano": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.1587808,
+    "lon": 12.5892582
+  },
   "mazzo|via degli equi, 62|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.8963152,
     "lon": 12.5131709
+  },
+  "menabó vino e cucina|via delle palme, 44/d-e|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8890095,
+    "lon": 12.5640419
   },
   "metis|piazza enrico martini, 24/25|roma": {
     "geocoded_at": "2026-05-18",
@@ -1323,6 +1527,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8775657,
     "lon": 12.4733496
+  },
+  "mordi roma|piazza alessandria c/o mercato nomentano - box a2|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9112793,
+    "lon": 12.5011855
   },
   "mostò|viale pinturicchio, 32|roma": {
     "geocoded_at": "2026-05-18",
@@ -1449,15 +1659,39 @@
     "lat": 41.9076745,
     "lon": 12.4909947
   },
+  "osteria anna|s.r. 630 cassino formia km. 15|castelnuovo parano": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.3806561,
+    "lon": 13.744654
+  },
   "osteria bonelli|viale dell'acquedotto alessandrino, 172/174|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.8765276,
     "lon": 12.5463148
   },
+  "osteria del borgo|via borgo di sopra, 21/23|cesano di roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.0618915,
+    "lon": 12.3265007
+  },
+  "osteria del tempo perso|piazza san rocco, 13|casalvieri": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.6314023,
+    "lon": 13.7129928
+  },
   "osteria del velodromo vecchio|via genzano, 139|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.8705316,
     "lon": 12.5332283
+  },
+  "osteria del vicolo fatato|vicolo forno fatato, 11|piglio": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8308503,
+    "lon": 13.146399
   },
   "osteria di maccarese|via dei pastori, 26-a/28|maccarese": {
     "geocoded_at": "2026-05-18",
@@ -1679,6 +1913,12 @@
     "lat": 41.8098182,
     "lon": 12.6807803
   },
+  "ristorante degli angeli|località madonna degli angeli|magliano sabina": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.3613571,
+    "lon": 12.4811695
+  },
   "ristorante delicato|via umberto i, 2|contigliano": {
     "geocoded_at": "2026-05-18",
     "lat": 42.4089781,
@@ -1788,6 +2028,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8615139,
     "lon": 12.5359105
+  },
+  "satricvm|strada nettuno-cisterna, 1227 - loc. le ferriere|latina": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.4595261,
+    "lon": 13.0125912
   },
   "schenardino - cucina pizza & vino|piazza delle erbe, 16|viterbo": {
     "geocoded_at": "2026-05-18",

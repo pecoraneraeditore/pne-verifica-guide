@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-05-18T21:30:00+00:00",
+  "generated_at": "2026-05-18T22:14:16+00:00",
   "source_file": "Roma_2027.xlsx",
   "citta_default": "Roma",
+  "regione": "Lazio",
   "categories": {
     "fatto": {
       "label": "Fatto",
@@ -47,6 +48,7 @@
       "categoria": "riservato",
       "lat": 41.9086556,
       "lon": 12.4755908,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -59,6 +61,7 @@
       "categoria": "per_editori",
       "lat": 41.964702,
       "lon": 12.7991913,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -71,6 +74,7 @@
       "categoria": "riservato",
       "lat": 41.914043,
       "lon": 12.4730678,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -83,6 +87,7 @@
       "categoria": "riservato",
       "lat": 42.2415569,
       "lon": 12.3462711,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -95,6 +100,7 @@
       "categoria": "riservato",
       "lat": 41.9176952,
       "lon": 12.4697377,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -107,6 +113,7 @@
       "categoria": "riservato",
       "lat": 41.8905107,
       "lon": 12.4691856,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -119,6 +126,7 @@
       "categoria": "riservato",
       "lat": 41.8980103,
       "lon": 12.4756545,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -131,6 +139,7 @@
       "categoria": "riservato",
       "lat": 41.9015324,
       "lon": 12.4725158,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -143,6 +152,7 @@
       "categoria": "per_editori",
       "lat": 41.897822,
       "lon": 12.467496,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -155,6 +165,7 @@
       "categoria": "riservato",
       "lat": 41.7504015,
       "lon": 12.2675406,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -167,6 +178,7 @@
       "categoria": "riservato",
       "lat": 42.8215503,
       "lon": 11.8692216,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -179,6 +191,20 @@
       "categoria": "riservato",
       "lat": 41.9188764,
       "lon": 12.446681,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Trota",
+      "tipologia": "ricercata",
+      "indirizzo": "Via Santa Susanna, 33",
+      "zona": "",
+      "citta": "Rivodutri",
+      "recensore": "",
+      "categoria": "per_editori",
+      "lat": 42.516434,
+      "lon": 12.854977,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -191,6 +217,7 @@
       "categoria": "per_editori",
       "lat": 41.7715488,
       "lon": 12.2304588,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -203,6 +230,7 @@
       "categoria": "per_editori",
       "lat": 41.410182,
       "lon": 13.0430945,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -215,6 +243,7 @@
       "categoria": "fatto",
       "lat": 41.9051156,
       "lon": 12.4898888,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -227,6 +256,7 @@
       "categoria": "per_editori",
       "lat": 41.8929667,
       "lon": 12.473735,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -239,6 +269,7 @@
       "categoria": "riservato",
       "lat": 41.9076745,
       "lon": 12.4909947,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -251,6 +282,7 @@
       "categoria": "per_editori",
       "lat": 41.7708257,
       "lon": 12.2314523,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -263,6 +295,7 @@
       "categoria": "riservato",
       "lat": 41.8973101,
       "lon": 12.4675414,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -275,6 +308,7 @@
       "categoria": "per_editori",
       "lat": 41.8993964,
       "lon": 12.4666817,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -287,6 +321,7 @@
       "categoria": "fatto",
       "lat": 41.9085511,
       "lon": 12.4647506,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -299,6 +334,20 @@
       "categoria": "per_editori",
       "lat": 41.3581167,
       "lon": 13.4294319,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Satricvm",
+      "tipologia": "creativa",
+      "indirizzo": "Strada Nettuno-Cisterna, 1227 - Loc. Le Ferriere",
+      "zona": "",
+      "citta": "Latina",
+      "recensore": "bloccato per Elisa Del Frate",
+      "categoria": "riservato",
+      "lat": 41.4595261,
+      "lon": 13.0125912,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -311,6 +360,7 @@
       "categoria": "riservato",
       "lat": 41.8868681,
       "lon": 12.4682418,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -323,6 +373,7 @@
       "categoria": "fatto",
       "lat": 41.9179818,
       "lon": 12.461342,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -335,6 +386,7 @@
       "categoria": "riservato",
       "lat": 41.9153744,
       "lon": 12.4682182,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -347,6 +399,7 @@
       "categoria": "per_editori",
       "lat": 41.8968509,
       "lon": 12.4952916,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -359,6 +412,20 @@
       "categoria": "riservato",
       "lat": 41.8835934,
       "lon": 12.5136174,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Bistrot 64",
+      "tipologia": "tradizionale con spunti creativi",
+      "indirizzo": "Via Gugliemo Calderini, 64",
+      "zona": "MAXXI",
+      "citta": "Roma",
+      "recensore": "bloccato per Anca Enache",
+      "categoria": "riservato",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -371,6 +438,7 @@
       "categoria": "fatto",
       "lat": 41.2191799,
       "lon": 13.5695636,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -383,6 +451,7 @@
       "categoria": "fatto",
       "lat": 41.8940204,
       "lon": 12.476208,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -395,6 +464,7 @@
       "categoria": "fatto",
       "lat": 41.8783578,
       "lon": 12.5263956,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -407,6 +477,7 @@
       "categoria": "riservato",
       "lat": 41.906771,
       "lon": 12.4695253,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -419,6 +490,7 @@
       "categoria": "fatto",
       "lat": 42.0020256,
       "lon": 12.4862011,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -431,6 +503,7 @@
       "categoria": "riservato",
       "lat": 41.8080551,
       "lon": 12.6821991,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -443,6 +516,20 @@
       "categoria": "riservato",
       "lat": 41.8867466,
       "lon": 12.4735621,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Cuoco e Camicia",
+      "tipologia": "tradizionale con spunti creativi",
+      "indirizzo": "Via di Monte Polacco, 2/4",
+      "zona": "Monti",
+      "citta": "Roma",
+      "recensore": "bloccato per Giulia Maria Bellucci",
+      "categoria": "riservato",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -455,6 +542,7 @@
       "categoria": "per_editori",
       "lat": 41.8760818,
       "lon": 12.5093199,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -467,6 +555,7 @@
       "categoria": "riservato",
       "lat": 41.8101144,
       "lon": 12.6791207,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -479,6 +568,7 @@
       "categoria": "per_editori",
       "lat": 41.8797144,
       "lon": 12.5098436,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -491,6 +581,7 @@
       "categoria": "riservato",
       "lat": 41.8937195,
       "lon": 12.489126,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -503,6 +594,7 @@
       "categoria": "riservato",
       "lat": 41.9184476,
       "lon": 12.4568923,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -515,6 +607,7 @@
       "categoria": "riservato",
       "lat": 42.0936173,
       "lon": 11.7914145,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -527,6 +620,7 @@
       "categoria": "riservato",
       "lat": 41.7843821,
       "lon": 12.3920121,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -539,6 +633,7 @@
       "categoria": "riservato",
       "lat": 41.859739,
       "lon": 12.2053237,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -551,6 +646,7 @@
       "categoria": "riservato",
       "lat": 41.9059117,
       "lon": 12.4756255,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -563,6 +659,7 @@
       "categoria": "riservato",
       "lat": 41.9360492,
       "lon": 12.4183103,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -575,6 +672,33 @@
       "categoria": "riservato",
       "lat": 41.8968095,
       "lon": 12.4768677,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Perla",
+      "tipologia": "creativa",
+      "indirizzo": "Via Collebianco, 11",
+      "zona": "",
+      "citta": "Arpino",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.6479826,
+      "lon": 13.6101414,
+      "approssimato": true,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Tana dei Carbonari",
+      "tipologia": "creativa",
+      "indirizzo": "Via XX Settembre, 35",
+      "zona": "",
+      "citta": "Roccagorga",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.5253154,
+      "lon": 13.1559249,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -587,6 +711,7 @@
       "categoria": "da_fare",
       "lat": 41.2905595,
       "lon": 13.2504122,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -599,6 +724,7 @@
       "categoria": "fatto",
       "lat": 41.9444897,
       "lon": 12.5152308,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -611,6 +737,7 @@
       "categoria": "per_editori",
       "lat": 41.7715325,
       "lon": 12.2216435,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -623,6 +750,7 @@
       "categoria": "per_editori",
       "lat": 41.7966684,
       "lon": 12.4312411,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -635,6 +763,7 @@
       "categoria": "per_editori",
       "lat": 41.869993,
       "lon": 12.5169602,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -647,6 +776,7 @@
       "categoria": "riservato",
       "lat": 42.0723893,
       "lon": 12.3912052,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -659,6 +789,7 @@
       "categoria": "da_fare",
       "lat": 41.9628631,
       "lon": 12.7977685,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -671,6 +802,7 @@
       "categoria": "riservato",
       "lat": 41.7304308,
       "lon": 12.2794357,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -683,6 +815,7 @@
       "categoria": "riservato",
       "lat": 41.7720108,
       "lon": 12.6470839,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -695,6 +828,7 @@
       "categoria": "non_recensibile",
       "lat": 41.9019065,
       "lon": 12.4753023,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -707,6 +841,7 @@
       "categoria": "fatto",
       "lat": 41.937298,
       "lon": 12.5306123,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -719,6 +854,7 @@
       "categoria": "per_editori",
       "lat": 41.8927777,
       "lon": 12.4729362,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -731,6 +867,7 @@
       "categoria": "da_fare",
       "lat": 42.4089781,
       "lon": 12.7655079,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -743,6 +880,7 @@
       "categoria": "per_editori",
       "lat": 41.9432558,
       "lon": 12.473098,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -755,6 +893,7 @@
       "categoria": "riservato",
       "lat": 41.7234594,
       "lon": 12.6823662,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -767,6 +906,7 @@
       "categoria": "da_fare",
       "lat": 41.7754232,
       "lon": 12.9237811,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -779,6 +919,7 @@
       "categoria": "fatto",
       "lat": 41.8621873,
       "lon": 12.4931344,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -791,6 +932,7 @@
       "categoria": "riservato",
       "lat": 41.4569014,
       "lon": 12.6601849,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -803,6 +945,7 @@
       "categoria": "fatto",
       "lat": 41.7455408,
       "lon": 12.6505209,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -815,6 +958,7 @@
       "categoria": "fatto",
       "lat": 41.9115836,
       "lon": 12.5197138,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -827,6 +971,7 @@
       "categoria": "per_editori",
       "lat": 41.8704805,
       "lon": 12.4844844,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -839,6 +984,33 @@
       "categoria": "fatto",
       "lat": 41.8893003,
       "lon": 12.5693,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "266 La Barraca",
+      "tipologia": "pesce",
+      "indirizzo": "Lungomare delle Meduse, 266",
+      "zona": "",
+      "citta": "Torvaianica",
+      "recensore": "bloccato per Elisa Del Frate",
+      "categoria": "riservato",
+      "lat": 41.6065839,
+      "lon": 12.4779935,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Acqua Pazza",
+      "tipologia": "pesce",
+      "indirizzo": "Via Dietro la Chiesa, 3/4",
+      "zona": "",
+      "citta": "Ponza",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 40.8932368,
+      "lon": 12.9630622,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -851,6 +1023,7 @@
       "categoria": "per_editori",
       "lat": 41.9494486,
       "lon": 12.4697967,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -863,6 +1036,20 @@
       "categoria": "fatto",
       "lat": 41.9251982,
       "lon": 12.4972009,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Alla Magnatora",
+      "tipologia": "tradizionale",
+      "indirizzo": "Via Volubro, 4",
+      "zona": "",
+      "citta": "Piglio",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.8308503,
+      "lon": 13.146399,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -875,6 +1062,7 @@
       "categoria": "riservato",
       "lat": 41.8930533,
       "lon": 12.488019,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -887,6 +1075,20 @@
       "categoria": "fatto",
       "lat": 42.1444015,
       "lon": 12.3762328,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Armando al Pantheon",
+      "tipologia": "tradizionale",
+      "indirizzo": "Salita dei Crescenzi, 31",
+      "zona": "Pantheon",
+      "citta": "Roma",
+      "recensore": "",
+      "categoria": "per_editori",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -899,6 +1101,7 @@
       "categoria": "riservato",
       "lat": 41.8789508,
       "lon": 12.483181,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -911,6 +1114,7 @@
       "categoria": "riservato",
       "lat": 41.9003672,
       "lon": 12.4823634,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -923,6 +1127,7 @@
       "categoria": "fatto",
       "lat": 41.8774704,
       "lon": 12.2154404,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -935,6 +1140,33 @@
       "categoria": "da_fare",
       "lat": 41.3858071,
       "lon": 12.9553725,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Casale Verdeluna",
+      "tipologia": "tradizionale",
+      "indirizzo": "Località Civitella, 3",
+      "zona": "",
+      "citta": "Piglio",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.8308503,
+      "lon": 13.146399,
+      "approssimato": true,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Chalet del Lago",
+      "tipologia": "tradizionale",
+      "indirizzo": "Via Reginaldo Belloni, 28/29",
+      "zona": "",
+      "citta": "Anguillara Sabazia",
+      "recensore": "bloccato per Luca Veglianti",
+      "categoria": "riservato",
+      "lat": 42.0837101,
+      "lon": 12.2830132,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -947,6 +1179,7 @@
       "categoria": "per_editori",
       "lat": 41.9099027,
       "lon": 12.4987236,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -959,6 +1192,7 @@
       "categoria": "riservato",
       "lat": 41.9166098,
       "lon": 13.1002217,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -971,6 +1205,7 @@
       "categoria": "fatto",
       "lat": 42.414455,
       "lon": 12.1065082,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -983,6 +1218,7 @@
       "categoria": "da_fare",
       "lat": 41.3612998,
       "lon": 13.4235619,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -995,6 +1231,20 @@
       "categoria": "riservato",
       "lat": 41.8512046,
       "lon": 12.483984,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "De Novo e D'Antico",
+      "tipologia": "tradizionale / pizzeria",
+      "indirizzo": "Via Santa Margherita, 1",
+      "zona": "",
+      "citta": "Cori",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.6431038,
+      "lon": 12.9158514,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1007,6 +1257,7 @@
       "categoria": "da_fare",
       "lat": 41.3609098,
       "lon": 13.4335587,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1019,6 +1270,7 @@
       "categoria": "fatto",
       "lat": 41.8700249,
       "lon": 12.4433508,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1031,6 +1283,7 @@
       "categoria": "fatto",
       "lat": 41.8915901,
       "lon": 12.5096849,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1043,6 +1296,7 @@
       "categoria": "per_editori",
       "lat": 42.002945,
       "lon": 12.4997768,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1055,6 +1309,7 @@
       "categoria": "riservato",
       "lat": 42.3809529,
       "lon": 12.2336313,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1067,6 +1322,20 @@
       "categoria": "fatto",
       "lat": 42.520349,
       "lon": 12.143497,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Il Giardino",
+      "tipologia": "pesce",
+      "indirizzo": "Via degli Ulivi, 43",
+      "zona": "",
+      "citta": "Ventotene",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 40.796002,
+      "lon": 13.431213,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1079,6 +1348,7 @@
       "categoria": "riservato",
       "lat": 41.4485513,
       "lon": 12.6311406,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1091,6 +1361,7 @@
       "categoria": "riservato",
       "lat": 41.5916592,
       "lon": 12.6547679,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1103,6 +1374,7 @@
       "categoria": "riservato",
       "lat": 41.8099049,
       "lon": 12.6788841,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1115,6 +1387,7 @@
       "categoria": "riservato",
       "lat": 41.8781912,
       "lon": 12.5639629,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1127,6 +1400,20 @@
       "categoria": "per_editori",
       "lat": 41.8622156,
       "lon": 12.1873593,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Bottega delle tre Sorelle",
+      "tipologia": "tradizionale",
+      "indirizzo": "Via Giovanni XXIII, snc",
+      "zona": "",
+      "citta": "Montelanico",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.6566547,
+      "lon": 13.0433907,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1139,6 +1426,7 @@
       "categoria": "riservato",
       "lat": 41.731334,
       "lon": 12.6597635,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1151,6 +1439,46 @@
       "categoria": "fatto",
       "lat": 41.9004533,
       "lon": 12.1575633,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Locanda del Bere",
+      "tipologia": "tradizionale",
+      "indirizzo": "Via Foro Appio, 64 - Loc. Borgo Faiti",
+      "zona": "",
+      "citta": "Latina",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.4666795,
+      "lon": 12.9967697,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Locanda della Chiocciola",
+      "tipologia": "tradizionale",
+      "indirizzo": "Localita Seripola",
+      "zona": "",
+      "citta": "Orte",
+      "recensore": "bloccato per Anca Enache",
+      "categoria": "riservato",
+      "lat": 42.4605984,
+      "lon": 12.3856056,
+      "approssimato": true,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Palazzina",
+      "tipologia": "tradizionale",
+      "indirizzo": "Via del Carzolese, 1 ang. Via Casilina",
+      "zona": "",
+      "citta": "San Cesareo",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.8289054,
+      "lon": 12.7913013,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1163,6 +1491,33 @@
       "categoria": "riservato",
       "lat": 41.8945524,
       "lon": 12.471689,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Taverna dei Corsari",
+      "tipologia": "tradizionale / pizzeria",
+      "indirizzo": "Piazza Vittorio Veneto, 10",
+      "zona": "",
+      "citta": "Montopoli di Sabina",
+      "recensore": "Luca Veglianti",
+      "categoria": "fatto",
+      "lat": 42.245927,
+      "lon": 12.692077,
+      "approssimato": true,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Villetta",
+      "tipologia": "pesce",
+      "indirizzo": "Via del Porticciolo Romano, snc",
+      "zona": "",
+      "citta": "Formia",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.252307,
+      "lon": 13.6754676,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1175,6 +1530,20 @@
       "categoria": "per_editori",
       "lat": 41.9655415,
       "lon": 12.7994619,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Lo Stuzzichino",
+      "tipologia": "tradizionale",
+      "indirizzo": "Contrada Taverna",
+      "zona": "",
+      "citta": "Campodimele",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.3904463,
+      "lon": 13.5303355,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1187,6 +1556,7 @@
       "categoria": "per_editori",
       "lat": 41.6894371,
       "lon": 12.779374,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1199,6 +1569,7 @@
       "categoria": "riservato",
       "lat": 41.8311026,
       "lon": 12.5222979,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1211,6 +1582,7 @@
       "categoria": "da_fare",
       "lat": 41.2884008,
       "lon": 13.2519745,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1223,6 +1595,7 @@
       "categoria": "da_fare",
       "lat": 42.4160906,
       "lon": 13.0790018,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1235,6 +1608,7 @@
       "categoria": "da_fare",
       "lat": 41.8298381,
       "lon": 12.9722316,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1247,6 +1621,7 @@
       "categoria": "fatto",
       "lat": 41.936988,
       "lon": 12.5157684,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1259,6 +1634,7 @@
       "categoria": "fatto",
       "lat": 41.9114585,
       "lon": 12.5185434,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1271,6 +1647,7 @@
       "categoria": "riservato",
       "lat": 41.7889247,
       "lon": 12.6685653,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1283,6 +1660,7 @@
       "categoria": "da_fare",
       "lat": 41.2875146,
       "lon": 13.2593771,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1295,6 +1673,20 @@
       "categoria": "fatto",
       "lat": 41.8963152,
       "lon": 12.5131709,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Menabó Vino e Cucina",
+      "tipologia": "tradizionale",
+      "indirizzo": "Via delle Palme, 44/D-E",
+      "zona": "Centocelle",
+      "citta": "Roma",
+      "recensore": "Simone Cargiani",
+      "categoria": "fatto",
+      "lat": 41.8890095,
+      "lon": 12.5640419,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1307,6 +1699,7 @@
       "categoria": "per_editori",
       "lat": 41.2586717,
       "lon": 13.6130068,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1319,6 +1712,7 @@
       "categoria": "fatto",
       "lat": 41.8895687,
       "lon": 12.5250677,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1331,6 +1725,7 @@
       "categoria": "riservato",
       "lat": 42.0307527,
       "lon": 11.8436804,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1343,6 +1738,7 @@
       "categoria": "riservato",
       "lat": 41.8495679,
       "lon": 12.4884847,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1355,6 +1751,7 @@
       "categoria": "fatto",
       "lat": 41.9256004,
       "lon": 12.6300345,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1367,6 +1764,7 @@
       "categoria": "fatto",
       "lat": 41.2567001,
       "lon": 13.4361598,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1379,6 +1777,7 @@
       "categoria": "riservato",
       "lat": 42.250612,
       "lon": 11.7554054,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1391,6 +1790,7 @@
       "categoria": "per_editori",
       "lat": 41.8992295,
       "lon": 12.5192941,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1403,6 +1803,7 @@
       "categoria": "fatto",
       "lat": 41.8752006,
       "lon": 12.5111125,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1415,6 +1816,46 @@
       "categoria": "fatto",
       "lat": 41.8354011,
       "lon": 12.7686989,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Osteria Anna",
+      "tipologia": "tradizionale",
+      "indirizzo": "S.R. 630 Cassino Formia km. 15",
+      "zona": "",
+      "citta": "Castelnuovo Parano",
+      "recensore": "Simone Cargiani",
+      "categoria": "fatto",
+      "lat": 41.3806561,
+      "lon": 13.744654,
+      "approssimato": true,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Osteria del Borgo",
+      "tipologia": "tradizionale",
+      "indirizzo": "Via Borgo di Sopra, 21/23",
+      "zona": "",
+      "citta": "Cesano di Roma",
+      "recensore": "bloccato per Luca Veglianti",
+      "categoria": "riservato",
+      "lat": 42.0618915,
+      "lon": 12.3265007,
+      "approssimato": true,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Osteria del Tempo Perso",
+      "tipologia": "tradizionale",
+      "indirizzo": "Piazza San Rocco, 13",
+      "zona": "",
+      "citta": "Casalvieri",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.6314023,
+      "lon": 13.7129928,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1427,6 +1868,7 @@
       "categoria": "riservato",
       "lat": 41.8774704,
       "lon": 12.2154404,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1439,6 +1881,7 @@
       "categoria": "riservato",
       "lat": 41.9735465,
       "lon": 12.8333459,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1451,6 +1894,7 @@
       "categoria": "riservato",
       "lat": 41.8079277,
       "lon": 12.4332401,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1463,6 +1907,7 @@
       "categoria": "da_fare",
       "lat": 41.6403468,
       "lon": 13.3501411,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1475,6 +1920,7 @@
       "categoria": "riservato",
       "lat": 41.8895874,
       "lon": 12.5249827,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1487,6 +1933,7 @@
       "categoria": "riservato",
       "lat": 41.9494132,
       "lon": 12.5625431,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1499,6 +1946,7 @@
       "categoria": "fatto",
       "lat": 41.8796141,
       "lon": 12.4667079,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1511,6 +1959,7 @@
       "categoria": "riservato",
       "lat": 41.7882906,
       "lon": 12.6667387,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1523,6 +1972,20 @@
       "categoria": "riservato",
       "lat": 41.8098182,
       "lon": 12.6807803,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Ristorante degli Angeli",
+      "tipologia": "tradizionale",
+      "indirizzo": "Località Madonna degli Angeli",
+      "zona": "",
+      "citta": "Magliano Sabina",
+      "recensore": "",
+      "categoria": "per_editori",
+      "lat": 42.3613571,
+      "lon": 12.4811695,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1535,6 +1998,7 @@
       "categoria": "da_fare",
       "lat": 41.5005439,
       "lon": 13.093641,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1547,6 +2011,7 @@
       "categoria": "fatto",
       "lat": 42.4177265,
       "lon": 12.106086,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1559,6 +2024,7 @@
       "categoria": "fatto",
       "lat": 41.9451563,
       "lon": 12.528092,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1571,6 +2037,7 @@
       "categoria": "per_editori",
       "lat": 41.8596327,
       "lon": 13.0339563,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1583,6 +2050,7 @@
       "categoria": "fatto",
       "lat": 41.8983474,
       "lon": 12.5186866,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1595,6 +2063,7 @@
       "categoria": "riservato",
       "lat": 41.8261146,
       "lon": 12.4746668,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1607,6 +2076,7 @@
       "categoria": "fatto",
       "lat": 41.8686993,
       "lon": 12.4492541,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1619,6 +2089,7 @@
       "categoria": "riservato",
       "lat": 42.0610517,
       "lon": 12.5871022,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1631,6 +2102,7 @@
       "categoria": "altro_azzurro",
       "lat": 41.285121,
       "lon": 13.1912278,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1643,6 +2115,7 @@
       "categoria": "da_finire",
       "lat": 41.4976365,
       "lon": 12.6319101,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1655,6 +2128,7 @@
       "categoria": "da_fare",
       "lat": 41.2896903,
       "lon": 13.2532093,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1667,6 +2141,7 @@
       "categoria": "riservato",
       "lat": 41.4569926,
       "lon": 12.6583099,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1679,6 +2154,7 @@
       "categoria": "fatto",
       "lat": 41.8980948,
       "lon": 12.4901504,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1691,6 +2167,7 @@
       "categoria": "riservato",
       "lat": 41.8908353,
       "lon": 12.4679786,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1703,6 +2180,7 @@
       "categoria": "riservato",
       "lat": 41.8943902,
       "lon": 12.4738258,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1715,6 +2193,7 @@
       "categoria": "da_fare",
       "lat": 41.4929307,
       "lon": 13.829248,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1727,6 +2206,7 @@
       "categoria": "riservato",
       "lat": 41.8768509,
       "lon": 12.4407734,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1739,6 +2219,7 @@
       "categoria": "fatto",
       "lat": 41.8920456,
       "lon": 12.5053195,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1751,6 +2232,7 @@
       "categoria": "riservato",
       "lat": 41.8880864,
       "lon": 12.477807,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1763,6 +2245,7 @@
       "categoria": "riservato",
       "lat": 41.8785014,
       "lon": 12.4774658,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1775,6 +2258,7 @@
       "categoria": "riservato",
       "lat": 41.9094116,
       "lon": 12.4639905,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1787,6 +2271,7 @@
       "categoria": "riservato",
       "lat": 41.8749069,
       "lon": 12.4765142,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1799,6 +2284,20 @@
       "categoria": "riservato",
       "lat": 41.8962865,
       "lon": 12.4722326,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Il Vecchio Mulino",
+      "tipologia": "territoriale",
+      "indirizzo": "Via G. Marconi, 25/A",
+      "zona": "",
+      "citta": "Lubriano",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 42.636231,
+      "lon": 12.108759,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1811,6 +2310,7 @@
       "categoria": "da_fare",
       "lat": 42.1403399,
       "lon": 12.3826881,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1823,6 +2323,20 @@
       "categoria": "riservato",
       "lat": 41.7874014,
       "lon": 12.6671162,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Tavernaccia",
+      "tipologia": "romana",
+      "indirizzo": "Via Giovanni di Castel Bolognese, 63",
+      "zona": "Porta Portese",
+      "citta": "Roma",
+      "recensore": "Luca Veglianti",
+      "categoria": "fatto",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1835,6 +2349,7 @@
       "categoria": "riservato",
       "lat": 41.9448193,
       "lon": 12.522165,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1847,6 +2362,7 @@
       "categoria": "fatto",
       "lat": 41.8550242,
       "lon": 12.5642423,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1859,6 +2375,7 @@
       "categoria": "riservato",
       "lat": 41.788862,
       "lon": 13.1699594,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1871,6 +2388,7 @@
       "categoria": "riservato",
       "lat": 41.8765276,
       "lon": 12.5463148,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1883,6 +2401,20 @@
       "categoria": "fatto",
       "lat": 41.8705316,
       "lon": 12.5332283,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Osteria del Vicolo Fatato",
+      "tipologia": "tradizionale",
+      "indirizzo": "Vicolo Forno Fatato, 11",
+      "zona": "",
+      "citta": "Piglio",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.8308503,
+      "lon": 13.146399,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1895,6 +2427,7 @@
       "categoria": "fatto",
       "lat": 41.8744581,
       "lon": 12.4800483,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1907,6 +2440,7 @@
       "categoria": "fatto",
       "lat": 41.8793504,
       "lon": 12.4758599,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1919,6 +2453,7 @@
       "categoria": "fatto",
       "lat": 41.9022406,
       "lon": 12.4772636,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1931,6 +2466,7 @@
       "categoria": "riservato",
       "lat": 41.8868104,
       "lon": 12.4678148,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1943,6 +2479,7 @@
       "categoria": "riservato",
       "lat": 41.894096,
       "lon": 12.472305,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1955,6 +2492,7 @@
       "categoria": "per_editori",
       "lat": 41.8814323,
       "lon": 12.5014324,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1967,6 +2505,7 @@
       "categoria": "riservato",
       "lat": 41.8864179,
       "lon": 12.5749516,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1979,6 +2518,7 @@
       "categoria": "riservato",
       "lat": 42.3269442,
       "lon": 12.2391443,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1991,6 +2531,7 @@
       "categoria": "per_editori",
       "lat": 41.8534038,
       "lon": 12.4867121,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2003,6 +2544,7 @@
       "categoria": "riservato",
       "lat": 41.8615289,
       "lon": 12.4552242,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2015,6 +2557,7 @@
       "categoria": "fatto",
       "lat": 41.9282157,
       "lon": 12.4739559,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2027,6 +2570,7 @@
       "categoria": "fatto",
       "lat": 41.9076072,
       "lon": 12.4875311,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2039,6 +2583,20 @@
       "categoria": "riservato",
       "lat": 41.9123668,
       "lon": 12.4972836,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Green T.",
+      "tipologia": "cinese",
+      "indirizzo": "Via di Pie' di Marmo, 28",
+      "zona": "Pantheon",
+      "citta": "Roma",
+      "recensore": "Fernanda D'Arienzo",
+      "categoria": "fatto",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2051,6 +2609,7 @@
       "categoria": "per_editori",
       "lat": 41.895422,
       "lon": 12.4904981,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2063,6 +2622,7 @@
       "categoria": "riservato",
       "lat": 41.9122078,
       "lon": 12.502946,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2075,6 +2635,7 @@
       "categoria": "per_editori",
       "lat": 41.9068379,
       "lon": 12.4449617,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2087,6 +2648,7 @@
       "categoria": "per_editori",
       "lat": 41.9086322,
       "lon": 12.490352,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2099,6 +2661,7 @@
       "categoria": "riservato",
       "lat": 41.8874666,
       "lon": 12.4771441,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2111,6 +2674,7 @@
       "categoria": "per_editori",
       "lat": 41.8811488,
       "lon": 12.4847946,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2123,6 +2687,7 @@
       "categoria": "riservato",
       "lat": 41.9161556,
       "lon": 12.4986442,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2135,6 +2700,7 @@
       "categoria": "fatto",
       "lat": 41.8639761,
       "lon": 12.4784383,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2147,6 +2713,7 @@
       "categoria": "fatto",
       "lat": 41.8706649,
       "lon": 12.5263374,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2159,6 +2726,7 @@
       "categoria": "fatto",
       "lat": 41.9021686,
       "lon": 12.4940213,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2171,6 +2739,7 @@
       "categoria": "riservato",
       "lat": 41.7275311,
       "lon": 12.3721577,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2183,6 +2752,7 @@
       "categoria": "per_editori",
       "lat": 41.8921219,
       "lon": 12.5345071,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2195,6 +2765,7 @@
       "categoria": "riservato",
       "lat": 41.7949282,
       "lon": 12.4258003,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2207,6 +2778,7 @@
       "categoria": "fatto",
       "lat": 41.8931006,
       "lon": 12.4736895,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2219,6 +2791,7 @@
       "categoria": "fatto",
       "lat": 41.8718567,
       "lon": 12.4790953,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2231,6 +2804,7 @@
       "categoria": "fatto",
       "lat": 41.8546489,
       "lon": 12.4718709,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2243,6 +2817,7 @@
       "categoria": "fatto",
       "lat": 41.9086879,
       "lon": 12.4705911,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2255,6 +2830,7 @@
       "categoria": "riservato",
       "lat": 41.8750844,
       "lon": 12.4793601,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2267,6 +2843,7 @@
       "categoria": "riservato",
       "lat": 41.8680037,
       "lon": 12.5268516,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2279,6 +2856,7 @@
       "categoria": "fatto",
       "lat": 41.8939283,
       "lon": 12.550347,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2291,6 +2869,7 @@
       "categoria": "per_editori",
       "lat": 41.8912049,
       "lon": 12.5529631,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2303,6 +2882,7 @@
       "categoria": "riservato",
       "lat": 41.8749586,
       "lon": 12.5411903,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2315,6 +2895,7 @@
       "categoria": "riservato",
       "lat": 41.7894595,
       "lon": 12.4371481,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2327,6 +2908,7 @@
       "categoria": "riservato",
       "lat": 41.8351064,
       "lon": 12.5522391,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2339,6 +2921,7 @@
       "categoria": "per_editori",
       "lat": 41.9280411,
       "lon": 12.4623207,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2351,6 +2934,7 @@
       "categoria": "fatto",
       "lat": 41.8785849,
       "lon": 12.4829522,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2363,6 +2947,7 @@
       "categoria": "per_editori",
       "lat": 41.9123674,
       "lon": 12.5012553,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2375,6 +2960,7 @@
       "categoria": "per_editori",
       "lat": 41.8931171,
       "lon": 12.5183989,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2387,6 +2973,7 @@
       "categoria": "da_finire",
       "lat": 41.8748628,
       "lon": 12.4690891,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2399,6 +2986,7 @@
       "categoria": "riservato",
       "lat": 41.9008477,
       "lon": 12.4760601,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2411,6 +2999,7 @@
       "categoria": "riservato",
       "lat": 41.7715325,
       "lon": 12.2216435,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2423,6 +3012,7 @@
       "categoria": "fatto",
       "lat": 41.9463174,
       "lon": 12.5560308,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2435,6 +3025,7 @@
       "categoria": "da_fare",
       "lat": 41.8687807,
       "lon": 12.5699438,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2447,6 +3038,7 @@
       "categoria": "fatto",
       "lat": 41.9585754,
       "lon": 12.5845757,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2459,6 +3051,7 @@
       "categoria": "fatto",
       "lat": 41.9214606,
       "lon": 12.5061614,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2471,6 +3064,7 @@
       "categoria": "fatto",
       "lat": 41.9277669,
       "lon": 12.5443412,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2483,6 +3077,7 @@
       "categoria": "per_editori",
       "lat": 41.8962544,
       "lon": 12.514731,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2495,6 +3090,7 @@
       "categoria": "riservato",
       "lat": 41.8518128,
       "lon": 12.5591865,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2507,6 +3103,7 @@
       "categoria": "fatto",
       "lat": 41.4751387,
       "lon": 13.8438886,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2519,6 +3116,7 @@
       "categoria": "riservato",
       "lat": 41.8618732,
       "lon": 12.5617009,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2531,6 +3129,7 @@
       "categoria": "riservato",
       "lat": 41.8734945,
       "lon": 12.5261849,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2543,6 +3142,7 @@
       "categoria": "riservato",
       "lat": 41.843617,
       "lon": 12.4874153,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2555,6 +3155,7 @@
       "categoria": "riservato",
       "lat": 41.898131,
       "lon": 12.5152965,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2567,6 +3168,7 @@
       "categoria": "fatto",
       "lat": 41.897811,
       "lon": 12.5109739,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2579,6 +3181,7 @@
       "categoria": "fatto",
       "lat": 41.8757312,
       "lon": 12.4477152,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2591,6 +3194,7 @@
       "categoria": "riservato",
       "lat": 41.8918268,
       "lon": 12.469088,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2603,6 +3207,7 @@
       "categoria": "riservato",
       "lat": 41.8563483,
       "lon": 12.566153,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2615,6 +3220,20 @@
       "categoria": "riservato",
       "lat": 41.9155501,
       "lon": 12.4399828,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Mater",
+      "tipologia": "pizzeria",
+      "indirizzo": "Via Pier Paolo Pasolini, snc",
+      "zona": "",
+      "citta": "Fiano Romano",
+      "recensore": "bloccato per Fabrizio Sbicca",
+      "categoria": "riservato",
+      "lat": 42.1587808,
+      "lon": 12.5892582,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2627,6 +3246,7 @@
       "categoria": "fatto",
       "lat": 41.9067835,
       "lon": 12.6211243,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2639,6 +3259,7 @@
       "categoria": "riservato",
       "lat": 41.9013051,
       "lon": 12.4846318,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2651,6 +3272,7 @@
       "categoria": "da_fare",
       "lat": 41.4717073,
       "lon": 13.1780824,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2663,6 +3285,7 @@
       "categoria": "da_fare",
       "lat": 41.6394691,
       "lon": 13.3433719,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2675,6 +3298,7 @@
       "categoria": "fatto",
       "lat": 41.9512222,
       "lon": 12.5416026,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2687,6 +3311,7 @@
       "categoria": "riservato",
       "lat": 41.8445566,
       "lon": 12.4592823,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2699,6 +3324,7 @@
       "categoria": "riservato",
       "lat": 41.8796972,
       "lon": 12.4683992,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2711,6 +3337,7 @@
       "categoria": "riservato",
       "lat": 41.8719789,
       "lon": 12.470229,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2723,6 +3350,7 @@
       "categoria": "riservato",
       "lat": 41.9402652,
       "lon": 12.527367,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2735,6 +3363,7 @@
       "categoria": "da_fare",
       "lat": 41.8092593,
       "lon": 12.4366542,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2747,6 +3376,7 @@
       "categoria": "per_editori",
       "lat": 41.936088,
       "lon": 12.5288422,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2759,6 +3389,7 @@
       "categoria": "fatto",
       "lat": 41.909783,
       "lon": 12.4555997,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2771,6 +3402,7 @@
       "categoria": "riservato",
       "lat": 41.9084466,
       "lon": 12.4980594,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2783,6 +3415,7 @@
       "categoria": "riservato",
       "lat": 41.8970406,
       "lon": 12.4700202,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2795,6 +3428,7 @@
       "categoria": "fatto",
       "lat": 41.8711243,
       "lon": 12.4790491,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2807,6 +3441,7 @@
       "categoria": "riservato",
       "lat": 41.8561133,
       "lon": 12.5633715,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2819,6 +3454,7 @@
       "categoria": "per_editori",
       "lat": 41.9553984,
       "lon": 12.4871875,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2831,6 +3467,7 @@
       "categoria": "fatto",
       "lat": 41.8817996,
       "lon": 12.4860202,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2843,6 +3480,7 @@
       "categoria": "fatto",
       "lat": 41.874473,
       "lon": 12.4793181,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2855,6 +3493,7 @@
       "categoria": "da_finire",
       "lat": 41.9170258,
       "lon": 12.4592331,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2867,6 +3506,7 @@
       "categoria": "riservato",
       "lat": 41.8693631,
       "lon": 12.446614,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2879,6 +3519,7 @@
       "categoria": "riservato",
       "lat": 41.8974719,
       "lon": 12.5646579,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2891,6 +3532,7 @@
       "categoria": "riservato",
       "lat": 41.9102507,
       "lon": 12.4983822,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2903,6 +3545,7 @@
       "categoria": "riservato",
       "lat": 41.8911972,
       "lon": 12.5327448,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2915,6 +3558,7 @@
       "categoria": "fatto",
       "lat": 41.9221739,
       "lon": 12.4815149,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2927,6 +3571,7 @@
       "categoria": "riservato",
       "lat": 41.8924089,
       "lon": 12.5028616,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2939,6 +3584,7 @@
       "categoria": "fatto",
       "lat": 41.8813374,
       "lon": 12.4749672,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2951,6 +3597,7 @@
       "categoria": "fatto",
       "lat": 41.8860303,
       "lon": 12.5189942,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2963,6 +3610,7 @@
       "categoria": "riservato",
       "lat": 41.8859462,
       "lon": 12.4583109,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2975,6 +3623,7 @@
       "categoria": "da_fare",
       "lat": 41.8122336,
       "lon": 12.485254,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2987,6 +3636,7 @@
       "categoria": "riservato",
       "lat": 41.7298309,
       "lon": 12.2778697,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2999,6 +3649,7 @@
       "categoria": "fatto",
       "lat": 41.9082449,
       "lon": 12.498536,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3011,6 +3662,7 @@
       "categoria": "fatto",
       "lat": 41.8292784,
       "lon": 12.488263,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3023,6 +3675,7 @@
       "categoria": "da_finire",
       "lat": 41.9092161,
       "lon": 12.4520341,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3035,6 +3688,7 @@
       "categoria": "riservato",
       "lat": 41.9140533,
       "lon": 12.4751105,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3047,6 +3701,7 @@
       "categoria": "riservato",
       "lat": 41.8674507,
       "lon": 12.4899351,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3059,6 +3714,7 @@
       "categoria": "riservato",
       "lat": 41.8830326,
       "lon": 12.4585238,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3071,6 +3727,7 @@
       "categoria": "riservato",
       "lat": 41.8789156,
       "lon": 12.4787522,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3083,6 +3740,7 @@
       "categoria": "riservato",
       "lat": 41.8589912,
       "lon": 12.5024603,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3095,6 +3753,7 @@
       "categoria": "per_editori",
       "lat": 41.9182779,
       "lon": 12.4643577,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3107,6 +3766,7 @@
       "categoria": "fatto",
       "lat": 41.8941529,
       "lon": 12.4744327,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3119,6 +3779,7 @@
       "categoria": "riservato",
       "lat": 41.9168234,
       "lon": 12.5005206,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3131,6 +3792,7 @@
       "categoria": "da_finire",
       "lat": 41.9553984,
       "lon": 12.4871875,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3143,6 +3805,7 @@
       "categoria": "da_finire",
       "lat": 41.8993964,
       "lon": 12.4666817,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3155,6 +3818,7 @@
       "categoria": "da_finire",
       "lat": 42.0536833,
       "lon": 12.3732976,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3167,6 +3831,7 @@
       "categoria": "riservato",
       "lat": 41.9053062,
       "lon": 12.4633687,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3179,6 +3844,7 @@
       "categoria": "riservato",
       "lat": 41.8827677,
       "lon": 12.4575412,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3191,6 +3857,7 @@
       "categoria": "da_finire",
       "lat": 41.8968565,
       "lon": 12.4945281,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3203,6 +3870,20 @@
       "categoria": "riservato",
       "lat": 41.9069487,
       "lon": 12.4765204,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Bottega Popolare",
+      "tipologia": "cucina piemontese",
+      "indirizzo": "Via Andrea Doria, 41 Mercato Trionfale Box 113",
+      "zona": "Trionfale",
+      "citta": "Roma",
+      "recensore": "Luca Veglianti",
+      "categoria": "fatto",
+      "lat": 41.9093235,
+      "lon": 12.4527349,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3215,6 +3896,7 @@
       "categoria": "da_fare",
       "lat": 41.9104024,
       "lon": 12.6055527,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3227,6 +3909,7 @@
       "categoria": "da_finire",
       "lat": 41.9021623,
       "lon": 12.4759646,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3239,6 +3922,7 @@
       "categoria": "da_finire",
       "lat": 41.912273,
       "lon": 12.5182192,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3251,6 +3935,7 @@
       "categoria": "fatto",
       "lat": 41.9321228,
       "lon": 12.5345195,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3263,6 +3948,7 @@
       "categoria": "riservato",
       "lat": 41.9149687,
       "lon": 12.5026335,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3275,6 +3961,7 @@
       "categoria": "fatto",
       "lat": 41.9062951,
       "lon": 12.4729319,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3287,6 +3974,7 @@
       "categoria": "fatto",
       "lat": 41.890212,
       "lon": 12.4682894,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3299,6 +3987,20 @@
       "categoria": "riservato",
       "lat": 41.9113081,
       "lon": 12.499471,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "La Differenza",
+      "tipologia": "gastronomia",
+      "indirizzo": "Largo Magna Grecia, 4",
+      "zona": "San Giovanni",
+      "citta": "Roma",
+      "recensore": "bloccato per Fabrizio Sbicca",
+      "categoria": "riservato",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3311,6 +4013,7 @@
       "categoria": "per_editori",
       "lat": 41.9031513,
       "lon": 12.4884949,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3323,6 +4026,7 @@
       "categoria": "fatto",
       "lat": 41.9145787,
       "lon": 12.4539049,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3335,6 +4039,20 @@
       "categoria": "fatto",
       "lat": 41.8775657,
       "lon": 12.4733496,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Mordi Roma",
+      "tipologia": "cucina romana",
+      "indirizzo": "Piazza Alessandria c/o Mercato Nomentano - box A2",
+      "zona": "Piazza Fiume",
+      "citta": "Roma",
+      "recensore": "Fernanda D'Arienzo",
+      "categoria": "fatto",
+      "lat": 41.9112793,
+      "lon": 12.5011855,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3347,6 +4065,7 @@
       "categoria": "da_finire",
       "lat": 41.8924595,
       "lon": 12.5058266,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3359,6 +4078,7 @@
       "categoria": "riservato",
       "lat": 41.8779218,
       "lon": 12.4728716,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3371,6 +4091,7 @@
       "categoria": "riservato",
       "lat": 41.8987459,
       "lon": 12.4670695,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3383,6 +4104,20 @@
       "categoria": "fatto",
       "lat": 41.9060613,
       "lon": 12.4823225,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Caffè Doria",
+      "tipologia": "caffetteria",
+      "indirizzo": "Galleria Doria Pamphilj, Via della Gatta, 1",
+      "zona": "Centro",
+      "citta": "Roma",
+      "recensore": "bloccato per Fabrizio Sbicca",
+      "categoria": "riservato",
+      "lat": 41.8968239,
+      "lon": 12.4806459,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3395,6 +4130,7 @@
       "categoria": "riservato",
       "lat": 41.8818119,
       "lon": 12.5167172,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3407,6 +4143,7 @@
       "categoria": "riservato",
       "lat": 41.9105177,
       "lon": 12.4515874,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3419,6 +4156,7 @@
       "categoria": "riservato",
       "lat": 41.8960558,
       "lon": 12.4688074,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3431,6 +4169,7 @@
       "categoria": "riservato",
       "lat": 41.9045573,
       "lon": 12.4762509,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3443,6 +4182,7 @@
       "categoria": "fatto",
       "lat": 41.8729768,
       "lon": 12.5192952,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3455,6 +4195,7 @@
       "categoria": "fatto",
       "lat": 41.9188726,
       "lon": 12.4611762,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3467,6 +4208,7 @@
       "categoria": "riservato",
       "lat": 41.8991019,
       "lon": 12.5151633,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3479,6 +4221,7 @@
       "categoria": "riservato",
       "lat": 41.9160118,
       "lon": 12.5093944,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3491,6 +4234,7 @@
       "categoria": "riservato",
       "lat": 41.9071572,
       "lon": 12.477968,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3503,6 +4247,7 @@
       "categoria": "riservato",
       "lat": 41.7994074,
       "lon": 12.4226888,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3515,6 +4260,7 @@
       "categoria": "riservato",
       "lat": 41.8891672,
       "lon": 12.5264768,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3527,6 +4273,7 @@
       "categoria": "altro_azzurro",
       "lat": 41.9296039,
       "lon": 12.4859274,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3539,6 +4286,7 @@
       "categoria": "riservato",
       "lat": 41.8909999,
       "lon": 12.4688555,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3551,6 +4299,7 @@
       "categoria": "fatto",
       "lat": 41.8977958,
       "lon": 12.4673444,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3563,6 +4312,7 @@
       "categoria": "riservato",
       "lat": 41.8719789,
       "lon": 12.470229,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3575,6 +4325,7 @@
       "categoria": "per_editori",
       "lat": 41.9309691,
       "lon": 12.5343297,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3587,6 +4338,7 @@
       "categoria": "da_fare",
       "lat": 41.9553984,
       "lon": 12.4871875,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3599,6 +4351,7 @@
       "categoria": "fatto",
       "lat": 41.9326245,
       "lon": 12.4664553,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3611,6 +4364,7 @@
       "categoria": "riservato",
       "lat": 41.8448211,
       "lon": 12.4818297,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3623,6 +4377,7 @@
       "categoria": "fatto",
       "lat": 41.8829015,
       "lon": 12.5099235,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3635,6 +4390,7 @@
       "categoria": "riservato",
       "lat": 41.92772,
       "lon": 12.4834806,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3647,6 +4403,7 @@
       "categoria": "per_editori",
       "lat": 41.9103549,
       "lon": 12.5017264,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3659,6 +4416,7 @@
       "categoria": "riservato",
       "lat": 41.8833833,
       "lon": 12.5381602,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3671,6 +4429,7 @@
       "categoria": "fatto",
       "lat": 41.9064522,
       "lon": 12.4565357,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3683,6 +4442,7 @@
       "categoria": "riservato",
       "lat": 41.89519,
       "lon": 12.47501,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3695,6 +4455,7 @@
       "categoria": "riservato",
       "lat": 41.8872734,
       "lon": 12.4709453,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3707,6 +4468,20 @@
       "categoria": "riservato",
       "lat": 41.8729786,
       "lon": 12.5189847,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Ciaparat",
+      "tipologia": "enoteca",
+      "indirizzo": "Piazza San Donà del Piave, 14",
+      "zona": "Furio Camillo",
+      "citta": "Roma",
+      "recensore": "bloccato per Giorgio Sorbino",
+      "categoria": "riservato",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3719,6 +4494,7 @@
       "categoria": "riservato",
       "lat": 41.9058395,
       "lon": 12.4724184,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3731,6 +4507,7 @@
       "categoria": "fatto",
       "lat": 41.8624945,
       "lon": 12.4642028,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3743,6 +4520,7 @@
       "categoria": "riservato",
       "lat": 41.9117208,
       "lon": 12.4534237,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3755,6 +4533,7 @@
       "categoria": "riservato",
       "lat": 41.8629853,
       "lon": 12.4848306,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3767,6 +4546,7 @@
       "categoria": "riservato",
       "lat": 41.8850327,
       "lon": 12.46127,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3779,6 +4559,7 @@
       "categoria": "riservato",
       "lat": 41.79994,
       "lon": 12.4248671,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3791,6 +4572,7 @@
       "categoria": "da_finire",
       "lat": 41.9140499,
       "lon": 12.4568725,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3803,6 +4585,7 @@
       "categoria": "per_editori",
       "lat": 41.8920622,
       "lon": 12.5381162,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3815,6 +4598,7 @@
       "categoria": "fatto",
       "lat": 41.9200666,
       "lon": 12.4597165,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3827,6 +4611,7 @@
       "categoria": "riservato",
       "lat": 41.8733088,
       "lon": 12.5309427,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3839,6 +4624,7 @@
       "categoria": "riservato",
       "lat": 41.9103496,
       "lon": 12.4653827,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3851,6 +4637,7 @@
       "categoria": "da_finire",
       "lat": 41.8935723,
       "lon": 12.4744376,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3863,6 +4650,7 @@
       "categoria": "riservato",
       "lat": 41.8615139,
       "lon": 12.5359105,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3875,6 +4663,7 @@
       "categoria": "per_editori",
       "lat": 41.8418354,
       "lon": 12.5480983,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3887,6 +4676,7 @@
       "categoria": "riservato",
       "lat": 41.8661537,
       "lon": 12.5505976,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3899,6 +4689,7 @@
       "categoria": "fatto",
       "lat": 41.9060812,
       "lon": 12.4577624,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3911,6 +4702,7 @@
       "categoria": "riservato",
       "lat": 41.8824055,
       "lon": 12.4762217,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3923,6 +4715,7 @@
       "categoria": "altro_azzurro",
       "lat": 41.9553984,
       "lon": 12.4871875,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3935,6 +4728,7 @@
       "categoria": "riservato",
       "lat": 41.8951436,
       "lon": 12.4978655,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3947,6 +4741,7 @@
       "categoria": "fatto",
       "lat": 41.8978467,
       "lon": 12.4679187,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3959,6 +4754,7 @@
       "categoria": "riservato",
       "lat": 41.9268687,
       "lon": 12.4618571,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3971,6 +4767,7 @@
       "categoria": "riservato",
       "lat": 41.9008303,
       "lon": 12.4762727,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3983,6 +4780,7 @@
       "categoria": "riservato",
       "lat": 41.8951436,
       "lon": 12.4978655,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3995,6 +4793,7 @@
       "categoria": "riservato",
       "lat": 41.9077765,
       "lon": 12.5364623,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4007,6 +4806,7 @@
       "categoria": "fatto",
       "lat": 41.9179222,
       "lon": 12.5059404,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4019,6 +4819,7 @@
       "categoria": "fatto",
       "lat": 41.9180753,
       "lon": 12.4612985,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4031,6 +4832,7 @@
       "categoria": "fatto",
       "lat": 41.9221152,
       "lon": 12.5020309,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4043,6 +4845,7 @@
       "categoria": "riservato",
       "lat": 41.8947794,
       "lon": 12.4736377,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4055,6 +4858,7 @@
       "categoria": "riservato",
       "lat": 41.8946474,
       "lon": 12.4742641,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4067,6 +4871,7 @@
       "categoria": "fatto",
       "lat": 41.9370683,
       "lon": 12.4375497,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4079,6 +4884,7 @@
       "categoria": "fatto",
       "lat": 41.9088979,
       "lon": 12.4483125,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4091,6 +4897,7 @@
       "categoria": "fatto",
       "lat": 41.9269074,
       "lon": 12.4805172,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4103,6 +4910,7 @@
       "categoria": "fatto",
       "lat": 41.8555561,
       "lon": 12.4718764,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4115,6 +4923,7 @@
       "categoria": "fatto",
       "lat": 41.8814382,
       "lon": 12.4857618,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4127,6 +4936,7 @@
       "categoria": "fatto",
       "lat": 41.8263558,
       "lon": 12.4773253,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4139,6 +4949,7 @@
       "categoria": "riservato",
       "lat": 41.9071234,
       "lon": 12.496046,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4151,6 +4962,20 @@
       "categoria": "da_fare",
       "lat": 41.8662675,
       "lon": 12.4931374,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Cremeria Alpi",
+      "tipologia": "gelateria",
+      "indirizzo": "Via dei Basadella",
+      "zona": "Acilia",
+      "citta": "Roma",
+      "recensore": "",
+      "categoria": "da_fare",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4163,6 +4988,7 @@
       "categoria": "da_fare",
       "lat": 41.8163635,
       "lon": 12.4618273,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4175,6 +5001,7 @@
       "categoria": "riservato",
       "lat": 41.9835682,
       "lon": 12.0531757,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4187,6 +5014,7 @@
       "categoria": "riservato",
       "lat": 41.8640002,
       "lon": 12.4665342,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4199,6 +5027,7 @@
       "categoria": "fatto",
       "lat": 41.980812,
       "lon": 12.5523295,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4211,6 +5040,20 @@
       "categoria": "fatto",
       "lat": 41.9225105,
       "lon": 12.4384932,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Don Choc",
+      "tipologia": "gelateria / cioccolateria",
+      "indirizzo": "Via Flaminia Vecchia, 732/E-F-G-H",
+      "zona": "Collina Fleming",
+      "citta": "Roma",
+      "recensore": "Fabrizio Sbicca",
+      "categoria": "fatto",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4223,6 +5066,7 @@
       "categoria": "fatto",
       "lat": 41.9088526,
       "lon": 12.4542929,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4235,6 +5079,7 @@
       "categoria": "riservato",
       "lat": 41.8530871,
       "lon": 12.4769322,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4247,6 +5092,7 @@
       "categoria": "riservato",
       "lat": 41.9265509,
       "lon": 12.5104544,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4259,6 +5105,7 @@
       "categoria": "riservato",
       "lat": 41.906246,
       "lon": 12.4799079,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4271,6 +5118,7 @@
       "categoria": "riservato",
       "lat": 41.8956187,
       "lon": 12.4932453,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4283,6 +5131,7 @@
       "categoria": "riservato",
       "lat": 41.8947077,
       "lon": 12.4742642,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4295,6 +5144,7 @@
       "categoria": "riservato",
       "lat": 41.886502,
       "lon": 12.4691955,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4307,6 +5157,7 @@
       "categoria": "riservato",
       "lat": 41.8896071,
       "lon": 12.4726433,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4319,6 +5170,7 @@
       "categoria": "fatto",
       "lat": 41.8611374,
       "lon": 12.485479,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4331,6 +5183,7 @@
       "categoria": "da_finire",
       "lat": 41.8994058,
       "lon": 12.5157397,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4343,6 +5196,7 @@
       "categoria": "fatto",
       "lat": 41.8828048,
       "lon": 12.5147151,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4355,6 +5209,7 @@
       "categoria": "fatto",
       "lat": 41.880186,
       "lon": 12.4760701,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4367,6 +5222,20 @@
       "categoria": "fatto",
       "lat": 41.8984333,
       "lon": 12.4539171,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Gelasio",
+      "tipologia": "gelateria",
+      "indirizzo": "Via Portuense, 727 F/G",
+      "zona": "Portuense",
+      "citta": "Roma",
+      "recensore": "bloccato per Fabrizio Sbicca",
+      "categoria": "riservato",
+      "lat": 41.8536526,
+      "lon": 12.4373246,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4379,6 +5248,20 @@
       "categoria": "riservato",
       "lat": 41.923443,
       "lon": 12.5115701,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Gelateria dei Gracchi",
+      "tipologia": "gelateria",
+      "indirizzo": "Viale delle Province, 30",
+      "zona": "Piazza Bologna",
+      "citta": "Roma",
+      "recensore": "bloccato per Fabrizio Sbicca",
+      "categoria": "riservato",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4391,6 +5274,7 @@
       "categoria": "riservato",
       "lat": 41.9091879,
       "lon": 12.46687,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4403,6 +5287,7 @@
       "categoria": "riservato",
       "lat": 41.9096515,
       "lon": 12.4761148,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4415,6 +5300,7 @@
       "categoria": "da_fare",
       "lat": 41.8479553,
       "lon": 12.48651,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4427,6 +5313,20 @@
       "categoria": "da_fare",
       "lat": 41.8390621,
       "lon": 12.5060201,
+      "approssimato": false,
+      "geocoded_at": "2026-05-18"
+    },
+    {
+      "nome": "Gelato d'Essai",
+      "tipologia": "gelateria",
+      "indirizzo": "Viale B. Bardanzellu, 77",
+      "zona": "Colli Aniene",
+      "citta": "Roma",
+      "recensore": "bloccato per Anca Enache",
+      "categoria": "riservato",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "approssimato": true,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4439,6 +5339,7 @@
       "categoria": "riservato",
       "lat": 41.8912445,
       "lon": 12.5599937,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4451,6 +5352,7 @@
       "categoria": "riservato",
       "lat": 41.9153119,
       "lon": 12.5213652,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4463,6 +5365,7 @@
       "categoria": "riservato",
       "lat": 41.8980092,
       "lon": 12.5355468,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4475,6 +5378,7 @@
       "categoria": "fatto",
       "lat": 41.8660136,
       "lon": 12.4715598,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4487,6 +5391,7 @@
       "categoria": "fatto",
       "lat": 41.8755766,
       "lon": 12.4660286,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4499,6 +5404,7 @@
       "categoria": "fatto",
       "lat": 41.9183909,
       "lon": 12.4640813,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4511,6 +5417,7 @@
       "categoria": "fatto",
       "lat": 41.9348733,
       "lon": 12.5361877,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4523,6 +5430,7 @@
       "categoria": "riservato",
       "lat": 41.8984472,
       "lon": 12.4753689,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4535,6 +5443,7 @@
       "categoria": "riservato",
       "lat": 41.8928952,
       "lon": 12.4716569,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4547,6 +5456,7 @@
       "categoria": "fatto",
       "lat": 41.9667391,
       "lon": 12.4458257,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4559,6 +5469,7 @@
       "categoria": "riservato",
       "lat": 41.9319781,
       "lon": 12.5120402,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4571,6 +5482,7 @@
       "categoria": "riservato",
       "lat": 41.8790195,
       "lon": 12.4622097,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4583,6 +5495,7 @@
       "categoria": "fatto",
       "lat": 41.8297913,
       "lon": 12.4738315,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4595,6 +5508,7 @@
       "categoria": "fatto",
       "lat": 41.9120324,
       "lon": 12.4495371,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4607,6 +5521,7 @@
       "categoria": "riservato",
       "lat": 41.9016068,
       "lon": 12.4755936,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4619,6 +5534,7 @@
       "categoria": "fatto",
       "lat": 41.9151728,
       "lon": 12.5101329,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4631,6 +5547,7 @@
       "categoria": "fatto",
       "lat": 41.9298052,
       "lon": 12.4651046,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4643,6 +5560,7 @@
       "categoria": "fatto",
       "lat": 41.9072712,
       "lon": 12.4707362,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4655,6 +5573,7 @@
       "categoria": "fatto",
       "lat": 41.9084582,
       "lon": 12.4888035,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4667,6 +5586,7 @@
       "categoria": "fatto",
       "lat": 41.897541,
       "lon": 12.4677892,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4679,6 +5599,7 @@
       "categoria": "riservato",
       "lat": 41.8647605,
       "lon": 12.4850008,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4691,6 +5612,7 @@
       "categoria": "riservato",
       "lat": 41.9069048,
       "lon": 12.4675379,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4703,6 +5625,7 @@
       "categoria": "riservato",
       "lat": 41.8881739,
       "lon": 12.4704635,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4715,6 +5638,7 @@
       "categoria": "fatto",
       "lat": 41.8676838,
       "lon": 12.4462186,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4727,6 +5651,7 @@
       "categoria": "fatto",
       "lat": 41.9199008,
       "lon": 12.4588173,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4739,6 +5664,7 @@
       "categoria": "fatto",
       "lat": 41.9076293,
       "lon": 12.4977726,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4751,6 +5677,7 @@
       "categoria": "fatto",
       "lat": 41.8789781,
       "lon": 12.4513837,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4763,6 +5690,7 @@
       "categoria": "riservato",
       "lat": 41.8751472,
       "lon": 12.5272144,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4775,6 +5703,7 @@
       "categoria": "riservato",
       "lat": 41.9066975,
       "lon": 12.4466606,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4787,6 +5716,7 @@
       "categoria": "fatto",
       "lat": 41.8774745,
       "lon": 12.4579048,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4799,6 +5729,7 @@
       "categoria": "riservato",
       "lat": 41.9007916,
       "lon": 12.438082,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4811,6 +5742,7 @@
       "categoria": "fatto",
       "lat": 41.8827058,
       "lon": 12.486481,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4823,6 +5755,7 @@
       "categoria": "riservato",
       "lat": 41.8988847,
       "lon": 12.4751923,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4835,6 +5768,7 @@
       "categoria": "riservato",
       "lat": 41.9059117,
       "lon": 12.4756255,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4847,6 +5781,7 @@
       "categoria": "fatto",
       "lat": 41.9180577,
       "lon": 12.4619549,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4859,6 +5794,7 @@
       "categoria": "fatto",
       "lat": 41.8313259,
       "lon": 12.4674959,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4871,6 +5807,7 @@
       "categoria": "riservato",
       "lat": 41.9074984,
       "lon": 12.4716874,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4883,6 +5820,7 @@
       "categoria": "riservato",
       "lat": 41.7715325,
       "lon": 12.2216435,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4895,6 +5833,7 @@
       "categoria": "riservato",
       "lat": 41.910033,
       "lon": 12.5194183,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4907,6 +5846,7 @@
       "categoria": "riservato",
       "lat": 41.8646919,
       "lon": 12.4721857,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4919,6 +5859,7 @@
       "categoria": "riservato",
       "lat": 41.7439817,
       "lon": 12.3752517,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4931,6 +5872,7 @@
       "categoria": "riservato",
       "lat": 41.674416,
       "lon": 12.6975314,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4943,6 +5885,7 @@
       "categoria": "fatto",
       "lat": 41.9095676,
       "lon": 12.5215491,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4955,6 +5898,7 @@
       "categoria": "fatto",
       "lat": 41.8796965,
       "lon": 12.4737866,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4967,6 +5911,7 @@
       "categoria": "fatto",
       "lat": 41.9372169,
       "lon": 12.4656534,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4979,6 +5924,7 @@
       "categoria": "fatto",
       "lat": 41.8914619,
       "lon": 12.4699126,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4991,6 +5937,7 @@
       "categoria": "riservato",
       "lat": 41.8962544,
       "lon": 12.514731,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5003,261 +5950,17 @@
       "categoria": "riservato",
       "lat": 41.8955169,
       "lon": 12.4934923,
+      "approssimato": false,
       "geocoded_at": "2026-05-18"
     }
   ],
-  "geocoding_failed": [
-    {
-      "nome": "La Trota",
-      "indirizzo": "Via Santa Susanna, 33",
-      "citta": "Rivodutri",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Satricvm",
-      "indirizzo": "Strada Nettuno-Cisterna, 1227 - Loc. Le Ferriere",
-      "citta": "Latina",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Bistrot 64",
-      "indirizzo": "Via Gugliemo Calderini, 64",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Cuoco e Camicia",
-      "indirizzo": "Via di Monte Polacco, 2/4",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "La Perla",
-      "indirizzo": "Via Collebianco, 11",
-      "citta": "Arpino",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "La Tana dei Carbonari",
-      "indirizzo": "Via XX Settembre, 35",
-      "citta": "Roccagorga",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "266 La Barraca",
-      "indirizzo": "Lungomare delle Meduse, 266",
-      "citta": "Torvaianica",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Acqua Pazza",
-      "indirizzo": "Via Dietro la Chiesa, 3/4",
-      "citta": "Ponza",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Alla Magnatora",
-      "indirizzo": "Via Volubro, 4",
-      "citta": "Piglio",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Armando al Pantheon",
-      "indirizzo": "Salita dei Crescenzi, 31",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Casale Verdeluna",
-      "indirizzo": "Località Civitella, 3",
-      "citta": "Piglio",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Chalet del Lago",
-      "indirizzo": "Via Reginaldo Belloni, 28/29",
-      "citta": "Anguillara Sabazia",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "De Novo e D'Antico",
-      "indirizzo": "Via Santa Margherita, 1",
-      "citta": "Cori",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Il Giardino",
-      "indirizzo": "Via degli Ulivi, 43",
-      "citta": "Ventotene",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "La Bottega delle tre Sorelle",
-      "indirizzo": "Via Giovanni XXIII, snc",
-      "citta": "Montelanico",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "La Locanda del Bere",
-      "indirizzo": "Via Foro Appio, 64 - Loc. Borgo Faiti",
-      "citta": "Latina",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "La Locanda della Chiocciola",
-      "indirizzo": "Localita Seripola",
-      "citta": "Orte",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "La Palazzina",
-      "indirizzo": "Via del Carzolese, 1 ang. Via Casilina",
-      "citta": "San Cesareo",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "La Taverna dei Corsari",
-      "indirizzo": "Piazza Vittorio Veneto, 10",
-      "citta": "Montopoli di Sabina",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "La Villetta",
-      "indirizzo": "Via del Porticciolo Romano, snc",
-      "citta": "Formia",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Lo Stuzzichino",
-      "indirizzo": "Contrada Taverna",
-      "citta": "Campodimele",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Menabó Vino e Cucina",
-      "indirizzo": "Via delle Palme, 44/D-E",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Osteria Anna",
-      "indirizzo": "S.R. 630 Cassino Formia km. 15",
-      "citta": "Castelnuovo Parano",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Osteria del Borgo",
-      "indirizzo": "Via Borgo di Sopra, 21/23",
-      "citta": "Cesano di Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Osteria del Tempo Perso",
-      "indirizzo": "Piazza San Rocco, 13",
-      "citta": "Casalvieri",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Ristorante degli Angeli",
-      "indirizzo": "Località Madonna degli Angeli",
-      "citta": "Magliano Sabina",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Il Vecchio Mulino",
-      "indirizzo": "Via G. Marconi, 25/A",
-      "citta": "Lubriano",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "La Tavernaccia",
-      "indirizzo": "Via Giovanni di Castel Bolognese, 63",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Osteria del Vicolo Fatato",
-      "indirizzo": "Vicolo Forno Fatato, 11",
-      "citta": "Piglio",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Green T.",
-      "indirizzo": "Via di Pie' di Marmo, 28",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Mater",
-      "indirizzo": "Via Pier Paolo Pasolini, snc",
-      "citta": "Fiano Romano",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Bottega Popolare",
-      "indirizzo": "Via Andrea Doria, 41 Mercato Trionfale Box 113",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "La Differenza",
-      "indirizzo": "Largo Magna Grecia, 4",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Mordi Roma",
-      "indirizzo": "Piazza Alessandria c/o Mercato Nomentano - box A2",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Caffè Doria",
-      "indirizzo": "Galleria Doria Pamphilj, Via della Gatta, 1",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Ciaparat",
-      "indirizzo": "Piazza San Donà del Piave, 14",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Cremeria Alpi",
-      "indirizzo": "Via dei Basadella",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Don Choc",
-      "indirizzo": "Via Flaminia Vecchia, 732/E-F-G-H",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Gelasio",
-      "indirizzo": "Via Portuense, 727 F/G",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Gelateria dei Gracchi",
-      "indirizzo": "Viale delle Province, 30",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    },
-    {
-      "nome": "Gelato d'Essai",
-      "indirizzo": "Viale B. Bardanzellu, 77",
-      "citta": "Roma",
-      "motivo": "no result da Nominatim"
-    }
-  ],
+  "geocoding_failed": [],
   "stats": {
     "totale_letti": 455,
-    "con_coordinate": 414,
-    "falliti": 41,
+    "con_coordinate": 455,
+    "approssimati": 30,
+    "precisi": 425,
+    "falliti": 0,
     "con_recensore": 359
   }
 }
