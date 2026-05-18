@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-05-18T20:35:27+00:00",
+  "source_file": "Roma_2027.xlsx",
+  "citta_default": "Roma",
+  "categories": {
+    "fatto": {
+      "label": "Fatto",
+      "color": "#E53935"
+    },
+    "riservato": {
+      "label": "Riservato per",
+      "color": "#757575"
+    },
+    "da_fare": {
+      "label": "Da fare",
+      "color": "#FFFFFF"
+    },
+    "per_editori": {
+      "label": "Per editori",
+      "color": "#F48FB1"
+    },
+    "da_finire": {
+      "label": "Da finire",
+      "color": "#FBC02D"
+    },
+    "non_recensibile": {
+      "label": "Non recensibile",
+      "color": "#1565C0"
+    },
+    "altro_azzurro": {
+      "label": "Altro",
+      "color": "#4FC3F7"
+    },
+    "plurimo": {
+      "label": "Indirizzo plurimo",
+      "color": "#FB8C00"
+    }
+  },
+  "restaurants": [],
+  "geocoding_failed": [],
+  "stats": {
+    "totale_letti": 0,
+    "con_coordinate": 0,
+    "falliti": 0,
+    "con_recensore": 0
+  },
+  "_note": "Placeholder — verrà popolato al primo run di verifica.yml in GitHub Actions"
+}
