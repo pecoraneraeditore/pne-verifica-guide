@@ -1,1 +1,2072 @@
-{}
+{
+  "100c vino e pesce|viale delle orchidee, 100|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8893003,
+    "lon": 12.5693
+  },
+  "180g pizzeria romana|via genazzano, 32|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8912049,
+    "lon": 12.5529631
+  },
+  "19.2 winebar enoteca|largo benito jacovitti, 16|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7994074,
+    "lon": 12.4226888
+  },
+  "200 gradi|piazza del risorgimento, 3|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9064522,
+    "lon": 12.4565357
+  },
+  "53 untitled|via del monte della farina, 53|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.89519,
+    "lon": 12.47501
+  },
+  "a rota - pizzeria romanesca|via di tor pignattara, 190|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8749586,
+    "lon": 12.5411903
+  },
+  "acciuga|via vodice, 25/a-b|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9179818,
+    "lon": 12.461342
+  },
+  "acquolina|via del vantaggio, 14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9086556,
+    "lon": 12.4755908
+  },
+  "agostino|corso trieste, 66|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9179222,
+    "lon": 12.5059404
+  },
+  "ai due otri|via antonio de viti de marco, 36/38|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9494486,
+    "lon": 12.4697967
+  },
+  "aiki pub|via gaetano rappini, 23|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8615289,
+    "lon": 12.4552242
+  },
+  "al ceppo|via panama, 2|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9251982,
+    "lon": 12.4972009
+  },
+  "al madrigale|via ponte gregoriano, 1|tivoli": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.964702,
+    "lon": 12.7991913
+  },
+  "al setaccio|via di mezzocammino, 193|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7894595,
+    "lon": 12.4371481
+  },
+  "al settimo gelo|via vodice, 21/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9180753,
+    "lon": 12.4612985
+  },
+  "all'oro|via giuseppe pisanelli, 23/25|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.914043,
+    "lon": 12.4730678
+  },
+  "amaranto|via adige, 19/21|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9221152,
+    "lon": 12.5020309
+  },
+  "amerina - la pizzetta|largo dei librari, 82|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8947794,
+    "lon": 12.4736377
+  },
+  "angelino \"ai fori\" dal 1947|largo corrado ricci, 40|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8930533,
+    "lon": 12.488019
+  },
+  "angelo pezzella|via appia nuova, 1095|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8351064,
+    "lon": 12.5522391
+  },
+  "antico forno roscioli|via dei chiavari, 34|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8946474,
+    "lon": 12.4742641
+  },
+  "aqla|via andrea busiri vici, 13|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8827677,
+    "lon": 12.4575412
+  },
+  "arcangelo vino & cucina|via g.g. belli, 59/61|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.1444015,
+    "lon": 12.3762328
+  },
+  "aromaticus|via natale del grande, 6/7|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8872734,
+    "lon": 12.4709453
+  },
+  "aromaticus|via urbana, 134|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8968565,
+    "lon": 12.4945281
+  },
+  "arte bianca di gabriele|largo sangemini, 7/b-c|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9370683,
+    "lon": 12.4375497
+  },
+  "artigiano del caffè|via famagosta, 14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.909783,
+    "lon": 12.4555997
+  },
+  "atlas|via ciro menotti, 16/18|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9153744,
+    "lon": 12.4682182
+  },
+  "avanvera|via luigi tosti, 33|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8729786,
+    "lon": 12.5189847
+  },
+  "avenida calò|viale pinturicchio, 38/42|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9280411,
+    "lon": 12.4623207
+  },
+  "aventina|viale della piramide cestia, 9|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8789508,
+    "lon": 12.483181
+  },
+  "avus|via cavour, 117|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8968509,
+    "lon": 12.4952916
+  },
+  "babingtons|piazza di spagna, 23|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9060613,
+    "lon": 12.4823225
+  },
+  "baccano|via delle muratte, 23|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9003672,
+    "lon": 12.4823634
+  },
+  "baccio e i gradini|viale della piramide cestia, 25|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8785849,
+    "lon": 12.4829522
+  },
+  "bap|via raffaele cadorna, 5|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9084466,
+    "lon": 12.4980594
+  },
+  "bar sota|via della frezza, 55|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9069487,
+    "lon": 12.4765204
+  },
+  "barnum café|via del pellegrino, 87|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8970406,
+    "lon": 12.4700202
+  },
+  "barred|via cesena, 30|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8835934,
+    "lon": 12.5136174
+  },
+  "becco|piazzale degli eroi, 7|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9088979,
+    "lon": 12.4483125
+  },
+  "berberè|via mantova, 5|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9123674,
+    "lon": 12.5012553
+  },
+  "berberè|viale dello scalo di san lorenzo, 10|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8931171,
+    "lon": 12.5183989
+  },
+  "bless|via dell’indipendenza, 208|gaeta": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.2191799,
+    "lon": 13.5695636
+  },
+  "borgo san giorgio|via dei pastori, 30|maccarese": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8774704,
+    "lon": 12.2154404
+  },
+  "bosco - officine del tartufo|via macerata, 8/c|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8891672,
+    "lon": 12.5264768
+  },
+  "bottega tredici|via dei falegnami, 14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8940204,
+    "lon": 12.476208
+  },
+  "brado|viale amelia, 42|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8783578,
+    "lon": 12.5263956
+  },
+  "brucio - la contemporanea|via degli stradivari, 1|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8748628,
+    "lon": 12.4690891
+  },
+  "brucio - la romana|piazza delle coppelle, 8|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9008477,
+    "lon": 12.4760601
+  },
+  "buccia|via litoranea, km 20,600|sabaudia": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.3858071,
+    "lon": 12.9553725
+  },
+  "caffè conti|via tuscolana, 1677|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8561133,
+    "lon": 12.5633715
+  },
+  "caffè fleming|via flaminia, 677/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9553984,
+    "lon": 12.4871875
+  },
+  "cafè merenda|via del gazometro, 5/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8711243,
+    "lon": 12.4790491
+  },
+  "carter oblio|via giuseppe gioachino belli, 21|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.906771,
+    "lon": 12.4695253
+  },
+  "casa malgarini|via della giustiniana, 670/b|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.0020256,
+    "lon": 12.4862011
+  },
+  "casa manfredi teatro|via dei conciatori, 5/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.874473,
+    "lon": 12.4793181
+  },
+  "casa manfredi|viale aventino, 91/93|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8817996,
+    "lon": 12.4860202
+  },
+  "casa matti|via sabotino, 49/51|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9170258,
+    "lon": 12.4592331
+  },
+  "casaloca|corso di francia, 207|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9282157,
+    "lon": 12.4739559
+  },
+  "charlotte|via vercelli, 12/14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8818119,
+    "lon": 12.5167172
+  },
+  "cheebo|via aretusa, 6|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9104024,
+    "lon": 12.6055527
+  },
+  "chinappi|via augusto valenziani, 19|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9099027,
+    "lon": 12.4987236
+  },
+  "ciao checca|piazza di firenze, 25/26|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9021623,
+    "lon": 12.4759646
+  },
+  "claudio torcè|piazza euclide, 25|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9269074,
+    "lon": 12.4805172
+  },
+  "claudio torcè|viale aventino, 59|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8814382,
+    "lon": 12.4857618
+  },
+  "claudio torcè|viale dell'aeronautica, 105|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8263558,
+    "lon": 12.4773253
+  },
+  "claudio torcè|viale marconi, 445|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8555561,
+    "lon": 12.4718764
+  },
+  "clementina|via della torre clementina, 158|fiumicino": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7715325,
+    "lon": 12.2216435
+  },
+  "come il latte|via silvio spaventa 24/26|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9071234,
+    "lon": 12.496046
+  },
+  "concreto cucina e vino|via marianna dionigi, 4|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9058395,
+    "lon": 12.4724184
+  },
+  "contatto|via gioberti, 11|frascati": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8080551,
+    "lon": 12.6821991
+  },
+  "contrada rapello|contrada rapello, 13|subiaco": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9166098,
+    "lon": 13.1002217
+  },
+  "contrasto|via cardinal pietro la fontaine, 21|viterbo": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.414455,
+    "lon": 12.1065082
+  },
+  "controluce|via della luce, 44|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8867466,
+    "lon": 12.4735621
+  },
+  "cremeria alpi|via cristoforo colombo, 1897|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8163635,
+    "lon": 12.4618273
+  },
+  "cremeria alpi|via padre reginaldo giuliani, 16|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8662675,
+    "lon": 12.4931374
+  },
+  "cremeria aurelia|via aurelia, 388/b|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9835682,
+    "lon": 12.0531757
+  },
+  "criollo - il bistrot del gelato|via giuseppe bagnera, 59|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8640002,
+    "lon": 12.4665342
+  },
+  "cristalli di zucchero|via di val tellina, 114|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8693631,
+    "lon": 12.446614
+  },
+  "crunch teglia|via della bufalotta, 284|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.980812,
+    "lon": 12.5523295
+  },
+  "crunch!|via francesco d'ovidio, 27|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9463174,
+    "lon": 12.5560308
+  },
+  "cus cus|via arezzo, 39|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.912273,
+    "lon": 12.5182192
+  },
+  "d'antoni dal 1974|via dino penazzato, 83/h|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8974719,
+    "lon": 12.5646579
+  },
+  "da antonio|via mario lizzani, 21|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8687807,
+    "lon": 12.5699438
+  },
+  "da brando|via flaminia, 532|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9553984,
+    "lon": 12.4871875
+  },
+  "da cesare|via del casaletto, 45|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8768509,
+    "lon": 12.4407734
+  },
+  "da danilo|via petrarca, 13|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8920456,
+    "lon": 12.5053195
+  },
+  "da enzo al 29|via dei vascellari, 29|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8880864,
+    "lon": 12.477807
+  },
+  "da fausto|piazza cesare beccaria, 6|fondi": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.3612998,
+    "lon": 13.4235619
+  },
+  "da michele|via tiberio imperatore, 95/97|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8512046,
+    "lon": 12.483984
+  },
+  "da tullio|via della balduina, 211|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9225105,
+    "lon": 12.4384932
+  },
+  "dar basha|via aurora, 10|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9076072,
+    "lon": 12.4875311
+  },
+  "dazio roma|via nomentana, 1206|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9585754,
+    "lon": 12.5845757
+  },
+  "dieci|via tortolini, 3/a|nepi": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.2415569,
+    "lon": 12.3462711
+  },
+  "diego vitagliano|via chiana, 80|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9214606,
+    "lon": 12.5061614
+  },
+  "divina giulia|via giovanni amendola 1/b|fondi": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.3609098,
+    "lon": 13.4335587
+  },
+  "dogma|piazza zama, 34|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8760818,
+    "lon": 12.5093199
+  },
+  "dondolo|via di monte sacro, 23|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9321228,
+    "lon": 12.5345195
+  },
+  "dopo lavoro ricreativo|via nino bixio, 1|frascati": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8101144,
+    "lon": 12.6791207
+  },
+  "drink kong|piazza di san martino ai monti, 8|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8951436,
+    "lon": 12.4978655
+  },
+  "drogherie del mare|via savoia, 38/42|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9149687,
+    "lon": 12.5026335
+  },
+  "duke's - fine casual bar & restaurant|viale parioli, 200|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9296039,
+    "lon": 12.4859274
+  },
+  "dumpling bar|piazza antonio meucci, 1|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8624945,
+    "lon": 12.4642028
+  },
+  "ego|via etruria, 35|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8797144,
+    "lon": 12.5098436
+  },
+  "el maiz|via tolemaide, 16|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9088526,
+    "lon": 12.4542929
+  },
+  "elettroforno frontoni|via ostiense, 387|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8530871,
+    "lon": 12.4769322
+  },
+  "enofficina|via trionfale, 50|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9117208,
+    "lon": 12.4534237
+  },
+  "enoteca cavour 313|via cavour, 313|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8937195,
+    "lon": 12.489126
+  },
+  "enoteca l'antidoto|vicolo del bologna, 19|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8909999,
+    "lon": 12.4688555
+  },
+  "enoteca la mescita|via fratelli bonnet, 5|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8850327,
+    "lon": 12.46127
+  },
+  "enoteca la mescita|via luigi fincati, 44|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8629853,
+    "lon": 12.4848306
+  },
+  "enoteca la torre|lungotevere delle armi, 22/23|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9176952,
+    "lon": 12.4697377
+  },
+  "er macellaio|viale aurelio galleppini, 60/66|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.79994,
+    "lon": 12.4248671
+  },
+  "extremis|via del casale rocchi, 20/22|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9277669,
+    "lon": 12.5443412
+  },
+  "fabrica|via girolamo savonarola, 8|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9105177,
+    "lon": 12.4515874
+  },
+  "farinè la pizza|via degli aurunci, 6/8|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8962544,
+    "lon": 12.514731
+  },
+  "faro - caffè specialty|via piave, 55|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9102507,
+    "lon": 12.4983822
+  },
+  "fase - cucina spontanea|via muggia, 14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9184476,
+    "lon": 12.4568923
+  },
+  "fatamorgana|piazza degli zingari, 5|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8956187,
+    "lon": 12.4932453
+  },
+  "fatamorgana|via dei chiavari, 37|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8947077,
+    "lon": 12.4742642
+  },
+  "fatamorgana|via della croce, 46/47|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.906246,
+    "lon": 12.4799079
+  },
+  "fatamorgana|via lago di lesina, 9/11|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9265509,
+    "lon": 12.5104544
+  },
+  "fatamorgana|via roma libera, 11|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.886502,
+    "lon": 12.4691955
+  },
+  "fax factory|via antonio raimondi, 87|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8911972,
+    "lon": 12.5327448
+  },
+  "federico prodon pâtisserie|via giovanni schiaparelli, 21|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9221739,
+    "lon": 12.4815149
+  },
+  "felice|via mastro giorgio, 29|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8785014,
+    "lon": 12.4774658
+  },
+  "fermentum|via lemonia, 214|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8518128,
+    "lon": 12.5591865
+  },
+  "fior di luna|via della lungaretta, 96|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8896071,
+    "lon": 12.4726433
+  },
+  "flavio al velavevodetto|piazza dei quiriti, 4/5|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9094116,
+    "lon": 12.4639905
+  },
+  "flavio al velavevodetto|via di monte testaccio, 97/99|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8749069,
+    "lon": 12.4765142
+  },
+  "forma|via trieste, 9|civitavecchia": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.0936173,
+    "lon": 11.7914145
+  },
+  "forno bianchi|largo delle sette chiese, 16|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8611374,
+    "lon": 12.485479
+  },
+  "forno conti & co.|via giusti, 18|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8924089,
+    "lon": 12.5028616
+  },
+  "forno ottavi 1921|via dei dalmati, 3|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8994058,
+    "lon": 12.5157397
+  },
+  "forno ritorno|via amerigo vespucci, 20|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8813374,
+    "lon": 12.4749672
+  },
+  "friccico mangia&bevi|viale dei colli portuensi, 169|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8700249,
+    "lon": 12.4433508
+  },
+  "frumentario|via tuscolana, 26|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8828048,
+    "lon": 12.5147151
+  },
+  "futura|piazza di santa maria liberatrice, 31|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.880186,
+    "lon": 12.4760701
+  },
+  "galbi|via cremera, 21|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9123668,
+    "lon": 12.4972836
+  },
+  "gallo ristorante di pesce|via di santa croce in gerusalemme, 29|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8915901,
+    "lon": 12.5096849
+  },
+  "garage forno|via paolo ii, 14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8984333,
+    "lon": 12.4539171
+  },
+  "garibaldi dal 1970|via tiberina, 62|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.002945,
+    "lon": 12.4997768
+  },
+  "gastromario|via voghera, 10|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8860303,
+    "lon": 12.5189942
+  },
+  "gelateria dare|via bisagno, 19|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.923443,
+    "lon": 12.5115701
+  },
+  "gelateria dei gracchi|via dei gracchi, 272|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9091879,
+    "lon": 12.46687
+  },
+  "gelateria dei gracchi|via di ripetta, 261|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9096515,
+    "lon": 12.4761148
+  },
+  "gelateria i gemelli|via fonte buono, 114|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8479553,
+    "lon": 12.48651
+  },
+  "gelateria i mannari|via di grotta perfetta, 125|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8390621,
+    "lon": 12.5060201
+  },
+  "gelato d'essai|via tor de schiavi, 295|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8912445,
+    "lon": 12.5599937
+  },
+  "gelato romano|piazza santa maria consolatrice, 15/16|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8980092,
+    "lon": 12.5355468
+  },
+  "gelato romano|via giacomo boni, 33/35|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9153119,
+    "lon": 12.5213652
+  },
+  "gianpà|via appia nuova, 37|cassino": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.4751387,
+    "lon": 13.8438886
+  },
+  "giomà|via calpurnio fiamma, 40/44|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8618732,
+    "lon": 12.5617009
+  },
+  "giuffrè forno & gelato|via antonio cantore, 13|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9183909,
+    "lon": 12.4640813
+  },
+  "giuffrè forno & gelato|via pietro blaserna, 11|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8660136,
+    "lon": 12.4715598
+  },
+  "giuffrè forno & gelato|viale trastevere, 255|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8755766,
+    "lon": 12.4660286
+  },
+  "giù upside down restaurant|via paolo stoppa, 40|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7843821,
+    "lon": 12.3920121
+  },
+  "glass hostaria|vicolo del cinque, 58|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8905107,
+    "lon": 12.4691856
+  },
+  "gori gelato|piazza menenio agrippa, 8/b-c|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9348733,
+    "lon": 12.5361877
+  },
+  "grani, farine e caffè|viale dei quattro venti, 152/c|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8859462,
+    "lon": 12.4583109
+  },
+  "günther gelato|piazza di sant'eustachio, 47|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8984472,
+    "lon": 12.4753689
+  },
+  "günther gelato|via dei pettinari, 43|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8928952,
+    "lon": 12.4716569
+  },
+  "hand made|viale della pineta di fregene, 52/c|fregene": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.859739,
+    "lon": 12.2053237
+  },
+  "hasekura|via dei serpenti, 27|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.895422,
+    "lon": 12.4904981
+  },
+  "hiromi la maison|via reggio emilia, 24|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9122078,
+    "lon": 12.502946
+  },
+  "hosteria grappolo d'oro|piazza della cancelleria, 80|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8962865,
+    "lon": 12.4722326
+  },
+  "hotel de' ricci|via della barchetta, 14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8960558,
+    "lon": 12.4688074
+  },
+  "hotel vilòn|via dell'arancio, 68/69|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9045573,
+    "lon": 12.4762509
+  },
+  "i quintili|via eurialo, 7/c|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8734945,
+    "lon": 12.5261849
+  },
+  "i quintili|via francesco cangiullo, 16|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.843617,
+    "lon": 12.4874153
+  },
+  "idylio by apreda|piazza dei caprettari, 56/60|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8980103,
+    "lon": 12.4756545
+  },
+  "ie koji japanese izakaya|via marcantonio bragadin, 13|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9068379,
+    "lon": 12.4449617
+  },
+  "ie koji sakaba|via emilio faà di bruno, 31|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9140499,
+    "lon": 12.4568725
+  },
+  "il calice e la stella|piazza garibaldi, 9|canepina": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.3809529,
+    "lon": 12.2336313
+  },
+  "il casaletto|strada grottana, 9|grotte santo stefano": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.520349,
+    "lon": 12.143497
+  },
+  "il convivio troiani|vicolo dei soldati, 31|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9015324,
+    "lon": 12.4725158
+  },
+  "il goccetto|via dei banchi vecchi, 14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8977958,
+    "lon": 12.4673444
+  },
+  "il grecale|riviera zanardelli, 57|anzio": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.4485513,
+    "lon": 12.6311406
+  },
+  "il maratoneta|via dei volsci, 99|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.898131,
+    "lon": 12.5152965
+  },
+  "il marchese|via di ripetta, 162|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9059117,
+    "lon": 12.4756255
+  },
+  "il maritozzo rosso|via pietro cavallini, 25|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9062951,
+    "lon": 12.4729319
+  },
+  "il maritozzo rosso|vicolo del cedro, 26|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.890212,
+    "lon": 12.4682894
+  },
+  "il pacchero solitario|via giuseppe verdi, 29|aprilia": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.5916592,
+    "lon": 12.6547679
+  },
+  "il pagliaccio|via dei banchi vecchi, 129/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.897822,
+    "lon": 12.467496
+  },
+  "il tino|via monte cadria, 125|fiumicino": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7504015,
+    "lon": 12.2675406
+  },
+  "il torchio|via goffredo mameli, 3|frascati": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8099049,
+    "lon": 12.6788841
+  },
+  "il tuo fornaio|via francesco sapori, 35|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8122336,
+    "lon": 12.485254
+  },
+  "indigeno - osteria ribelle|via renzo da ceri, 6/6a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8920622,
+    "lon": 12.5381162
+  },
+  "infucina|via dei salentini, 6/12|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.897811,
+    "lon": 12.5109739
+  },
+  "inverso|via vibio mariano, 5|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9667391,
+    "lon": 12.4458257
+  },
+  "iodio|via tor de' schiavi, 55/d|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8781912,
+    "lon": 12.5639629
+  },
+  "iotto|corso vittorio emanuele, 96|campagnano di roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.1403399,
+    "lon": 12.3826881
+  },
+  "isotta - trattoria cortese|via carlo livi, 10/16|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9360492,
+    "lon": 12.4183103
+  },
+  "jerry thomas speakeasy|vicolo cellini, 30|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8978467,
+    "lon": 12.4679187
+  },
+  "jiamo lab|via bergamo, 15|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9113081,
+    "lon": 12.499471
+  },
+  "kohaku|via marche, 66|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9086322,
+    "lon": 12.490352
+  },
+  "koû koû|via monte pertica, 41|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9200666,
+    "lon": 12.4597165
+  },
+  "krapfen paglia|piazza anco marzio, 18/19|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7298309,
+    "lon": 12.2778697
+  },
+  "l'elementare|via benedetta, 23|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8918268,
+    "lon": 12.469088
+  },
+  "l'elementare|via licinio stolone, 92|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8563483,
+    "lon": 12.566153
+  },
+  "l'osteria dell'orologio|via della torre clementina, 114|fiumicino": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7715488,
+    "lon": 12.2304588
+  },
+  "l'osteria di ianus|via amiterno, 70|antrodoco": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.4160906,
+    "lon": 13.0790018
+  },
+  "la baia|via silvi marina, 1|fregene": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8622156,
+    "lon": 12.1873593
+  },
+  "la barrique|via del boschetto, 41|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8980948,
+    "lon": 12.4901504
+  },
+  "la briciola di adriana|via domenichino, 14|grottaferrata": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7874014,
+    "lon": 12.6671162
+  },
+  "la casa del cremolato|via di priscilla, 18|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9319781,
+    "lon": 12.5120402
+  },
+  "la ciambella bar à vin|via dell'arco della ciambella, 20|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8968095,
+    "lon": 12.4768677
+  },
+  "la galleria di sopra|via leonardo murialdo, 9|albano laziale": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.731334,
+    "lon": 12.6597635
+  },
+  "la gatta mangiona|via federico ozanam, 30/32|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8757312,
+    "lon": 12.4477152
+  },
+  "la gourmandise|via felice cavallotti, 36/b|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8790195,
+    "lon": 12.4622097
+  },
+  "la lampara|via carbonia, 35|passoscuro": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9004533,
+    "lon": 12.1575633
+  },
+  "la parolina|via giacomo leopardi, 1|trevinano": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.8215503,
+    "lon": 11.8692216
+  },
+  "la pergola del rome cavalieri|via cadlolo, 101|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9188764,
+    "lon": 12.446681
+  },
+  "la punta expendio de agave|via di santa cecilia, 8|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8874666,
+    "lon": 12.4771441
+  },
+  "la quercia|piazza della quercia, 23|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8945524,
+    "lon": 12.471689
+  },
+  "la renardière|viale aventino, 31|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8811488,
+    "lon": 12.4847946
+  },
+  "latta - fermenti e miscele|via antonio pacinotti, 83|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8719789,
+    "lon": 12.470229
+  },
+  "latteria|vicolo della scala, 1|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8908353,
+    "lon": 12.4679786
+  },
+  "le levain café|via piave, 8|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9082449,
+    "lon": 12.498536
+  },
+  "lento - vineria con cucina|piazza di santa maria ausiliatrice, 17/18|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8733088,
+    "lon": 12.5309427
+  },
+  "li somari|piazza rivarola, 21|tivoli": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9655415,
+    "lon": 12.7994619
+  },
+  "libera|via luigi tosti, 54|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8729768,
+    "lon": 12.5192952
+  },
+  "lievito francesco arnesano|via simone martini, 6/8|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8292784,
+    "lon": 12.488263
+  },
+  "lievito pizza pane|viale europa, 339|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8297913,
+    "lon": 12.4738315
+  },
+  "lina - la pizza in teglia|circonvallazione trionfale, 53|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9120324,
+    "lon": 12.4495371
+  },
+  "lin|via basento, 70/76|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9161556,
+    "lon": 12.4986442
+  },
+  "locanda altobelli|via annunziata, 121|terracina": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.2905595,
+    "lon": 13.2504122
+  },
+  "locanda dorica|vicolo giorgi, 15|velletri": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.6894371,
+    "lon": 12.779374
+  },
+  "locanda nocera|via viggiano, 155|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8311026,
+    "lon": 12.5222979
+  },
+  "locanda ruggieri|via del rio, 10|terracina": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.2884008,
+    "lon": 13.2519745
+  },
+  "love|via tunisi, 51|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9092161,
+    "lon": 12.4520341
+  },
+  "luna|via delle quattro fontane, 175|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9031513,
+    "lon": 12.4884949
+  },
+  "madeleine|via monte santo, 64|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9188726,
+    "lon": 12.4611762
+  },
+  "mae - slow brunchers|via della giuliana, 33|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9145787,
+    "lon": 12.4539049
+  },
+  "mafè - osteria moderna|via valsavaranche, 29/31|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9444897,
+    "lon": 12.5152308
+  },
+  "magazzino scipioni|via degli scipioni, 30-30/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9103496,
+    "lon": 12.4653827
+  },
+  "magnifica|via ugo de carolis, 72/d|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9155501,
+    "lon": 12.4399828
+  },
+  "maksymovych|via della portella, 31|genazzano": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8298381,
+    "lon": 12.9722316
+  },
+  "mama-ya ramen|via ostiense, 166/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8639761,
+    "lon": 12.4784383
+  },
+  "mamma angelina|viale arrigo boito, 65|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.936988,
+    "lon": 12.5157684
+  },
+  "mamma orso|via arezzo, 17|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9114585,
+    "lon": 12.5185434
+  },
+  "mangiadischi la moderna trattoria|via val di sangro, 35|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9448193,
+    "lon": 12.522165
+  },
+  "mangiafuoco|via cicerone, 40|grottaferrata": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7889247,
+    "lon": 12.6685653
+  },
+  "mare bistrot|via della torre clementina, 126|fiumicino": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7715325,
+    "lon": 12.2216435
+  },
+  "mario l'ostricaro|via appia, km 102|terracina": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.2875146,
+    "lon": 13.2593771
+  },
+  "marzapane café & bakery|via flaminia, 64|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9140533,
+    "lon": 12.4751105
+  },
+  "materia prima|via sardegna, 8|pontinia": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.410182,
+    "lon": 13.0430945
+  },
+  "mazzo|via degli equi, 62|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8963152,
+    "lon": 12.5131709
+  },
+  "metis|piazza enrico martini, 24/25|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7966684,
+    "lon": 12.4312411
+  },
+  "metropolita|piazza gentile da fabriano, 2|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9268687,
+    "lon": 12.4618571
+  },
+  "metà - sorsi e assaggi|viale gottardo, 18/20|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9309691,
+    "lon": 12.5343297
+  },
+  "mi cucina cinese contemporanea|via giovanni botero, 31/33|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8706649,
+    "lon": 12.5263374
+  },
+  "mia - pizzeria creativa|via collatina, 126/d|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9067835,
+    "lon": 12.6211243
+  },
+  "miao miao|via della stelletta, 4/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9016068,
+    "lon": 12.4755936
+  },
+  "michele chinappi|via abate tosti, 101|formia": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.2586717,
+    "lon": 13.6130068
+  },
+  "mifang|via firenze, 30|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9021686,
+    "lon": 12.4940213
+  },
+  "mikachan|via torcegno, 39|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7275311,
+    "lon": 12.3721577
+  },
+  "mile|via pesaro, 8|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8895687,
+    "lon": 12.5250677
+  },
+  "mine|via flaminia, 732/b|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9553984,
+    "lon": 12.4871875
+  },
+  "misticanza - osteria della terra|via cesare baronio, 179|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.869993,
+    "lon": 12.5169602
+  },
+  "mogano|via del praticello alto, 5|formello": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.0723893,
+    "lon": 12.3912052
+  },
+  "molo 21|lungomare guglielmo marconi, 21|santa marinella": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.0307527,
+    "lon": 11.8436804
+  },
+  "molo 29|via mario musco, 29/31|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8495679,
+    "lon": 12.4884847
+  },
+  "moma|via di san basilio, 42/43|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9051156,
+    "lon": 12.4898888
+  },
+  "mordi & vai|via beniamino franklin, 12/e|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8775657,
+    "lon": 12.4733496
+  },
+  "mostò|viale pinturicchio, 32|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9326245,
+    "lon": 12.4664553
+  },
+  "mr. meat kitchen and grill|via di salone, 248|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9256004,
+    "lon": 12.6300345
+  },
+  "mrgda ristorante|via prenestina, 182|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8921219,
+    "lon": 12.5345071
+  },
+  "mudejar spiriti e cucina|corso san leone, 3/a|sperlonga": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.2567001,
+    "lon": 13.4361598
+  },
+  "n'antro|largo appio claudio, 350|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8550242,
+    "lon": 12.5642423
+  },
+  "n.o.d.o.|piazza delle coppelle, 52|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9008303,
+    "lon": 12.4762727
+  },
+  "namo ristobottega|via giovan battista marzi, 1|tarquinia": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.250612,
+    "lon": 11.7554054
+  },
+  "nena mercato&cucina|via dei sabelli, 193|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8992295,
+    "lon": 12.5192941
+  },
+  "nero vaniglia|circonvallazione ostiense, 201|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8674507,
+    "lon": 12.4899351
+  },
+  "neve di latte|via dei banchi vecchi, 140|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.897541,
+    "lon": 12.4677892
+  },
+  "neve di latte|via federico cesi, 1|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9072712,
+    "lon": 12.4707362
+  },
+  "neve di latte|via luigi poletti, 6|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9298052,
+    "lon": 12.4651046
+  },
+  "neve di latte|via nomentana, 335/f|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9151728,
+    "lon": 12.5101329
+  },
+  "neve di latte|via vittorio veneto, 112|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9084582,
+    "lon": 12.4888035
+  },
+  "nite kong|piazza di san martino ai monti, 8|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8951436,
+    "lon": 12.4978655
+  },
+  "nomisan|viale gianluigi bonelli, 237|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7949282,
+    "lon": 12.4258003
+  },
+  "nomos ante|via di san paolo alla regola, 3|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8929667,
+    "lon": 12.473735
+  },
+  "nonnarè|piazza augusto albini, 10|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8647605,
+    "lon": 12.4850008
+  },
+  "nu' trattoria italiana dal 1960|via prenestina, 27|acuto": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.788862,
+    "lon": 13.1699594
+  },
+  "nuan|via siria, 3|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8752006,
+    "lon": 12.5111125
+  },
+  "nuh osteria contemporanea|via della missione, 56|tivoli": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9628631,
+    "lon": 12.7977685
+  },
+  "oggi - officina gelato gusto italiano|via tacito, 66|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9069048,
+    "lon": 12.4675379
+  },
+  "oolong|piazza di san paolo alla regola, 40|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8931006,
+    "lon": 12.4736895
+  },
+  "open baladin|via degli specchi, 6|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8935723,
+    "lon": 12.4744376
+  },
+  "orma|via boncompagni, 31/33|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9076745,
+    "lon": 12.4909947
+  },
+  "osteria bonelli|viale dell'acquedotto alessandrino, 172/174|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8765276,
+    "lon": 12.5463148
+  },
+  "osteria del velodromo vecchio|via genzano, 139|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8705316,
+    "lon": 12.5332283
+  },
+  "osteria di maccarese|via dei pastori, 26-a/28|maccarese": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8774704,
+    "lon": 12.2154404
+  },
+  "osteria fratelli mori|via dei conciatori, 10|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8744581,
+    "lon": 12.4800483
+  },
+  "osteria la briciola|via scuole rurali, 1|tivoli": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9735465,
+    "lon": 12.8333459
+  },
+  "osteria la massaia|via della seta, 1|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8079277,
+    "lon": 12.4332401
+  },
+  "osteria landi|via claudio, 28|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7304308,
+    "lon": 12.2794357
+  },
+  "osteria santa lucia|corso della repubblica, 26|frosinone": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.6403468,
+    "lon": 13.3501411
+  },
+  "osteria “il bersagliere”|via casilina, km 25,000|colonna": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8354011,
+    "lon": 12.7686989
+  },
+  "otaleg!|via di san cosimato, 14/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8881739,
+    "lon": 12.4704635
+  },
+  "otaleg!|viale dei quattro venti, 70|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8830326,
+    "lon": 12.4585238
+  },
+  "owine|via guido de ruggiero, 64|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8448211,
+    "lon": 12.4818297
+  },
+  "pane e tempesta|via giovanni de calvi, 23/25|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8676838,
+    "lon": 12.4462186
+  },
+  "panificio marè prati|viale angelico, 88|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9199008,
+    "lon": 12.4588173
+  },
+  "pascucci al porticciolo|viale traiano, 85|fiumicino": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7708257,
+    "lon": 12.2314523
+  },
+  "pasticceria barberini|via marmorata, 41|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8789156,
+    "lon": 12.4787522
+  },
+  "pasticceria walter musco|largo benedetto bompiani, 8/10|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8589912,
+    "lon": 12.5024603
+  },
+  "pastorie|via pesaro, 40|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8895874,
+    "lon": 12.5249827
+  },
+  "per me|vicolo del malpasso, 9|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8973101,
+    "lon": 12.4675414
+  },
+  "piano c - circolo del vino|via faleria, 12|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8829015,
+    "lon": 12.5099235
+  },
+  "piatto romano|via giovanni battista bodoni, 62|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8793504,
+    "lon": 12.4758599
+  },
+  "piccolo buco|via del lavatore, 91|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9013051,
+    "lon": 12.4846318
+  },
+  "pinsere|via flavia, 98|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9076293,
+    "lon": 12.4977726
+  },
+  "pipero|corso vittorio emanuele ii, 250|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8993964,
+    "lon": 12.4666817
+  },
+  "pizza baar|via di donna olimpia, 71|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8789781,
+    "lon": 12.4513837
+  },
+  "pizza chef|via clelia, 63/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8751472,
+    "lon": 12.5272144
+  },
+  "pizzarium|via della meloria, 43|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9066975,
+    "lon": 12.4466606
+  },
+  "poldo e gianna|vicolo rosini, 6|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9022406,
+    "lon": 12.4772636
+  },
+  "pontisso|via antonio cantore, 3|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9182779,
+    "lon": 12.4643577
+  },
+  "popina trattoria|via giovanni verga, 42|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9494132,
+    "lon": 12.5625431
+  },
+  "pork’n’roll|via carlo caneva, 15|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9077765,
+    "lon": 12.5364623
+  },
+  "portale 21 - opificio di cucina|via rodolfo morandi, 32|marino": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7720108,
+    "lon": 12.6470839
+  },
+  "porto quadro|piazza ippolito nievo, 13/14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8796141,
+    "lon": 12.4667079
+  },
+  "prato di sopra|via principe amedeo, 7|grottaferrata": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7882906,
+    "lon": 12.6667387
+  },
+  "prelibato|viale di villa pamphili, 214|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8774745,
+    "lon": 12.4579048
+  },
+  "proloco trastevere|via goffredo mameli, 23|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8868104,
+    "lon": 12.4678148
+  },
+  "pulejo|via dei gracchi, 31|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9085511,
+    "lon": 12.4647506
+  },
+  "pupillo pura pizza|via giacomo matteotti, 29|priverno": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.4717073,
+    "lon": 13.1780824
+  },
+  "pupillo pura pizza|viale giuseppe mazzini, 220|frosinone": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.6394691,
+    "lon": 13.3433719
+  },
+  "radici - pizzicheria salentina|via emanuele filiberto, 38|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8924595,
+    "lon": 12.5058266
+  },
+  "retrobottega|via d’ascanio, 26/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9019065,
+    "lon": 12.4753023
+  },
+  "retrò|via baldo degli ubaldi, 118|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9007916,
+    "lon": 12.438082
+  },
+  "riccioli d'oro|via conca d'oro, 38|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.937298,
+    "lon": 12.5306123
+  },
+  "rimessa roscioli|via del conservatorio, 58|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8927777,
+    "lon": 12.4729362
+  },
+  "riso amaro|viale regina margherita, 22|fondi": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.3581167,
+    "lon": 13.4294319
+  },
+  "ristorante belvedere dal 1933|via regina margherita, 29|frascati": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8098182,
+    "lon": 12.6807803
+  },
+  "ristorante delicato|via umberto i, 2|contigliano": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.4089781,
+    "lon": 12.7655079
+  },
+  "ristorante moi|via antonio serra, 15|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9432558,
+    "lon": 12.473098
+  },
+  "roscioli caffè|piazza benedetto cairoli, 16|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8941529,
+    "lon": 12.4744327
+  },
+  "roscioli|via dei giubbonari, 21/22|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8943902,
+    "lon": 12.4738258
+  },
+  "rosina - cucina di casa|vicolo delle grotte, 27|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.894096,
+    "lon": 12.472305
+  },
+  "ruver - teglia frazionata|viale aventino, 46|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8827058,
+    "lon": 12.486481
+  },
+  "said dal 1923|via tiburtina, 135|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8991019,
+    "lon": 12.5151633
+  },
+  "sakana sushi|via del gazometro, 54|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8718567,
+    "lon": 12.4790953
+  },
+  "salmoneria|via della dogana vecchia, 12/13|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8988847,
+    "lon": 12.4751923
+  },
+  "salmoneria|via di ripetta, 40|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9059117,
+    "lon": 12.4756255
+  },
+  "san biagio pizza e bolle|via oslavia, 39|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9180577,
+    "lon": 12.4619549
+  },
+  "san biagio pizza e bolle|viale europa, 15|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8313259,
+    "lon": 12.4674959
+  },
+  "sancho|via catania, 51|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.910033,
+    "lon": 12.5194183
+  },
+  "sancho|via della torre clementina 142/a|fiumicino": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7715325,
+    "lon": 12.2216435
+  },
+  "sancho|via giuseppe gioachino belli, 3/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9074984,
+    "lon": 12.4716874
+  },
+  "santa pizza|via di villa faonte, 94|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9512222,
+    "lon": 12.5416026
+  },
+  "santa romana|piazza certaldo, 12|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8445566,
+    "lon": 12.4592823
+  },
+  "santi sebastiano e valentino|via tirso, 107|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9168234,
+    "lon": 12.5005206
+  },
+  "santo bevitore|via guglielmo marconi, 8|cassino": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.4929307,
+    "lon": 13.829248
+  },
+  "santo palato|via gallia, 28|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8814323,
+    "lon": 12.5014324
+  },
+  "santuccio ai colli|via santi sebastiano e rocco, 95|sezze": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.5005439,
+    "lon": 13.093641
+  },
+  "santí - tradizione contadina|via latina, 80|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8615139,
+    "lon": 12.5359105
+  },
+  "schenardino - cucina pizza & vino|piazza delle erbe, 16|viterbo": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.4177265,
+    "lon": 12.106086
+  },
+  "scima|via annia regilla, 110|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8418354,
+    "lon": 12.5480983
+  },
+  "scottadito|via veglia, 14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9451563,
+    "lon": 12.528092
+  },
+  "sensorio coffee lab|via flaminia, 67|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9553984,
+    "lon": 12.4871875
+  },
+  "seu pizza illuminati|via angelo bargoni, 10/18|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8796972,
+    "lon": 12.4683992
+  },
+  "shell|vicolo della fontana, 28|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9160118,
+    "lon": 12.5093944
+  },
+  "sicché - roba toscana|via beniamino franklin, 12/c|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8779218,
+    "lon": 12.4728716
+  },
+  "sinosteria|viale guglielmo marconi, 586|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8546489,
+    "lon": 12.4718709
+  },
+  "sintesi|viale dei castani, 17|ariccia": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7234594,
+    "lon": 12.6823662
+  },
+  "slow|corso vittorio emanuele ii, 73|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8993964,
+    "lon": 12.4666817
+  },
+  "song|via valadier, 14|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9086879,
+    "lon": 12.4705911
+  },
+  "sora maria e arcangelo|via roma, 45|olevano romano": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8596327,
+    "lon": 13.0339563
+  },
+  "sordoni|via cassia, 1839|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.0536833,
+    "lon": 12.3732976
+  },
+  "sottobanco|via paolo frisi, 1|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.92772,
+    "lon": 12.4834806
+  },
+  "spaccio grosso|via ancona, 40|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9103549,
+    "lon": 12.5017264
+  },
+  "specus|via casilina, 315|valmontone": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7754232,
+    "lon": 12.9237811
+  },
+  "spiazzo|via antonio pacinotti, 83|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8719789,
+    "lon": 12.470229
+  },
+  "stecca|viale guglielmo massaia, 28|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8621873,
+    "lon": 12.4931344
+  },
+  "stefano ferrara - formaessenza|via enrico fermi, 102/104|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8646919,
+    "lon": 12.4721857
+  },
+  "stefano ferrara - gelateria|via francesco cilea, 244/246|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7439817,
+    "lon": 12.3752517
+  },
+  "sushisen|via giuseppe giulietti, 21/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8750844,
+    "lon": 12.4793601
+  },
+  "svario-pizza bar|via val senio, 18|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9402652,
+    "lon": 12.527367
+  },
+  "tac - thin and crunchy|via fiume delle perle, 136/138|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8092593,
+    "lon": 12.4366542
+  },
+  "tante care cose|via carlo errera, 46|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8833833,
+    "lon": 12.5381602
+  },
+  "taps|via gaio melisso, 32|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8661537,
+    "lon": 12.5505976
+  },
+  "te caffè|via sforza pallavicini, 19/25|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9053062,
+    "lon": 12.4633687
+  },
+  "terra gelato|piazza santa maria maggiore, 9|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.674416,
+    "lon": 12.6975314
+  },
+  "terramadre|via del baluardo, 7|nettuno": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.4569014,
+    "lon": 12.6601849
+  },
+  "tinello bistrot|via vigna di corte, 6|castel gandolfo": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7455408,
+    "lon": 12.6505209
+  },
+  "toma 52|via cremona, 52/b|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9115836,
+    "lon": 12.5197138
+  },
+  "tonda|via valle corteno, 31|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.936088,
+    "lon": 12.5288422
+  },
+  "tram tram|via dei reti, 44/46|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8983474,
+    "lon": 12.5186866
+  },
+  "trapizzino|piazza trilussa, 46|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8914619,
+    "lon": 12.4699126
+  },
+  "trapizzino|piazzale delle province, 9|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9095676,
+    "lon": 12.5215491
+  },
+  "trapizzino|piazzale di ponte milvio, 13|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9372169,
+    "lon": 12.4656534
+  },
+  "trapizzino|via giovanni branca, 88|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8796965,
+    "lon": 12.4737866
+  },
+  "trattoria a casa di rita|via delle ciliegie, 145|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8864179,
+    "lon": 12.5749516
+  },
+  "trattoria del cimino dal 1895|via filippo nicolai, 44|caprarola": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.3269442,
+    "lon": 12.2391443
+  },
+  "trattoria del pesce|via folco portinari, 27|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8686993,
+    "lon": 12.4492541
+  },
+  "trattoria della fortuna|via salaria, 57|monterotondo": {
+    "geocoded_at": "2026-05-18",
+    "lat": 42.0610517,
+    "lon": 12.5871022
+  },
+  "trattoria enoteca assunta|via pontina km 74,000|latina": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.285121,
+    "lon": 13.1912278
+  },
+  "trattoria monti|via san vito, 13/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.4976365,
+    "lon": 12.6319101
+  },
+  "tratto|viale dell’aeronautica 67/69|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8261146,
+    "lon": 12.4746668
+  },
+  "trecca - cucina di mercato|via alessandro severo, 222|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8534038,
+    "lon": 12.4867121
+  },
+  "tulipane|via del pavone, 28|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8987459,
+    "lon": 12.4670695
+  },
+  "umami - trattoria giapponese|via mario menghini, 99|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8680037,
+    "lon": 12.5268516
+  },
+  "uma|via girolamo benzoni, 34|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8704805,
+    "lon": 12.4844844
+  },
+  "velo pasticceria|via del corso, 63|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9071572,
+    "lon": 12.477968
+  },
+  "vineria cesare dal 1963|via san francesco nuovo, 1|terracina": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.2896903,
+    "lon": 13.2532093
+  },
+  "vineria risorgimento|piazza del risorgimento, 7|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9060812,
+    "lon": 12.4577624
+  },
+  "vinificio|piazza dell’emporio, 1|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8824055,
+    "lon": 12.4762217
+  },
+  "waraku|via prenestina, 321/a|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8939283,
+    "lon": 12.550347
+  },
+  "zelato|via degli aurunci, 40|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8962544,
+    "lon": 12.514731
+  },
+  "zero miglia|piazza giuseppe mazzini, 45|nettuno": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.4569926,
+    "lon": 12.6583099
+  },
+  "zia restaurant|via goffredo mameli, 45|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8868681,
+    "lon": 12.4682418
+  },
+  "zia rosetta|via urbana, 54|roma": {
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8955169,
+    "lon": 12.4934923
+  }
+}
