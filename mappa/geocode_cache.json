@@ -233,6 +233,12 @@
     "lat": 41.8931171,
     "lon": 12.5183989
   },
+  "bistrot 64|via guglielmo calderini, 64|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9302671,
+    "lon": 12.4661536
+  },
   "bistrot 64|via gugliemo calderini, 64|roma": {
     "approssimato": true,
     "geocoded_at": "2026-05-18",
@@ -269,6 +275,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8783578,
     "lon": 12.5263956
+  },
+  "brasserie la neige|piazzale plan de valli, 50|terminillo": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.4733035,
+    "lon": 12.9973605
   },
   "brucio - la contemporanea|via degli stradivari, 1|roma": {
     "geocoded_at": "2026-05-18",
@@ -368,6 +380,12 @@
     "lat": 41.9021623,
     "lon": 12.4759646
   },
+  "ciaparat|piazza s. donà di piave, 14|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8796097,
+    "lon": 12.5190142
+  },
   "ciaparat|piazza san donà del piave, 14|roma": {
     "approssimato": true,
     "geocoded_at": "2026-05-18",
@@ -440,6 +458,12 @@
     "lat": 41.8933203,
     "lon": 12.4829321
   },
+  "cremeria alpi|via dei basaldella|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.7728855,
+    "lon": 12.3490379
+  },
   "cremeria alpi|via padre reginaldo giuliani, 16|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.8662675,
@@ -471,6 +495,12 @@
     "lon": 12.5560308
   },
   "cuoco e camicia|via di monte polacco, 2/4|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
+  },
+  "cuoco e camicia|via di monte polacco, 2|roma": {
     "approssimato": true,
     "geocoded_at": "2026-05-18",
     "lat": 41.8933203,
@@ -563,6 +593,12 @@
     "lon": 12.5093199
   },
   "don choc|via flaminia vecchia, 732/e-f-g-h|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8933203,
+    "lon": 12.4829321
+  },
+  "don choc|via flaminia vecchia, 732|roma": {
     "approssimato": true,
     "geocoded_at": "2026-05-18",
     "lat": 41.8933203,
@@ -825,6 +861,12 @@
     "lat": 41.8933203,
     "lon": 12.4829321
   },
+  "gelateria dei gracchi|viale delle provincie, 30|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9114054,
+    "lon": 12.520992
+  },
   "gelateria i gemelli|via fonte buono, 114|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.8479553,
@@ -840,11 +882,23 @@
     "lat": 41.8912445,
     "lon": 12.5599937
   },
+  "gelato d'essai|via tor de' schiavi, 295|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8912445,
+    "lon": 12.5599937
+  },
   "gelato d'essai|viale b. bardanzellu, 77|roma": {
     "approssimato": true,
     "geocoded_at": "2026-05-18",
     "lat": 41.8933203,
     "lon": 12.4829321
+  },
+  "gelato d'essai|viale battista bardanzellu, 77|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9154185,
+    "lon": 12.5755737
   },
   "gelato romano|piazza santa maria consolatrice, 15/16|roma": {
     "geocoded_at": "2026-05-18",
@@ -900,6 +954,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8859462,
     "lon": 12.4583109
+  },
+  "green t.|via del piè di marmo, 28|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8975889,
+    "lon": 12.4791602
   },
   "green t.|via di pie' di marmo, 28|roma": {
     "approssimato": true,
@@ -1166,6 +1226,12 @@
     "lat": 41.8933203,
     "lon": 12.4829321
   },
+  "la differenza|largo magnagrecia, 4|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8835581,
+    "lon": 12.5089461
+  },
   "la galleria di sopra|via leonardo murialdo, 9|albano laziale": {
     "geocoded_at": "2026-05-18",
     "lat": 41.731334,
@@ -1193,6 +1259,12 @@
     "lon": 12.9967697
   },
   "la locanda della chiocciola|localita seripola|orte": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.4605984,
+    "lon": 12.3856056
+  },
+  "la locanda della chiocciola|località seripola, snc|orte": {
     "approssimato": true,
     "geocoded_at": "2026-05-18",
     "lat": 42.4605984,
@@ -1247,6 +1319,12 @@
     "lat": 42.245927,
     "lon": 12.692077
   },
+  "la tavernaccia|via giovanni da castel bolognese, 63|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8740974,
+    "lon": 12.4686308
+  },
   "la tavernaccia|via giovanni di castel bolognese, 63|roma": {
     "approssimato": true,
     "geocoded_at": "2026-05-18",
@@ -1274,6 +1352,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8908353,
     "lon": 12.4679786
+  },
+  "laverve fermenteria|via di portonaccio, 21|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9058911,
+    "lon": 12.5353758
   },
   "le levain café|via piave, 8|roma": {
     "geocoded_at": "2026-05-18",
@@ -1670,6 +1754,12 @@
     "lat": 41.8765276,
     "lon": 12.5463148
   },
+  "osteria del borgo|via borgo di sopra, 21/23|cesano": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-18",
+    "lat": 42.0776348,
+    "lon": 12.3419109
+  },
   "osteria del borgo|via borgo di sopra, 21/23|cesano di roma": {
     "approssimato": true,
     "geocoded_at": "2026-05-18",
@@ -1827,6 +1917,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.9182779,
     "lon": 12.4643577
+  },
+  "pop pizzeria popolare|largo appio claudio, 384|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.8549489,
+    "lon": 12.5646436
   },
   "popina trattoria|via giovanni verga, 42|roma": {
     "geocoded_at": "2026-05-18",
@@ -1994,6 +2090,12 @@
     "lat": 41.9074984,
     "lon": 12.4716874
   },
+  "sando ie koji|via andrea doria, 32|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.910064,
+    "lon": 12.4534628
+  },
   "santa pizza|via di villa faonte, 94|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.9512222,
@@ -2134,6 +2236,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.7439817,
     "lon": 12.3752517
+  },
+  "supplicamy|viale parioli, 69|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-18",
+    "lat": 41.9256241,
+    "lon": 12.4872084
   },
   "sushisen|via giuseppe giulietti, 21/a|roma": {
     "geocoded_at": "2026-05-18",
