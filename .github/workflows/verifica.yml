@@ -45,6 +45,7 @@ jobs:
             --out docs/data/roma.json \
             --cache mappa/geocode_cache.json \
             --citta-default Roma
+             --regione Lazio
 
       - name: Commit & push aggiornamenti mappa
         run: |
