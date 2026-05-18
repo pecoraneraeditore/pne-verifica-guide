@@ -32,3 +32,28 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
         run: python verifica_v5.py
+
+      # ──────────────────────────────────────────────────────────────────────
+      # Rigenerazione mappa auto-aggiornante (GitHub Pages)
+      # Legge data/Roma_2027.xlsx, geocodifica i nuovi indirizzi (con cache),
+      # e committa il JSON in docs/data/ + la cache aggiornata in mappa/.
+      # La pagina docs/index.html lo legge a runtime → la mappa è sempre fresca.
+      # ──────────────────────────────────────────────────────────────────────
+      - name: Rigenera dati mappa (Roma)
+        run: |
+          python mappa/genera_mappa.py data/Roma_2027.xlsx \
+            --out docs/data/roma.json \
+            --cache mappa/geocode_cache.json \
+            --citta-default Roma
+
+      - name: Commit & push aggiornamenti mappa
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/*.json mappa/geocode_cache.json
+          if git diff --cached --quiet; then
+            echo "Nessun cambiamento alla mappa."
+          else
+            git commit -m "chore(mappa): aggiornamento automatico $(date -u +%Y-%m-%d)"
+            git push
+          fi
