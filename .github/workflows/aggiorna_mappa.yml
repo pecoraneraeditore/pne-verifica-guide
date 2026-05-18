@@ -1,0 +1,45 @@
+name: Aggiorna solo Mappa
+
+# Workflow manuale: rigenera solo i dati della mappa, senza rifare la verifica.
+# Utile per test, fix puntuali o dopo un edit del file Roma_2027.xlsx.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aggiorna-mappa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: pip install openpyxl -q
+
+      - name: Rigenera dati mappa (Roma)
+        run: |
+          python mappa/genera_mappa.py data/Roma_2027.xlsx \
+            --out docs/data/roma.json \
+            --cache mappa/geocode_cache.json \
+            --citta-default Roma
+
+      - name: Commit & push aggiornamenti mappa
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/*.json mappa/geocode_cache.json
+          if git diff --cached --quiet; then
+            echo "Nessun cambiamento alla mappa."
+          else
+            git commit -m "chore(mappa): aggiornamento manuale $(date -u +%Y-%m-%d-%H%M)"
+            git push
+          fi
