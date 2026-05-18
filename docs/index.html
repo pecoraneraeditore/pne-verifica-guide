@@ -31,7 +31,7 @@
     width: 12px; height: 12px; border-radius: 50%;
     border: 1.5px solid rgba(255,255,255,0.6);
   }
-  #map { width: 100%; height: 100%; }
+  #map { width: 100%; height: 100%; background: #f5f5f5; }
 
   /* Pin custom (divIcon) */
   .pn-pin {
@@ -103,12 +103,23 @@
 (async function () {
   const DATA_URL = new URLSearchParams(location.search).get('data') || './data/roma.json';
 
-  const map = L.map('map', { preferCanvas: true }).setView([41.9028, 12.4964], 12);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    maxZoom: 19,
+  const map = L.map('map', { preferCanvas: true, zoomControl: true })
+                .setView([41.9028, 12.4964], 9);
+
+  // ─── Basemap: CartoDB Positron (minimal, scala di grigi) ────────────────
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> ' +
+                 '&copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd', maxZoom: 19,
   }).addTo(map);
 
+  // ─── Confine regione (default Lazio, configurabile da payload.regione) ──
+  // Lo carichiamo subito in parallelo al JSON dei ristoranti.
+  // Fonte: openpolis/geojson-italy (regioni italiane, semplificate)
+  const REGIONS_URL = 'https://cdn.jsdelivr.net/gh/openpolis/geojson-italy@master/geojson/limits_IT_regions.geojson';
+  const regionPromise = fetch(REGIONS_URL).then(r => r.ok ? r.json() : null).catch(() => null);
+
+  // ─── Dati ristoranti ─────────────────────────────────────────────────────
   let payload;
   try {
     const resp = await fetch(DATA_URL + '?t=' + Date.now());
@@ -121,10 +132,29 @@
     return;
   }
 
+  // ─── Overlay regione ─────────────────────────────────────────────────────
+  const targetRegion = payload.regione || 'Lazio';
+  regionPromise.then(geo => {
+    if (!geo) return;
+    const feat = geo.features.find(f =>
+      f.properties.reg_name === targetRegion ||
+      f.properties.name === targetRegion ||
+      f.properties.NAME === targetRegion
+    );
+    if (!feat) return;
+    L.geoJSON(feat, {
+      style: { color: '#1a1a1a', weight: 2.5, dashArray: '8,5',
+               fillColor: '#000', fillOpacity: 0.03, interactive: false },
+      interactive: false,
+    }).addTo(map);
+  });
+
+  // Meta line
   const d = new Date(payload.generated_at);
   document.getElementById('meta').textContent =
     `${payload.stats.con_coordinate} ristoranti · aggiornata il ${d.toLocaleString('it-IT', {dateStyle:'medium', timeStyle:'short'})}`;
 
+  // Legend
   const visibleCats = new Set(Object.keys(payload.categories));
   const legend = document.getElementById('legend');
   Object.entries(payload.categories).forEach(([key, cat]) => {
