@@ -33,7 +33,7 @@
   }
   #map { width: 100%; height: 100%; background: #f5f5f5; }
 
-  /* Pin custom (divIcon) */
+  /* Pin custom (divIcon) — preciso */
   .pn-pin {
     width: 22px; height: 22px; border-radius: 50% 50% 50% 0;
     transform: rotate(-45deg); border: 2px solid #222;
@@ -43,6 +43,15 @@
   .pn-pin::after {
     content: ""; width: 6px; height: 6px; background: rgba(0,0,0,0.55);
     border-radius: 50%; transform: rotate(45deg);
+  }
+  /* Pin approssimato (geocodificato solo a livello città) */
+  .pn-pin.approx {
+    border-style: dashed;
+    border-width: 2.5px;
+    opacity: 0.85;
+  }
+  .pn-pin.approx::after {
+    background: rgba(0,0,0,0.25);
   }
 
   /* Dot della posizione utente */
@@ -77,6 +86,11 @@
   .pn-popup .field strong { color: #222; font-weight: 600; }
   .pn-popup .stato { margin-top: 6px; font-size: 11px; text-transform: uppercase;
     letter-spacing: 0.5px; font-weight: 700; }
+  .pn-popup .warn-approx {
+    margin-top: 8px; padding: 4px 8px;
+    background: #FFF3CD; color: #856404; font-size: 11px;
+    border-left: 3px solid #FFC107; border-radius: 3px;
+  }
 
   #error {
     position: fixed; top: 60px; left: 50%; transform: translateX(-50%);
@@ -106,20 +120,15 @@
   const map = L.map('map', { preferCanvas: true, zoomControl: true })
                 .setView([41.9028, 12.4964], 9);
 
-  // ─── Basemap: CartoDB Positron (minimal, scala di grigi) ────────────────
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> ' +
                  '&copy; <a href="https://carto.com/attributions">CARTO</a>',
     subdomains: 'abcd', maxZoom: 19,
   }).addTo(map);
 
-  // ─── Confine regione (default Lazio, configurabile da payload.regione) ──
-  // Lo carichiamo subito in parallelo al JSON dei ristoranti.
-  // Fonte: openpolis/geojson-italy (regioni italiane, semplificate)
   const REGIONS_URL = 'https://cdn.jsdelivr.net/gh/openpolis/geojson-italy@master/geojson/limits_IT_regions.geojson';
   const regionPromise = fetch(REGIONS_URL).then(r => r.ok ? r.json() : null).catch(() => null);
 
-  // ─── Dati ristoranti ─────────────────────────────────────────────────────
   let payload;
   try {
     const resp = await fetch(DATA_URL + '?t=' + Date.now());
@@ -132,7 +141,6 @@
     return;
   }
 
-  // ─── Overlay regione ─────────────────────────────────────────────────────
   const targetRegion = payload.regione || 'Lazio';
   regionPromise.then(geo => {
     if (!geo) return;
@@ -144,15 +152,18 @@
     if (!feat) return;
     L.geoJSON(feat, {
       style: { color: '#1a1a1a', weight: 2.5, dashArray: '8,5',
-               fillColor: '#000', fillOpacity: 0.03, interactive: false },
+               fillColor: '#000', fillOpacity: 0.03 },
       interactive: false,
     }).addTo(map);
   });
 
-  // Meta line
+  // Meta line (con info su approssimati se presenti)
   const d = new Date(payload.generated_at);
-  document.getElementById('meta').textContent =
-    `${payload.stats.con_coordinate} ristoranti · aggiornata il ${d.toLocaleString('it-IT', {dateStyle:'medium', timeStyle:'short'})}`;
+  const s = payload.stats;
+  let metaText = `${s.con_coordinate} ristoranti`;
+  if (s.approssimati) metaText += ` (${s.precisi} precisi, ${s.approssimati} approssimati)`;
+  metaText += ` · aggiornata il ${d.toLocaleString('it-IT', {dateStyle:'medium', timeStyle:'short'})}`;
+  document.getElementById('meta').textContent = metaText;
 
   // Legend
   const visibleCats = new Set(Object.keys(payload.categories));
@@ -173,16 +184,15 @@
   });
 
   const cluster = L.markerClusterGroup({
-    maxClusterRadius: 40,
-    showCoverageOnHover: false,
-    spiderfyOnMaxZoom: true,
+    maxClusterRadius: 40, showCoverageOnHover: false, spiderfyOnMaxZoom: true,
   });
   map.addLayer(cluster);
 
-  function makeIcon(color) {
+  function makeIcon(color, approx) {
+    const cls = approx ? 'pn-pin approx' : 'pn-pin';
     return L.divIcon({
       className: '',
-      html: `<div class="pn-pin" style="background:${color}"></div>`,
+      html: `<div class="${cls}" style="background:${color}"></div>`,
       iconSize: [22, 22], iconAnchor: [11, 22], popupAnchor: [0, -22],
     });
   }
@@ -198,13 +208,19 @@
     if (r.indirizzo) html += `<div class="field"><strong>Indirizzo:</strong> ${escapeHtml(r.indirizzo)}</div>`;
     if (r.zona)      html += `<div class="field"><strong>Zona:</strong> ${escapeHtml(r.zona)}</div>`;
     if (r.citta)     html += `<div class="field"><strong>Città:</strong> ${escapeHtml(r.citta)}</div>`;
-    html += `<div class="stato">${escapeHtml(cat.label)}</div></div>`;
+    html += `<div class="stato">${escapeHtml(cat.label)}</div>`;
+    if (r.approssimato) {
+      html += `<div class="warn-approx">⚠ Posizione approssimata (livello città). Verifica l'indirizzo nel file guida.</div>`;
+    }
+    html += `</div>`;
     return html;
   }
 
   const allMarkers = payload.restaurants.map(r => {
     const cat = payload.categories[r.categoria] || {label: r.categoria, color: '#888'};
-    const m = L.marker([r.lat, r.lon], { icon: makeIcon(cat.color), title: r.nome });
+    const m = L.marker([r.lat, r.lon], {
+      icon: makeIcon(cat.color, r.approssimato), title: r.nome
+    });
     m.bindPopup(makePopup(r, cat));
     m._cat = r.categoria;
     return m;
@@ -219,7 +235,7 @@
     map.fitBounds(group.getBounds().pad(0.05));
   }
 
-  // ─── Geolocalizzazione utente (automatica all'apertura) ──────────────────
+  // ─── Geolocalizzazione utente ──────────────────────────────────────────
   let meMarker = null, meCircle = null;
   const MeControl = L.Control.extend({
     options: { position: 'topright' },
