@@ -45,6 +45,24 @@
     border-radius: 50%; transform: rotate(45deg);
   }
 
+  /* Dot della posizione utente */
+  .me-dot {
+    width: 16px; height: 16px; border-radius: 50%;
+    background: #1976D2; border: 3px solid #fff;
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.4),
+                0 2px 6px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Bottone "centra su di me" */
+  .me-btn {
+    background: #fff; border: 2px solid rgba(0,0,0,0.2); border-radius: 4px;
+    width: 34px; height: 34px; cursor: pointer; font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  }
+  .me-btn:hover { background: #f4f4f4; }
+  .me-btn.disabled { opacity: 0.4; cursor: not-allowed; }
+
   /* Popup */
   .pn-popup { font-size: 13px; line-height: 1.45; min-width: 200px; max-width: 260px; }
   .pn-popup h3 {
@@ -85,14 +103,12 @@
 (async function () {
   const DATA_URL = new URLSearchParams(location.search).get('data') || './data/roma.json';
 
-  // Init map (default: Roma)
   const map = L.map('map', { preferCanvas: true }).setView([41.9028, 12.4964], 12);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     maxZoom: 19,
   }).addTo(map);
 
-  // Fetch data (bust cache so updates show up immediately)
   let payload;
   try {
     const resp = await fetch(DATA_URL + '?t=' + Date.now());
@@ -105,12 +121,10 @@
     return;
   }
 
-  // Meta line
   const d = new Date(payload.generated_at);
   document.getElementById('meta').textContent =
     `${payload.stats.con_coordinate} ristoranti · aggiornata il ${d.toLocaleString('it-IT', {dateStyle:'medium', timeStyle:'short'})}`;
 
-  // Build legend with toggle
   const visibleCats = new Set(Object.keys(payload.categories));
   const legend = document.getElementById('legend');
   Object.entries(payload.categories).forEach(([key, cat]) => {
@@ -128,7 +142,6 @@
     legend.appendChild(lbl);
   });
 
-  // Marker cluster
   const cluster = L.markerClusterGroup({
     maxClusterRadius: 40,
     showCoverageOnHover: false,
@@ -140,33 +153,25 @@
     return L.divIcon({
       className: '',
       html: `<div class="pn-pin" style="background:${color}"></div>`,
-      iconSize: [22, 22],
-      iconAnchor: [11, 22],
-      popupAnchor: [0, -22],
+      iconSize: [22, 22], iconAnchor: [11, 22], popupAnchor: [0, -22],
     });
   }
-
   function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, c =>
       ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   }
-
   function makePopup(r, cat) {
     let html = `<div class="pn-popup" style="color:${cat.color}">`;
     html += `<h3>${escapeHtml(r.nome)}</h3>`;
-    if (r.recensore) {
-      html += `<div class="recensore">Recensore: ${escapeHtml(r.recensore)}</div>`;
-    }
+    if (r.recensore) html += `<div class="recensore">Recensore: ${escapeHtml(r.recensore)}</div>`;
     if (r.tipologia) html += `<div class="field"><strong>Tipologia:</strong> ${escapeHtml(r.tipologia)}</div>`;
     if (r.indirizzo) html += `<div class="field"><strong>Indirizzo:</strong> ${escapeHtml(r.indirizzo)}</div>`;
     if (r.zona)      html += `<div class="field"><strong>Zona:</strong> ${escapeHtml(r.zona)}</div>`;
     if (r.citta)     html += `<div class="field"><strong>Città:</strong> ${escapeHtml(r.citta)}</div>`;
-    html += `<div class="stato">${escapeHtml(cat.label)}</div>`;
-    html += `</div>`;
+    html += `<div class="stato">${escapeHtml(cat.label)}</div></div>`;
     return html;
   }
 
-  // Build markers once
   const allMarkers = payload.restaurants.map(r => {
     const cat = payload.categories[r.categoria] || {label: r.categoria, color: '#888'};
     const m = L.marker([r.lat, r.lon], { icon: makeIcon(cat.color), title: r.nome });
@@ -174,17 +179,55 @@
     m._cat = r.categoria;
     return m;
   });
-
   function refreshMarkers() {
     cluster.clearLayers();
     cluster.addLayers(allMarkers.filter(m => visibleCats.has(m._cat)));
   }
   refreshMarkers();
-
-  // Fit bounds to all markers
   if (allMarkers.length) {
     const group = L.featureGroup(allMarkers);
     map.fitBounds(group.getBounds().pad(0.05));
+  }
+
+  // ─── Geolocalizzazione utente (automatica all'apertura) ──────────────────
+  let meMarker = null, meCircle = null;
+  const MeControl = L.Control.extend({
+    options: { position: 'topright' },
+    onAdd: function () {
+      const btn = L.DomUtil.create('button', 'me-btn disabled');
+      btn.innerHTML = '📍';
+      btn.title = 'Centra sulla mia posizione';
+      L.DomEvent.disableClickPropagation(btn);
+      L.DomEvent.on(btn, 'click', () => {
+        if (meMarker) map.setView(meMarker.getLatLng(), 15);
+      });
+      this._btn = btn;
+      return btn;
+    },
+    enable: function () { this._btn.classList.remove('disabled'); },
+  });
+  const meCtrl = new MeControl();
+  meCtrl.addTo(map);
+
+  function showMe(lat, lon, accuracy) {
+    if (meMarker) { map.removeLayer(meMarker); map.removeLayer(meCircle); }
+    meMarker = L.marker([lat, lon], {
+      icon: L.divIcon({ className: '', html: '<div class="me-dot"></div>',
+                        iconSize: [16, 16], iconAnchor: [8, 8] }),
+      zIndexOffset: 1000, interactive: false,
+    }).addTo(map);
+    meCircle = L.circle([lat, lon], {
+      radius: accuracy, color: '#1976D2', weight: 1,
+      fillColor: '#1976D2', fillOpacity: 0.1, interactive: false,
+    }).addTo(map);
+    meCtrl.enable();
+  }
+  if ('geolocation' in navigator) {
+    navigator.geolocation.watchPosition(
+      pos => showMe(pos.coords.latitude, pos.coords.longitude, pos.coords.accuracy),
+      err => console.warn('Geolocation error:', err.message),
+      { enableHighAccuracy: true, maximumAge: 30000, timeout: 15000 }
+    );
   }
 })();
 </script>
