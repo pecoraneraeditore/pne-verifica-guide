@@ -30,7 +30,7 @@ jobs:
           python mappa/genera_mappa.py data/Roma_2027.xlsx \
             --out docs/data/roma.json \
             --cache mappa/geocode_cache.json \
-            --citta-default Roma
+            --citta-default Roma \
              --regione Lazio
 
       - name: Commit & push aggiornamenti mappa
