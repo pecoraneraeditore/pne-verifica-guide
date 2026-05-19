@@ -1,8 +1,7 @@
 name: Aggiorna solo Mappa
 
-# Workflow manuale: rigenera solo i dati della mappa, senza rifare la verifica.
-# Scarica i file master direttamente da Dropbox prima di processarli, così la
-# mappa rispecchia sempre l'ultima versione del file in Dropbox.
+# Workflow manuale: rigenera i dati delle 3 mappe (Roma + Milano + Torino),
+# senza rifare la verifica. Scarica i master direttamente da Dropbox.
 on:
   workflow_dispatch:
 
@@ -12,8 +11,7 @@ permissions:
 jobs:
   aggiorna-mappa:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-
+    timeout-minutes: 30
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,21 +27,22 @@ jobs:
       - name: Scarica master xlsx freschi da Dropbox
         run: python mappa/fetch_masters.py
 
-      - name: Rigenera dati mappa (Roma)
-        run: |
-          python mappa/genera_mappa.py Roma_2027.xlsx \
-            --out docs/data/roma.json \
-            --cache mappa/geocode_cache.json \
-            --citta-default Roma \
-            --regione Lazio
+      - name: Rigenera dati mappa Roma
+        run: python mappa/genera_mappa.py Roma_2027.xlsx --out docs/data/roma.json --cache mappa/geocode_cache.json --citta-default Roma --regione Lazio
+
+      - name: Rigenera dati mappa Milano
+        if: hashFiles('Milano_2027.xlsx') != ''
+        run: python mappa/genera_mappa.py Milano_2027.xlsx --out docs/data/milano.json --cache mappa/geocode_cache.json --citta-default Milano --regione Lombardia
+
+      - name: Rigenera dati mappa Torino
+        if: hashFiles('Torino_2027.xlsx') != ''
+        run: python mappa/genera_mappa.py Torino_2027.xlsx --out docs/data/torino.json --cache mappa/geocode_cache.json --citta-default Torino --regione Piemonte
 
       - name: Commit & push aggiornamenti mappa
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Includo anche Roma_2027.xlsx nel commit: se è cambiato dall'ultima
-          # volta che Dropbox è stato sincronizzato, lo allinea al repo.
-          git add Roma_2027.xlsx docs/data/*.json mappa/geocode_cache.json
+          git add Roma_2027.xlsx Milano_2027.xlsx Torino_2027.xlsx docs/data/*.json mappa/geocode_cache.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nessun cambiamento."
           else
