@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T13:29:38+00:00",
+  "generated_at": "2026-05-19T13:33:16+00:00",
   "source_file": "Roma_2027.xlsx",
   "citta_default": "Roma",
   "regione": "Lazio",
@@ -49,6 +49,7 @@
       "lat": 41.9086556,
       "lon": 12.4755908,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -62,6 +63,7 @@
       "lat": 41.964702,
       "lon": 12.7991913,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -75,6 +77,7 @@
       "lat": 41.914043,
       "lon": 12.4730678,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -88,6 +91,7 @@
       "lat": 42.2415569,
       "lon": 12.3462711,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -101,6 +105,7 @@
       "lat": 41.9176952,
       "lon": 12.4697377,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -114,6 +119,7 @@
       "lat": 41.8905107,
       "lon": 12.4691856,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -127,6 +133,7 @@
       "lat": 41.8980103,
       "lon": 12.4756545,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -140,6 +147,7 @@
       "lat": 41.9015324,
       "lon": 12.4725158,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -153,6 +161,7 @@
       "lat": 41.897822,
       "lon": 12.467496,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -166,6 +175,7 @@
       "lat": 41.7504015,
       "lon": 12.2675406,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -179,6 +189,7 @@
       "lat": 42.8215503,
       "lon": 11.8692216,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -192,6 +203,7 @@
       "lat": 41.9188764,
       "lon": 12.446681,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -202,10 +214,11 @@
       "citta": "Rivodutri",
       "recensore": "",
       "categoria": "per_editori",
-      "lat": 42.516434,
-      "lon": 12.854977,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 42.498441707211114,
+      "lon": 12.849190594785567,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "L'Osteria dell'Orologio",
@@ -218,6 +231,7 @@
       "lat": 41.7715488,
       "lon": 12.2304588,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -231,6 +245,7 @@
       "lat": 41.410182,
       "lon": 13.0430945,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -244,6 +259,7 @@
       "lat": 41.9051156,
       "lon": 12.4898888,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -257,6 +273,7 @@
       "lat": 41.8929667,
       "lon": 12.473735,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -270,6 +287,7 @@
       "lat": 41.9076745,
       "lon": 12.4909947,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -283,6 +301,7 @@
       "lat": 41.7708257,
       "lon": 12.2314523,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -296,6 +315,7 @@
       "lat": 41.8973101,
       "lon": 12.4675414,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -309,6 +329,7 @@
       "lat": 41.8993964,
       "lon": 12.4666817,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -322,6 +343,7 @@
       "lat": 41.9085511,
       "lon": 12.4647506,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -335,6 +357,7 @@
       "lat": 41.3581167,
       "lon": 13.4294319,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -345,10 +368,11 @@
       "citta": "Latina",
       "recensore": "menù \"piccolo\"",
       "categoria": "riservato",
-      "lat": 41.4595261,
-      "lon": 13.0125912,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.51116783711071,
+      "lon": 12.741851017737611,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Zia Restaurant",
@@ -361,6 +385,7 @@
       "lat": 41.8868681,
       "lon": 12.4682418,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -374,6 +399,7 @@
       "lat": 41.9179818,
       "lon": 12.461342,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -387,6 +413,7 @@
       "lat": 41.9153744,
       "lon": 12.4682182,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -400,6 +427,7 @@
       "lat": 41.8968509,
       "lon": 12.4952916,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -413,6 +441,7 @@
       "lat": 41.8835934,
       "lon": 12.5136174,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -426,6 +455,7 @@
       "lat": 41.9302671,
       "lon": 12.4661536,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -439,6 +469,7 @@
       "lat": 41.2191799,
       "lon": 13.5695636,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -452,6 +483,7 @@
       "lat": 41.8940204,
       "lon": 12.476208,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -465,6 +497,7 @@
       "lat": 41.8783578,
       "lon": 12.5263956,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -478,6 +511,7 @@
       "lat": 41.906771,
       "lon": 12.4695253,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -491,6 +525,7 @@
       "lat": 42.0020256,
       "lon": 12.4862011,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -504,6 +539,7 @@
       "lat": 41.8080551,
       "lon": 12.6821991,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -517,6 +553,7 @@
       "lat": 41.8867466,
       "lon": 12.4735621,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -530,6 +567,7 @@
       "lat": 41.8933203,
       "lon": 12.4829321,
       "approssimato": true,
+      "manuale": false,
       "geocoded_at": "2026-05-19"
     },
     {
@@ -543,6 +581,7 @@
       "lat": 41.8760818,
       "lon": 12.5093199,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -556,6 +595,7 @@
       "lat": 41.8101144,
       "lon": 12.6791207,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -569,6 +609,7 @@
       "lat": 41.8797144,
       "lon": 12.5098436,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -582,6 +623,7 @@
       "lat": 41.8937195,
       "lon": 12.489126,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -595,6 +637,7 @@
       "lat": 41.9184476,
       "lon": 12.4568923,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -608,6 +651,7 @@
       "lat": 42.0936173,
       "lon": 11.7914145,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -621,6 +665,7 @@
       "lat": 41.7843821,
       "lon": 12.3920121,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -634,6 +679,7 @@
       "lat": 41.859739,
       "lon": 12.2053237,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -647,6 +693,7 @@
       "lat": 41.9059117,
       "lon": 12.4756255,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -660,6 +707,7 @@
       "lat": 41.9360492,
       "lon": 12.4183103,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -673,6 +721,7 @@
       "lat": 41.8968095,
       "lon": 12.4768677,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -683,10 +732,11 @@
       "citta": "Arpino",
       "recensore": "menù degustazione \"La Perla\"",
       "categoria": "da_fare",
-      "lat": 41.6479826,
-      "lon": 13.6101414,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.668130127692955,
+      "lon": 13.606285625808828,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "La Tana dei Carbonari",
@@ -696,10 +746,11 @@
       "citta": "Roccagorga",
       "recensore": "antipasto, primo, secondo, dolce",
       "categoria": "da_fare",
-      "lat": 41.5253154,
-      "lon": 13.1559249,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.52541475846666,
+      "lon": 13.154755650341361,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Locanda Altobelli",
@@ -712,6 +763,7 @@
       "lat": 41.2905595,
       "lon": 13.2504122,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -725,6 +777,7 @@
       "lat": 41.9444897,
       "lon": 12.5152308,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -735,10 +788,11 @@
       "citta": "Fiumicino",
       "recensore": "",
       "categoria": "per_editori",
-      "lat": 41.7715325,
-      "lon": 12.2216435,
+      "lat": 41.77138359115486,
+      "lon": 12.229620634749661,
       "approssimato": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Metis",
@@ -751,6 +805,7 @@
       "lat": 41.7966684,
       "lon": 12.4312411,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -764,6 +819,7 @@
       "lat": 41.869993,
       "lon": 12.5169602,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -777,6 +833,7 @@
       "lat": 42.0723893,
       "lon": 12.3912052,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -790,6 +847,7 @@
       "lat": 41.9628631,
       "lon": 12.7977685,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -803,6 +861,7 @@
       "lat": 41.7304308,
       "lon": 12.2794357,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -816,6 +875,7 @@
       "lat": 41.7720108,
       "lon": 12.6470839,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -829,6 +889,7 @@
       "lat": 41.9019065,
       "lon": 12.4753023,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -842,6 +903,7 @@
       "lat": 41.937298,
       "lon": 12.5306123,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -855,6 +917,7 @@
       "lat": 41.8927777,
       "lon": 12.4729362,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -868,6 +931,7 @@
       "lat": 42.4089781,
       "lon": 12.7655079,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -881,6 +945,7 @@
       "lat": 41.9432558,
       "lon": 12.473098,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -894,6 +959,7 @@
       "lat": 41.7234594,
       "lon": 12.6823662,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -907,6 +973,7 @@
       "lat": 41.7754232,
       "lon": 12.9237811,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -920,6 +987,7 @@
       "lat": 41.8621873,
       "lon": 12.4931344,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -933,6 +1001,7 @@
       "lat": 41.7455408,
       "lon": 12.6505209,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -946,6 +1015,7 @@
       "lat": 41.9115836,
       "lon": 12.5197138,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -959,6 +1029,7 @@
       "lat": 41.8704805,
       "lon": 12.4844844,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -972,6 +1043,7 @@
       "lat": 41.8893003,
       "lon": 12.5693,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -985,6 +1057,7 @@
       "lat": 41.6065839,
       "lon": 12.4779935,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -995,10 +1068,11 @@
       "citta": "Ponza",
       "recensore": "primo, secondo e dolce (o antipasto)",
       "categoria": "da_fare",
-      "lat": 40.8932368,
-      "lon": 12.9630622,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 40.895192392463066,
+      "lon": 12.967058864523024,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Ai Due Otri",
@@ -1011,6 +1085,7 @@
       "lat": 41.9494486,
       "lon": 12.4697967,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1024,6 +1099,7 @@
       "lat": 41.9251982,
       "lon": 12.4972009,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1037,6 +1113,7 @@
       "lat": 41.8308503,
       "lon": 13.146399,
       "approssimato": true,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1050,6 +1127,7 @@
       "lat": 41.8930533,
       "lon": 12.488019,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1063,6 +1141,7 @@
       "lat": 42.1444015,
       "lon": 12.3762328,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1076,6 +1155,7 @@
       "lat": 41.8990297,
       "lon": 12.4762368,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-19"
     },
     {
@@ -1089,6 +1169,7 @@
       "lat": 41.8789508,
       "lon": 12.483181,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1102,6 +1183,7 @@
       "lat": 41.9003672,
       "lon": 12.4823634,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1115,6 +1197,7 @@
       "lat": 41.8774704,
       "lon": 12.2154404,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1125,10 +1208,11 @@
       "citta": "Terminillo",
       "recensore": "",
       "categoria": "fatto",
-      "lat": 42.4733035,
-      "lon": 12.9973605,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 42.45690899942159,
+      "lon": 12.978489249161939,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Buccia",
@@ -1141,6 +1225,7 @@
       "lat": 41.3858071,
       "lon": 12.9553725,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1154,6 +1239,7 @@
       "lat": 41.8308503,
       "lon": 13.146399,
       "approssimato": true,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1164,10 +1250,11 @@
       "citta": "Anguillara Sabazia",
       "recensore": "primo, secondo e dolce (o antipasto)",
       "categoria": "riservato",
-      "lat": 42.0837101,
-      "lon": 12.2830132,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 42.09074687985093,
+      "lon": 12.262343120947389,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Chinappi",
@@ -1180,6 +1267,7 @@
       "lat": 41.9099027,
       "lon": 12.4987236,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1193,6 +1281,7 @@
       "lat": 41.9166098,
       "lon": 13.1002217,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1206,6 +1295,7 @@
       "lat": 42.414455,
       "lon": 12.1065082,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1219,6 +1309,7 @@
       "lat": 41.3612998,
       "lon": 13.4235619,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1232,6 +1323,7 @@
       "lat": 41.8512046,
       "lon": 12.483984,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1242,10 +1334,11 @@
       "citta": "Cori",
       "recensore": "antipasto, primo, secondo, dolce",
       "categoria": "da_fare",
-      "lat": 41.6431038,
-      "lon": 12.9158514,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.639568304291025,
+      "lon": 12.914128534051267,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Divina Giulia",
@@ -1258,6 +1351,7 @@
       "lat": 41.3609098,
       "lon": 13.4335587,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1271,6 +1365,7 @@
       "lat": 41.8700249,
       "lon": 12.4433508,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1284,6 +1379,7 @@
       "lat": 41.8915901,
       "lon": 12.5096849,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1297,6 +1393,7 @@
       "lat": 42.002945,
       "lon": 12.4997768,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1310,6 +1407,7 @@
       "lat": 42.3809529,
       "lon": 12.2336313,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1323,6 +1421,7 @@
       "lat": 42.520349,
       "lon": 12.143497,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1333,10 +1432,11 @@
       "citta": "Ventotene",
       "recensore": "primo, secondo e dolce (o antipasto)",
       "categoria": "da_fare",
-      "lat": 40.796002,
-      "lon": 13.431213,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 40.79678482724941,
+      "lon": 13.431396627622997,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Il Grecale",
@@ -1349,6 +1449,7 @@
       "lat": 41.4485513,
       "lon": 12.6311406,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1362,6 +1463,7 @@
       "lat": 41.5916592,
       "lon": 12.6547679,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1375,6 +1477,7 @@
       "lat": 41.8099049,
       "lon": 12.6788841,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1388,6 +1491,7 @@
       "lat": 41.8781912,
       "lon": 12.5639629,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1401,6 +1505,7 @@
       "lat": 41.8622156,
       "lon": 12.1873593,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1414,6 +1519,7 @@
       "lat": 41.6566547,
       "lon": 13.0433907,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1427,6 +1533,7 @@
       "lat": 41.731334,
       "lon": 12.6597635,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1440,6 +1547,7 @@
       "lat": 41.9004533,
       "lon": 12.1575633,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1453,6 +1561,7 @@
       "lat": 41.4666795,
       "lon": 12.9967697,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1463,10 +1572,11 @@
       "citta": "Orte",
       "recensore": "1 antipasto (no taglieri e bruschette, verificare se quello della casa contiene cose cucinate, in caso prenderlo, altrimenti sostituirlo con un altro primo), 1 primo, 1 secondo e 1 dolce",
       "categoria": "riservato",
-      "lat": 42.4605984,
-      "lon": 12.3856056,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 42.47050614347387,
+      "lon": 12.359566954675824,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "La Palazzina",
@@ -1479,6 +1589,7 @@
       "lat": 41.8289054,
       "lon": 12.7913013,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1492,6 +1603,7 @@
       "lat": 41.8945524,
       "lon": 12.471689,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1502,10 +1614,11 @@
       "citta": "Montopoli di Sabina",
       "recensore": "",
       "categoria": "fatto",
-      "lat": 42.245927,
-      "lon": 12.692077,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 42.24496578825659,
+      "lon": 12.692992578950797,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "La Villetta",
@@ -1518,6 +1631,7 @@
       "lat": 41.252307,
       "lon": 13.6754676,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1531,6 +1645,7 @@
       "lat": 41.9655415,
       "lon": 12.7994619,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1541,10 +1656,11 @@
       "citta": "Campodimele",
       "recensore": "primo, secondo e dolce (o antipasto)",
       "categoria": "da_fare",
-      "lat": 41.3904463,
-      "lon": 13.5303355,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.39343717130358,
+      "lon": 13.520841403709602,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Locanda Dorica",
@@ -1557,6 +1673,7 @@
       "lat": 41.6894371,
       "lon": 12.779374,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1570,6 +1687,7 @@
       "lat": 41.8311026,
       "lon": 12.5222979,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1583,6 +1701,7 @@
       "lat": 41.2884008,
       "lon": 13.2519745,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1596,6 +1715,7 @@
       "lat": 42.4160906,
       "lon": 13.0790018,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1609,6 +1729,7 @@
       "lat": 41.8298381,
       "lon": 12.9722316,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1622,6 +1743,7 @@
       "lat": 41.936988,
       "lon": 12.5157684,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1635,6 +1757,7 @@
       "lat": 41.9114585,
       "lon": 12.5185434,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1648,6 +1771,7 @@
       "lat": 41.7889247,
       "lon": 12.6685653,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1661,6 +1785,7 @@
       "lat": 41.2875146,
       "lon": 13.2593771,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1674,6 +1799,7 @@
       "lat": 41.8963152,
       "lon": 12.5131709,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1687,6 +1813,7 @@
       "lat": 41.8890095,
       "lon": 12.5640419,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1700,6 +1827,7 @@
       "lat": 41.2586717,
       "lon": 13.6130068,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1713,6 +1841,7 @@
       "lat": 41.8895687,
       "lon": 12.5250677,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1726,6 +1855,7 @@
       "lat": 42.0307527,
       "lon": 11.8436804,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1739,6 +1869,7 @@
       "lat": 41.8495679,
       "lon": 12.4884847,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1752,6 +1883,7 @@
       "lat": 41.9256004,
       "lon": 12.6300345,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1765,6 +1897,7 @@
       "lat": 41.2567001,
       "lon": 13.4361598,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1778,6 +1911,7 @@
       "lat": 42.250612,
       "lon": 11.7554054,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1791,6 +1925,7 @@
       "lat": 41.8992295,
       "lon": 12.5192941,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1804,6 +1939,7 @@
       "lat": 41.8752006,
       "lon": 12.5111125,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1817,6 +1953,7 @@
       "lat": 41.8354011,
       "lon": 12.7686989,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1830,6 +1967,7 @@
       "lat": 41.3806561,
       "lon": 13.744654,
       "approssimato": true,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1840,10 +1978,11 @@
       "citta": "Cesano",
       "recensore": "antipasto, primo, secondo, dolce",
       "categoria": "riservato",
-      "lat": 42.0776348,
-      "lon": 12.3419109,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 42.08197413933925,
+      "lon": 12.34996953999624,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Osteria del Tempo Perso",
@@ -1853,10 +1992,11 @@
       "citta": "Casalvieri",
       "recensore": "primo, secondo e dolce (o antipasto)",
       "categoria": "da_fare",
-      "lat": 41.6314023,
-      "lon": 13.7129928,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.63148771384029,
+      "lon": 13.713537624096158,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Osteria di Maccarese",
@@ -1869,6 +2009,7 @@
       "lat": 41.8774704,
       "lon": 12.2154404,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1882,6 +2023,7 @@
       "lat": 41.9735465,
       "lon": 12.8333459,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1895,6 +2037,7 @@
       "lat": 41.8079277,
       "lon": 12.4332401,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1908,6 +2051,7 @@
       "lat": 41.6403468,
       "lon": 13.3501411,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1921,6 +2065,7 @@
       "lat": 41.8895874,
       "lon": 12.5249827,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1934,6 +2079,7 @@
       "lat": 41.9494132,
       "lon": 12.5625431,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1947,6 +2093,7 @@
       "lat": 41.8796141,
       "lon": 12.4667079,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1960,6 +2107,7 @@
       "lat": 41.7882906,
       "lon": 12.6667387,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1973,6 +2121,7 @@
       "lat": 41.8098182,
       "lon": 12.6807803,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -1983,10 +2132,11 @@
       "citta": "Magliano Sabina",
       "recensore": "primo, secondo e dolce (o antipasto)",
       "categoria": "fatto",
-      "lat": 42.3613571,
-      "lon": 12.4811695,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 42.38615019515154,
+      "lon": 12.495906231519927,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Santuccio ai Colli",
@@ -1999,6 +2149,7 @@
       "lat": 41.5005439,
       "lon": 13.093641,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2012,6 +2163,7 @@
       "lat": 42.4177265,
       "lon": 12.106086,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2025,6 +2177,7 @@
       "lat": 41.9451563,
       "lon": 12.528092,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2038,6 +2191,7 @@
       "lat": 41.8596327,
       "lon": 13.0339563,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2051,6 +2205,7 @@
       "lat": 41.8983474,
       "lon": 12.5186866,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2064,6 +2219,7 @@
       "lat": 41.8261146,
       "lon": 12.4746668,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2077,6 +2233,7 @@
       "lat": 41.8686993,
       "lon": 12.4492541,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2090,6 +2247,7 @@
       "lat": 42.0610517,
       "lon": 12.5871022,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2103,6 +2261,7 @@
       "lat": 41.285121,
       "lon": 13.1912278,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2116,6 +2275,7 @@
       "lat": 41.4976365,
       "lon": 12.6319101,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2129,6 +2289,7 @@
       "lat": 41.2896903,
       "lon": 13.2532093,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2142,6 +2303,7 @@
       "lat": 41.4569926,
       "lon": 12.6583099,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2155,6 +2317,7 @@
       "lat": 41.8980948,
       "lon": 12.4901504,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2168,6 +2331,7 @@
       "lat": 41.8908353,
       "lon": 12.4679786,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2181,6 +2345,7 @@
       "lat": 41.8943902,
       "lon": 12.4738258,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2194,6 +2359,7 @@
       "lat": 41.4929307,
       "lon": 13.829248,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2207,6 +2373,7 @@
       "lat": 41.8768509,
       "lon": 12.4407734,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2220,6 +2387,7 @@
       "lat": 41.8920456,
       "lon": 12.5053195,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2233,6 +2401,7 @@
       "lat": 41.8880864,
       "lon": 12.477807,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2246,6 +2415,7 @@
       "lat": 41.8785014,
       "lon": 12.4774658,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2259,6 +2429,7 @@
       "lat": 41.9094116,
       "lon": 12.4639905,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2272,6 +2443,7 @@
       "lat": 41.8749069,
       "lon": 12.4765142,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2285,6 +2457,7 @@
       "lat": 41.8962865,
       "lon": 12.4722326,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2295,10 +2468,11 @@
       "citta": "Lubriano",
       "recensore": "antipasto, primo, secondo, dolce",
       "categoria": "fatto",
-      "lat": 42.636231,
-      "lon": 12.108759,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 42.63589349730473,
+      "lon": 12.10927651128648,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Iotto",
@@ -2311,6 +2485,7 @@
       "lat": 42.1403399,
       "lon": 12.3826881,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2324,6 +2499,7 @@
       "lat": 41.7874014,
       "lon": 12.6671162,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2337,6 +2513,7 @@
       "lat": 41.8740974,
       "lon": 12.4686308,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2350,6 +2527,7 @@
       "lat": 41.9448193,
       "lon": 12.522165,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2363,6 +2541,7 @@
       "lat": 41.8550242,
       "lon": 12.5642423,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2376,6 +2555,7 @@
       "lat": 41.788862,
       "lon": 13.1699594,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2389,6 +2569,7 @@
       "lat": 41.8765276,
       "lon": 12.5463148,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2402,6 +2583,7 @@
       "lat": 41.8705316,
       "lon": 12.5332283,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2415,6 +2597,7 @@
       "lat": 41.8308503,
       "lon": 13.146399,
       "approssimato": true,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2428,6 +2611,7 @@
       "lat": 41.8744581,
       "lon": 12.4800483,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2441,6 +2625,7 @@
       "lat": 41.8793504,
       "lon": 12.4758599,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2454,6 +2639,7 @@
       "lat": 41.9022406,
       "lon": 12.4772636,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2467,6 +2653,7 @@
       "lat": 41.8868104,
       "lon": 12.4678148,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2480,6 +2667,7 @@
       "lat": 41.894096,
       "lon": 12.472305,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2493,6 +2681,7 @@
       "lat": 41.8814323,
       "lon": 12.5014324,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2506,6 +2695,7 @@
       "lat": 41.8864179,
       "lon": 12.5749516,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2519,6 +2709,7 @@
       "lat": 42.3269442,
       "lon": 12.2391443,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2532,6 +2723,7 @@
       "lat": 41.8534038,
       "lon": 12.4867121,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2545,6 +2737,7 @@
       "lat": 41.8615289,
       "lon": 12.4552242,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2558,6 +2751,7 @@
       "lat": 41.9282157,
       "lon": 12.4739559,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2571,6 +2765,7 @@
       "lat": 41.9076072,
       "lon": 12.4875311,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2584,6 +2779,7 @@
       "lat": 41.9123668,
       "lon": 12.4972836,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2597,6 +2793,7 @@
       "lat": 41.8975889,
       "lon": 12.4791602,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2610,6 +2807,7 @@
       "lat": 41.895422,
       "lon": 12.4904981,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2623,6 +2821,7 @@
       "lat": 41.9122078,
       "lon": 12.502946,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2636,6 +2835,7 @@
       "lat": 41.9068379,
       "lon": 12.4449617,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2649,6 +2849,7 @@
       "lat": 41.9086322,
       "lon": 12.490352,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2662,6 +2863,7 @@
       "lat": 41.8874666,
       "lon": 12.4771441,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2675,6 +2877,7 @@
       "lat": 41.8811488,
       "lon": 12.4847946,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2688,6 +2891,7 @@
       "lat": 41.9161556,
       "lon": 12.4986442,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2701,6 +2905,7 @@
       "lat": 41.8639761,
       "lon": 12.4784383,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2714,6 +2919,7 @@
       "lat": 41.8706649,
       "lon": 12.5263374,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2727,6 +2933,7 @@
       "lat": 41.9021686,
       "lon": 12.4940213,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2740,6 +2947,7 @@
       "lat": 41.7275311,
       "lon": 12.3721577,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2753,6 +2961,7 @@
       "lat": 41.8921219,
       "lon": 12.5345071,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2766,6 +2975,7 @@
       "lat": 41.7949282,
       "lon": 12.4258003,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2779,6 +2989,7 @@
       "lat": 41.8931006,
       "lon": 12.4736895,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2792,6 +3003,7 @@
       "lat": 41.8718567,
       "lon": 12.4790953,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2805,6 +3017,7 @@
       "lat": 41.8546489,
       "lon": 12.4718709,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2818,6 +3031,7 @@
       "lat": 41.9086879,
       "lon": 12.4705911,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2831,6 +3045,7 @@
       "lat": 41.8750844,
       "lon": 12.4793601,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2844,6 +3059,7 @@
       "lat": 41.8680037,
       "lon": 12.5268516,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2857,6 +3073,7 @@
       "lat": 41.8939283,
       "lon": 12.550347,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2870,6 +3087,7 @@
       "lat": 41.8912049,
       "lon": 12.5529631,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2883,6 +3101,7 @@
       "lat": 41.8749586,
       "lon": 12.5411903,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2896,6 +3115,7 @@
       "lat": 41.7894595,
       "lon": 12.4371481,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2909,6 +3129,7 @@
       "lat": 41.8351064,
       "lon": 12.5522391,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2922,6 +3143,7 @@
       "lat": 41.9280411,
       "lon": 12.4623207,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2935,6 +3157,7 @@
       "lat": 41.8785849,
       "lon": 12.4829522,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2948,6 +3171,7 @@
       "lat": 41.9123674,
       "lon": 12.5012553,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2961,6 +3185,7 @@
       "lat": 41.8931171,
       "lon": 12.5183989,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2974,6 +3199,7 @@
       "lat": 41.8748628,
       "lon": 12.4690891,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2987,6 +3213,7 @@
       "lat": 41.9008477,
       "lon": 12.4760601,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -2997,10 +3224,11 @@
       "citta": "Fiumicino",
       "recensore": "1 fritto, 1 pizza classica, 1 gourmet, 1 dolce",
       "categoria": "riservato",
-      "lat": 41.7715325,
-      "lon": 12.2216435,
+      "lat": 41.77138755806573,
+      "lon": 12.228188973513207,
       "approssimato": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Crunch!",
@@ -3013,6 +3241,7 @@
       "lat": 41.9463174,
       "lon": 12.5560308,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3026,6 +3255,7 @@
       "lat": 41.8687807,
       "lon": 12.5699438,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3039,6 +3269,7 @@
       "lat": 41.9585754,
       "lon": 12.5845757,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3052,6 +3283,7 @@
       "lat": 41.9214606,
       "lon": 12.5061614,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3065,6 +3297,7 @@
       "lat": 41.9277669,
       "lon": 12.5443412,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3078,6 +3311,7 @@
       "lat": 41.8962544,
       "lon": 12.514731,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3091,6 +3325,7 @@
       "lat": 41.8518128,
       "lon": 12.5591865,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3104,6 +3339,7 @@
       "lat": 41.4751387,
       "lon": 13.8438886,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3117,6 +3353,7 @@
       "lat": 41.8618732,
       "lon": 12.5617009,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3130,6 +3367,7 @@
       "lat": 41.8734945,
       "lon": 12.5261849,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3143,6 +3381,7 @@
       "lat": 41.843617,
       "lon": 12.4874153,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3156,6 +3395,7 @@
       "lat": 41.898131,
       "lon": 12.5152965,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3169,6 +3409,7 @@
       "lat": 41.897811,
       "lon": 12.5109739,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3182,6 +3423,7 @@
       "lat": 41.8757312,
       "lon": 12.4477152,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3195,6 +3437,7 @@
       "lat": 41.8918268,
       "lon": 12.469088,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3208,6 +3451,7 @@
       "lat": 41.8563483,
       "lon": 12.566153,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3221,6 +3465,7 @@
       "lat": 41.9155501,
       "lon": 12.4399828,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3234,6 +3479,7 @@
       "lat": 42.1587808,
       "lon": 12.5892582,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3247,6 +3493,7 @@
       "lat": 41.9067835,
       "lon": 12.6211243,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3260,6 +3507,7 @@
       "lat": 41.9013051,
       "lon": 12.4846318,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3273,6 +3521,7 @@
       "lat": 41.4717073,
       "lon": 13.1780824,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3286,6 +3535,7 @@
       "lat": 41.6394691,
       "lon": 13.3433719,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3299,6 +3549,7 @@
       "lat": 41.9512222,
       "lon": 12.5416026,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3312,6 +3563,7 @@
       "lat": 41.8445566,
       "lon": 12.4592823,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3325,6 +3577,7 @@
       "lat": 41.8796972,
       "lon": 12.4683992,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3338,6 +3591,7 @@
       "lat": 41.8719789,
       "lon": 12.470229,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3351,6 +3605,7 @@
       "lat": 41.9402652,
       "lon": 12.527367,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3364,6 +3619,7 @@
       "lat": 41.8092593,
       "lon": 12.4366542,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3377,6 +3633,7 @@
       "lat": 41.936088,
       "lon": 12.5288422,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3390,6 +3647,7 @@
       "lat": 41.909783,
       "lon": 12.4555997,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3403,6 +3661,7 @@
       "lat": 41.9084466,
       "lon": 12.4980594,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3416,6 +3675,7 @@
       "lat": 41.8970406,
       "lon": 12.4700202,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3429,6 +3689,7 @@
       "lat": 41.8711243,
       "lon": 12.4790491,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3442,6 +3703,7 @@
       "lat": 41.8561133,
       "lon": 12.5633715,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3452,10 +3714,11 @@
       "citta": "Roma",
       "recensore": "1 caffè, 1 cappuccino, 1 lievito",
       "categoria": "per_editori",
-      "lat": 41.9553984,
-      "lon": 12.4871875,
+      "lat": 41.94655573927396,
+      "lon": 12.473496611504828,
       "approssimato": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Casa Manfredi",
@@ -3468,6 +3731,7 @@
       "lat": 41.8817996,
       "lon": 12.4860202,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3481,6 +3745,7 @@
       "lat": 41.874473,
       "lon": 12.4793181,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3494,6 +3759,7 @@
       "lat": 41.9170258,
       "lon": 12.4592331,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3507,6 +3773,7 @@
       "lat": 41.8693631,
       "lon": 12.446614,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3520,6 +3787,7 @@
       "lat": 41.8974719,
       "lon": 12.5646579,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3533,6 +3801,7 @@
       "lat": 41.9102507,
       "lon": 12.4983822,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3546,6 +3815,7 @@
       "lat": 41.8911972,
       "lon": 12.5327448,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3559,6 +3829,7 @@
       "lat": 41.9221739,
       "lon": 12.4815149,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3572,6 +3843,7 @@
       "lat": 41.8924089,
       "lon": 12.5028616,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3585,6 +3857,7 @@
       "lat": 41.8813374,
       "lon": 12.4749672,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3598,6 +3871,7 @@
       "lat": 41.8860303,
       "lon": 12.5189942,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3611,6 +3885,7 @@
       "lat": 41.8859462,
       "lon": 12.4583109,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3624,6 +3899,7 @@
       "lat": 41.8122336,
       "lon": 12.485254,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3637,6 +3913,7 @@
       "lat": 41.7298309,
       "lon": 12.2778697,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3650,6 +3927,7 @@
       "lat": 41.9082449,
       "lon": 12.498536,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3663,6 +3941,7 @@
       "lat": 41.8292784,
       "lon": 12.488263,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3676,6 +3955,7 @@
       "lat": 41.9092161,
       "lon": 12.4520341,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3686,10 +3966,11 @@
       "citta": "Roma",
       "recensore": "1 caffè, 1 cappuccino, 1 lievito",
       "categoria": "riservato",
-      "lat": 41.9140533,
-      "lon": 12.4751105,
+      "lat": 41.91405522000567,
+      "lon": 12.47504955492014,
       "approssimato": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Nero Vaniglia",
@@ -3702,6 +3983,7 @@
       "lat": 41.8674507,
       "lon": 12.4899351,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3715,6 +3997,7 @@
       "lat": 41.8830326,
       "lon": 12.4585238,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3728,6 +4011,7 @@
       "lat": 41.8789156,
       "lon": 12.4787522,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3741,6 +4025,7 @@
       "lat": 41.8589912,
       "lon": 12.5024603,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3754,6 +4039,7 @@
       "lat": 41.9182779,
       "lon": 12.4643577,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3767,6 +4053,7 @@
       "lat": 41.8941529,
       "lon": 12.4744327,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3780,6 +4067,7 @@
       "lat": 41.9168234,
       "lon": 12.5005206,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3790,10 +4078,11 @@
       "citta": "Roma",
       "recensore": "1 caffè, 1 cappuccino, 1 lievito",
       "categoria": "da_finire",
-      "lat": 41.9553984,
-      "lon": 12.4871875,
+      "lat": 41.9142700552323,
+      "lon": 12.474733789090989,
       "approssimato": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Slow",
@@ -3806,6 +4095,7 @@
       "lat": 41.8993964,
       "lon": 12.4666817,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3819,6 +4109,7 @@
       "lat": 42.0536833,
       "lon": 12.3732976,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3832,6 +4123,7 @@
       "lat": 41.9053062,
       "lon": 12.4633687,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3845,6 +4137,7 @@
       "lat": 41.8827677,
       "lon": 12.4575412,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3858,6 +4151,7 @@
       "lat": 41.8968565,
       "lon": 12.4945281,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3871,6 +4165,7 @@
       "lat": 41.9069487,
       "lon": 12.4765204,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3884,6 +4179,7 @@
       "lat": 41.9093235,
       "lon": 12.4527349,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3897,6 +4193,7 @@
       "lat": 41.9104024,
       "lon": 12.6055527,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3910,6 +4207,7 @@
       "lat": 41.9021623,
       "lon": 12.4759646,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3923,6 +4221,7 @@
       "lat": 41.912273,
       "lon": 12.5182192,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3936,6 +4235,7 @@
       "lat": 41.9321228,
       "lon": 12.5345195,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3949,6 +4249,7 @@
       "lat": 41.9149687,
       "lon": 12.5026335,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3962,6 +4263,7 @@
       "lat": 41.9062951,
       "lon": 12.4729319,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3975,6 +4277,7 @@
       "lat": 41.890212,
       "lon": 12.4682894,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -3988,6 +4291,7 @@
       "lat": 41.9113081,
       "lon": 12.499471,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4001,6 +4305,7 @@
       "lat": 41.8835581,
       "lon": 12.5089461,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4014,6 +4319,7 @@
       "lat": 41.9031513,
       "lon": 12.4884949,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4027,6 +4333,7 @@
       "lat": 41.9145787,
       "lon": 12.4539049,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4040,6 +4347,7 @@
       "lat": 41.8775657,
       "lon": 12.4733496,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4053,6 +4361,7 @@
       "lat": 41.9112793,
       "lon": 12.5011855,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4066,6 +4375,7 @@
       "lat": 41.8924595,
       "lon": 12.5058266,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4079,6 +4389,7 @@
       "lat": 41.8779218,
       "lon": 12.4728716,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4092,6 +4403,7 @@
       "lat": 41.8987459,
       "lon": 12.4670695,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4105,6 +4417,7 @@
       "lat": 41.9060613,
       "lon": 12.4823225,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4118,6 +4431,7 @@
       "lat": 41.8968239,
       "lon": 12.4806459,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4131,6 +4445,7 @@
       "lat": 41.8818119,
       "lon": 12.5167172,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4144,6 +4459,7 @@
       "lat": 41.9105177,
       "lon": 12.4515874,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4157,6 +4473,7 @@
       "lat": 41.8960558,
       "lon": 12.4688074,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4170,6 +4487,7 @@
       "lat": 41.9045573,
       "lon": 12.4762509,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4183,6 +4501,7 @@
       "lat": 41.8729768,
       "lon": 12.5192952,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4196,6 +4515,7 @@
       "lat": 41.9188726,
       "lon": 12.4611762,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4209,6 +4529,7 @@
       "lat": 41.8991019,
       "lon": 12.5151633,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4222,6 +4543,7 @@
       "lat": 41.9160118,
       "lon": 12.5093944,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4235,6 +4557,7 @@
       "lat": 41.9071572,
       "lon": 12.477968,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4248,6 +4571,7 @@
       "lat": 41.7994074,
       "lon": 12.4226888,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4261,6 +4585,7 @@
       "lat": 41.8891672,
       "lon": 12.5264768,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4274,6 +4599,7 @@
       "lat": 41.9296039,
       "lon": 12.4859274,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4287,6 +4613,7 @@
       "lat": 41.8909999,
       "lon": 12.4688555,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4300,6 +4627,7 @@
       "lat": 41.8977958,
       "lon": 12.4673444,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4313,6 +4641,7 @@
       "lat": 41.8719789,
       "lon": 12.470229,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4326,6 +4655,7 @@
       "lat": 41.9309691,
       "lon": 12.5343297,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4336,10 +4666,11 @@
       "citta": "Roma",
       "recensore": "",
       "categoria": "da_fare",
-      "lat": 41.9553984,
-      "lon": 12.4871875,
+      "lat": 41.94512375144278,
+      "lon": 12.472919696984244,
       "approssimato": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Mostò",
@@ -4352,6 +4683,7 @@
       "lat": 41.9326245,
       "lon": 12.4664553,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4365,6 +4697,7 @@
       "lat": 41.8448211,
       "lon": 12.4818297,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4378,6 +4711,7 @@
       "lat": 41.8829015,
       "lon": 12.5099235,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4391,6 +4725,7 @@
       "lat": 41.92772,
       "lon": 12.4834806,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4404,6 +4739,7 @@
       "lat": 41.9103549,
       "lon": 12.5017264,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4417,6 +4753,7 @@
       "lat": 41.8833833,
       "lon": 12.5381602,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4430,6 +4767,7 @@
       "lat": 41.9064522,
       "lon": 12.4565357,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4443,6 +4781,7 @@
       "lat": 41.89519,
       "lon": 12.47501,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4456,6 +4795,7 @@
       "lat": 41.8872734,
       "lon": 12.4709453,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4469,6 +4809,7 @@
       "lat": 41.8729786,
       "lon": 12.5189847,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4482,6 +4823,7 @@
       "lat": 41.8796097,
       "lon": 12.5190142,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4495,6 +4837,7 @@
       "lat": 41.9058395,
       "lon": 12.4724184,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4508,6 +4851,7 @@
       "lat": 41.8624945,
       "lon": 12.4642028,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4521,6 +4865,7 @@
       "lat": 41.9117208,
       "lon": 12.4534237,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4534,6 +4879,7 @@
       "lat": 41.8629853,
       "lon": 12.4848306,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4547,6 +4893,7 @@
       "lat": 41.8850327,
       "lon": 12.46127,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4560,6 +4907,7 @@
       "lat": 41.79994,
       "lon": 12.4248671,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4573,6 +4921,7 @@
       "lat": 41.9140499,
       "lon": 12.4568725,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4586,6 +4935,7 @@
       "lat": 41.9200666,
       "lon": 12.4597165,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4599,6 +4949,7 @@
       "lat": 41.8733088,
       "lon": 12.5309427,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4612,6 +4963,7 @@
       "lat": 41.9103496,
       "lon": 12.4653827,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4625,6 +4977,7 @@
       "lat": 41.8935723,
       "lon": 12.4744376,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4638,6 +4991,7 @@
       "lat": 41.8615139,
       "lon": 12.5359105,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4651,6 +5005,7 @@
       "lat": 41.8418354,
       "lon": 12.5480983,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4664,6 +5019,7 @@
       "lat": 41.8661537,
       "lon": 12.5505976,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4677,6 +5033,7 @@
       "lat": 41.9060812,
       "lon": 12.4577624,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4690,6 +5047,7 @@
       "lat": 41.8824055,
       "lon": 12.4762217,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4700,10 +5058,11 @@
       "citta": "Roma",
       "recensore": "",
       "categoria": "non_recensibile",
-      "lat": 41.9553984,
-      "lon": 12.4871875,
+      "lat": 41.9397435293709,
+      "lon": 12.46968372581943,
       "approssimato": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Drink Kong",
@@ -4716,6 +5075,7 @@
       "lat": 41.8951436,
       "lon": 12.4978655,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4729,6 +5089,7 @@
       "lat": 41.8978467,
       "lon": 12.4679187,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4742,6 +5103,7 @@
       "lat": 41.9058911,
       "lon": 12.5353758,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4755,6 +5117,7 @@
       "lat": 41.9268687,
       "lon": 12.4618571,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4768,6 +5131,7 @@
       "lat": 41.9008303,
       "lon": 12.4762727,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4781,6 +5145,7 @@
       "lat": 41.8951436,
       "lon": 12.4978655,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4794,6 +5159,7 @@
       "lat": 41.9077765,
       "lon": 12.5364623,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4807,6 +5173,7 @@
       "lat": 41.9179222,
       "lon": 12.5059404,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4820,6 +5187,7 @@
       "lat": 41.9180753,
       "lon": 12.4612985,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4833,6 +5201,7 @@
       "lat": 41.9221152,
       "lon": 12.5020309,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4846,6 +5215,7 @@
       "lat": 41.8947794,
       "lon": 12.4736377,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4859,6 +5229,7 @@
       "lat": 41.8946474,
       "lon": 12.4742641,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4872,6 +5243,7 @@
       "lat": 41.9370683,
       "lon": 12.4375497,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4885,6 +5257,7 @@
       "lat": 41.9088979,
       "lon": 12.4483125,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4898,6 +5271,7 @@
       "lat": 41.9269074,
       "lon": 12.4805172,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4911,6 +5285,7 @@
       "lat": 41.8555561,
       "lon": 12.4718764,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4924,6 +5299,7 @@
       "lat": 41.8814382,
       "lon": 12.4857618,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4937,6 +5313,7 @@
       "lat": 41.8263558,
       "lon": 12.4773253,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4950,6 +5327,7 @@
       "lat": 41.9071234,
       "lon": 12.496046,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4963,6 +5341,7 @@
       "lat": 41.8662675,
       "lon": 12.4931374,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4976,6 +5355,7 @@
       "lat": 41.7728855,
       "lon": 12.3490379,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -4989,6 +5369,7 @@
       "lat": 41.8163635,
       "lon": 12.4618273,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5002,6 +5383,7 @@
       "lat": 41.9835682,
       "lon": 12.0531757,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5015,6 +5397,7 @@
       "lat": 41.8640002,
       "lon": 12.4665342,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5028,6 +5411,7 @@
       "lat": 41.980812,
       "lon": 12.5523295,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5041,6 +5425,7 @@
       "lat": 41.9225105,
       "lon": 12.4384932,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5051,9 +5436,10 @@
       "citta": "Roma",
       "recensore": "1 cono o 1 coppetta con tre gusti+panna",
       "categoria": "fatto",
-      "lat": 41.9553984,
-      "lon": 12.4871875,
+      "lat": 41.94568113790995,
+      "lon": 12.473223499943083,
       "approssimato": false,
+      "manuale": true,
       "geocoded_at": "2026-05-19"
     },
     {
@@ -5067,6 +5453,7 @@
       "lat": 41.9088526,
       "lon": 12.4542929,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5080,6 +5467,7 @@
       "lat": 41.8530871,
       "lon": 12.4769322,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5093,6 +5481,7 @@
       "lat": 41.9265509,
       "lon": 12.5104544,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5106,6 +5495,7 @@
       "lat": 41.906246,
       "lon": 12.4799079,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5119,6 +5509,7 @@
       "lat": 41.8956187,
       "lon": 12.4932453,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5132,6 +5523,7 @@
       "lat": 41.8947077,
       "lon": 12.4742642,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5145,6 +5537,7 @@
       "lat": 41.886502,
       "lon": 12.4691955,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5158,6 +5551,7 @@
       "lat": 41.8896071,
       "lon": 12.4726433,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5171,6 +5565,7 @@
       "lat": 41.8611374,
       "lon": 12.485479,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5184,6 +5579,7 @@
       "lat": 41.8994058,
       "lon": 12.5157397,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5197,6 +5593,7 @@
       "lat": 41.8828048,
       "lon": 12.5147151,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5210,6 +5607,7 @@
       "lat": 41.880186,
       "lon": 12.4760701,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5223,6 +5621,7 @@
       "lat": 41.8984333,
       "lon": 12.4539171,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5236,6 +5635,7 @@
       "lat": 41.8536526,
       "lon": 12.4373246,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5249,6 +5649,7 @@
       "lat": 41.923443,
       "lon": 12.5115701,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5262,6 +5663,7 @@
       "lat": 41.9114054,
       "lon": 12.520992,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5275,6 +5677,7 @@
       "lat": 41.9091879,
       "lon": 12.46687,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5288,6 +5691,7 @@
       "lat": 41.9096515,
       "lon": 12.4761148,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5301,6 +5705,7 @@
       "lat": 41.8479553,
       "lon": 12.48651,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5314,6 +5719,7 @@
       "lat": 41.8390621,
       "lon": 12.5060201,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5327,6 +5733,7 @@
       "lat": 41.9154185,
       "lon": 12.5755737,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5340,6 +5747,7 @@
       "lat": 41.8912445,
       "lon": 12.5599937,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5353,6 +5761,7 @@
       "lat": 41.9153119,
       "lon": 12.5213652,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5366,6 +5775,7 @@
       "lat": 41.8980092,
       "lon": 12.5355468,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5379,6 +5789,7 @@
       "lat": 41.8660136,
       "lon": 12.4715598,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5392,6 +5803,7 @@
       "lat": 41.8755766,
       "lon": 12.4660286,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5405,6 +5817,7 @@
       "lat": 41.9183909,
       "lon": 12.4640813,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5418,6 +5831,7 @@
       "lat": 41.9348733,
       "lon": 12.5361877,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5431,6 +5845,7 @@
       "lat": 41.8984472,
       "lon": 12.4753689,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5444,6 +5859,7 @@
       "lat": 41.8928952,
       "lon": 12.4716569,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5457,6 +5873,7 @@
       "lat": 41.9667391,
       "lon": 12.4458257,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5470,6 +5887,7 @@
       "lat": 41.9319781,
       "lon": 12.5120402,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5483,6 +5901,7 @@
       "lat": 41.8790195,
       "lon": 12.4622097,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5496,6 +5915,7 @@
       "lat": 41.8297913,
       "lon": 12.4738315,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5509,6 +5929,7 @@
       "lat": 41.9120324,
       "lon": 12.4495371,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5522,6 +5943,7 @@
       "lat": 41.9016068,
       "lon": 12.4755936,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5535,6 +5957,7 @@
       "lat": 41.9151728,
       "lon": 12.5101329,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5548,6 +5971,7 @@
       "lat": 41.9298052,
       "lon": 12.4651046,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5561,6 +5985,7 @@
       "lat": 41.9072712,
       "lon": 12.4707362,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5574,6 +5999,7 @@
       "lat": 41.9084582,
       "lon": 12.4888035,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5587,6 +6013,7 @@
       "lat": 41.897541,
       "lon": 12.4677892,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5600,6 +6027,7 @@
       "lat": 41.8647605,
       "lon": 12.4850008,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5613,6 +6041,7 @@
       "lat": 41.9069048,
       "lon": 12.4675379,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5626,6 +6055,7 @@
       "lat": 41.8881739,
       "lon": 12.4704635,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5639,6 +6069,7 @@
       "lat": 41.8676838,
       "lon": 12.4462186,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5652,6 +6083,7 @@
       "lat": 41.9199008,
       "lon": 12.4588173,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5665,6 +6097,7 @@
       "lat": 41.9076293,
       "lon": 12.4977726,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5678,6 +6111,7 @@
       "lat": 41.8789781,
       "lon": 12.4513837,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5691,6 +6125,7 @@
       "lat": 41.8751472,
       "lon": 12.5272144,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5704,6 +6139,7 @@
       "lat": 41.9066975,
       "lon": 12.4466606,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5717,6 +6153,7 @@
       "lat": 41.8549489,
       "lon": 12.5646436,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5730,6 +6167,7 @@
       "lat": 41.8774745,
       "lon": 12.4579048,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5743,6 +6181,7 @@
       "lat": 41.9007916,
       "lon": 12.438082,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5756,6 +6195,7 @@
       "lat": 41.8827058,
       "lon": 12.486481,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5769,6 +6209,7 @@
       "lat": 41.8988847,
       "lon": 12.4751923,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5782,6 +6223,7 @@
       "lat": 41.9059117,
       "lon": 12.4756255,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5795,6 +6237,7 @@
       "lat": 41.9180577,
       "lon": 12.4619549,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5808,6 +6251,7 @@
       "lat": 41.8313259,
       "lon": 12.4674959,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5821,6 +6265,7 @@
       "lat": 41.9074984,
       "lon": 12.4716874,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5831,10 +6276,11 @@
       "citta": "Fiumicino",
       "recensore": "2 tranci di pizza piccoli (obbligatorio la margherita) + 1 fritto caratteristico",
       "categoria": "riservato",
-      "lat": 41.7715325,
-      "lon": 12.2216435,
+      "lat": 41.77134406682577,
+      "lon": 12.229144156450465,
       "approssimato": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Sancho",
@@ -5847,6 +6293,7 @@
       "lat": 41.910033,
       "lon": 12.5194183,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5860,6 +6307,7 @@
       "lat": 41.910064,
       "lon": 12.4534628,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5873,6 +6321,7 @@
       "lat": 41.8646919,
       "lon": 12.4721857,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5886,6 +6335,7 @@
       "lat": 41.7439817,
       "lon": 12.3752517,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5899,6 +6349,7 @@
       "lat": 41.9256241,
       "lon": 12.4872084,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5912,6 +6363,7 @@
       "lat": 41.674416,
       "lon": 12.6975314,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5925,6 +6377,7 @@
       "lat": 41.9095676,
       "lon": 12.5215491,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5938,6 +6391,7 @@
       "lat": 41.8796965,
       "lon": 12.4737866,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5951,6 +6405,7 @@
       "lat": 41.9372169,
       "lon": 12.4656534,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5964,6 +6419,7 @@
       "lat": 41.8914619,
       "lon": 12.4699126,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5977,6 +6433,7 @@
       "lat": 41.8962544,
       "lon": 12.514731,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     },
     {
@@ -5990,6 +6447,7 @@
       "lat": 41.8955169,
       "lon": 12.4934923,
       "approssimato": false,
+      "manuale": false,
       "geocoded_at": "2026-05-18"
     }
   ],
@@ -5997,9 +6455,11 @@
   "stats": {
     "totale_letti": 458,
     "con_coordinate": 458,
-    "approssimati": 21,
-    "precisi": 437,
+    "manuali": 25,
+    "approssimati": 5,
+    "precisi": 428,
     "falliti": 0,
-    "con_recensore": 349
+    "con_recensore": 349,
+    "colonna_gps": 9
   }
 }
