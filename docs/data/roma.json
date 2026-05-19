@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T13:33:16+00:00",
+  "generated_at": "2026-05-19T13:46:37+00:00",
   "source_file": "Roma_2027.xlsx",
   "citta_default": "Roma",
   "regione": "Lazio",
@@ -564,10 +564,10 @@
       "citta": "Roma",
       "recensore": "primo, secondo e dolce (o antipasto)",
       "categoria": "riservato",
-      "lat": 41.8933203,
-      "lon": 12.4829321,
-      "approssimato": true,
-      "manuale": false,
+      "lat": 41.8944379009184,
+      "lon": 12.493778041993513,
+      "approssimato": false,
+      "manuale": true,
       "geocoded_at": "2026-05-19"
     },
     {
@@ -2748,11 +2748,11 @@
       "citta": "Roma",
       "recensore": "",
       "categoria": "fatto",
-      "lat": 41.9282157,
-      "lon": 12.4739559,
+      "lat": 41.94435489991688,
+      "lon": 12.469034833268445,
       "approssimato": false,
-      "manuale": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Dar Basha",
@@ -6455,9 +6455,9 @@
   "stats": {
     "totale_letti": 458,
     "con_coordinate": 458,
-    "manuali": 25,
-    "approssimati": 5,
-    "precisi": 428,
+    "manuali": 27,
+    "approssimati": 4,
+    "precisi": 427,
     "falliti": 0,
     "con_recensore": 349,
     "colonna_gps": 9
