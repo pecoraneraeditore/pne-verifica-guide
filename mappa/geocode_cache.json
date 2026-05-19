@@ -3693,6 +3693,12 @@
     "lat": 45.4641943,
     "lon": 9.1896346
   },
+  "palinurobar|via giovanni paisiello, 28|milano": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.4817434,
+    "lon": 9.2202106
+  },
   "paltò|via della rocca, 17|torino": {
     "approssimato": false,
     "geocoded_at": "2026-05-19",
