@@ -164,6 +164,12 @@
     "lat": 45.0601903,
     "lon": 7.686619
   },
+  "alberto marchetti gelaterie|corso vittorio emanuele ii, 24|torino": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.0600774,
+    "lon": 7.6869334
+  },
   "alberto marchetti gelaterie|piazza c.l.n., 248|torino": {
     "approssimato": false,
     "geocoded_at": "2026-05-19",
@@ -187,6 +193,12 @@
     "geocoded_at": "2026-05-19",
     "lat": 45.0677551,
     "lon": 7.6824892
+  },
+  "alberto marchetti gelaterie|via principi d'acaja, 65/d|torino": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.0712515,
+    "lon": 7.6610396
   },
   "alberto marchetti|viale monte nero, 73|milano": {
     "approssimato": false,
@@ -311,6 +323,12 @@
     "geocoded_at": "2026-05-19",
     "lat": 45.0494202,
     "lon": 7.6485644
+  },
+  "armando al pantheon|salita de' crescenzi, 31|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 41.8990297,
+    "lon": 12.4762368
   },
   "armando al pantheon|salita dei crescenzi, 31|roma": {
     "approssimato": true,
@@ -2775,6 +2793,12 @@
     "lat": 45.4641943,
     "lon": 9.1896346
   },
+  "lile in cucina|piazzale carlo maciachini, 18|milano": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.4973649,
+    "lon": 9.1841561
+  },
   "lina - la pizza in teglia|circonvallazione trionfale, 53|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.9120324,
@@ -2895,6 +2919,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.9444897,
     "lon": 12.5152308
+  },
+  "mag cafè|i|milano": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.4293559,
+    "lon": 9.0862402
   },
   "mag cafè|ripa di porta ticinese, 3|milano": {
     "approssimato": false,
@@ -4371,11 +4401,23 @@
     "lat": 45.0677551,
     "lon": 7.6824892
   },
+  "smoking bar|strada val s. martino, 4|torino": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.0618358,
+    "lon": 7.7164405
+  },
   "snodo|corso castefidardo, 22|torino": {
     "approssimato": true,
     "geocoded_at": "2026-05-19",
     "lat": 45.0677551,
     "lon": 7.6824892
+  },
+  "snodo|corso castelfidardo, 22|torino": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.0666858,
+    "lon": 7.659651
   },
   "sodo|via giambattista bodoni, 5|torino": {
     "approssimato": false,
@@ -4534,6 +4576,12 @@
     "geocoded_at": "2026-05-19",
     "lat": 45.0677551,
     "lon": 7.6824892
+  },
+  "tellia|corso sebastopoli, 241|torino": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.0479351,
+    "lon": 7.636572
   },
   "tellia|via maria vittoria, 20|torino": {
     "approssimato": false,
@@ -4804,6 +4852,18 @@
     "geocoded_at": "2026-05-19",
     "lat": 45.4821961,
     "lon": 9.1932374
+  },
+  "tripstillery|piazza alvar aalto|milano": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.4821961,
+    "lon": 9.1932374
+  },
+  "tripstillery|via ascanio sforza, 9|milano": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.4507082,
+    "lon": 9.1779486
   },
   "tripstillery|via cardinale ascanio sforza, 9|milano": {
     "approssimato": true,

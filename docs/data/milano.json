@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T09:24:15+00:00",
+  "generated_at": "2026-05-19T09:36:53+00:00",
   "source_file": "Milano_2027.xlsx",
   "citta_default": "Milano",
   "regione": "Lombardia",
@@ -1926,14 +1926,14 @@
     {
       "nome": "Lile in cucina",
       "tipologia": "bistrot",
-      "indirizzo": "Piazza Carlo Maciachini, 18",
+      "indirizzo": "Piazzale Carlo Maciachini, 18",
       "zona": "Maciachini",
       "citta": "Milano",
       "recensore": "bloccato per Giulia Pietracaprina",
       "categoria": "riservato",
-      "lat": 45.4641943,
-      "lon": 9.1896346,
-      "approssimato": true,
+      "lat": 45.4973649,
+      "lon": 9.1841561,
+      "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
     {
@@ -2433,13 +2433,13 @@
     {
       "nome": "Mag cafè",
       "tipologia": "cocktail bar",
-      "indirizzo": "Ripa di Porta Ticinese, 3",
+      "indirizzo": "i",
       "zona": "Navigli",
       "citta": "Milano",
       "recensore": "bloccato per Alice D'Adda",
       "categoria": "riservato",
-      "lat": 45.4487918,
-      "lon": 9.1611948,
+      "lat": 45.4293559,
+      "lon": 9.0862402,
       "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
@@ -2485,7 +2485,7 @@
     {
       "nome": "Tripstillery",
       "tipologia": "cocktail bar / distilleria",
-      "indirizzo": "Piazza Alvar Aalto, snc",
+      "indirizzo": "Piazza Alvar Aalto",
       "zona": "Varesine",
       "citta": "Milano",
       "recensore": "bloccato per William Gray",
@@ -2498,14 +2498,14 @@
     {
       "nome": "Tripstillery",
       "tipologia": "cocktail bar / distilleria",
-      "indirizzo": "Via Cardinale Ascanio Sforza, 9",
+      "indirizzo": "Via Ascanio Sforza, 9",
       "zona": "Navigli",
       "citta": "Milano",
       "recensore": "bloccato per William Gray",
       "categoria": "riservato",
-      "lat": 45.4641943,
-      "lon": 9.1896346,
-      "approssimato": true,
+      "lat": 45.4507082,
+      "lon": 9.1779486,
+      "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
     {
@@ -2916,8 +2916,8 @@
   "stats": {
     "totale_letti": 221,
     "con_coordinate": 221,
-    "approssimati": 3,
-    "precisi": 218,
+    "approssimati": 1,
+    "precisi": 220,
     "falliti": 0,
     "con_recensore": 183
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T09:18:01+00:00",
+  "generated_at": "2026-05-19T09:36:40+00:00",
   "source_file": "Roma_2027.xlsx",
   "citta_default": "Roma",
   "regione": "Lazio",
@@ -1068,15 +1068,15 @@
     {
       "nome": "Armando al Pantheon",
       "tipologia": "tradizionale",
-      "indirizzo": "Salita dei Crescenzi, 31",
+      "indirizzo": "Salita de' Crescenzi, 31",
       "zona": "Pantheon",
       "citta": "Roma",
       "recensore": "",
       "categoria": "per_editori",
-      "lat": 41.8933203,
-      "lon": 12.4829321,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.8990297,
+      "lon": 12.4762368,
+      "approssimato": false,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Aventina",
@@ -5997,8 +5997,8 @@
   "stats": {
     "totale_letti": 458,
     "con_coordinate": 458,
-    "approssimati": 22,
-    "precisi": 436,
+    "approssimati": 21,
+    "precisi": 437,
     "falliti": 0,
     "con_recensore": 356
   }

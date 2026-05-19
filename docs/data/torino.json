@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T09:30:17+00:00",
+  "generated_at": "2026-05-19T09:37:01+00:00",
   "source_file": "Torino_2027.xlsx",
   "citta_default": "Torino",
   "regione": "Piemonte",
@@ -639,14 +639,14 @@
     {
       "nome": "Smoking Bar",
       "tipologia": "tradizionale con spunti creativi",
-      "indirizzo": "Strada Comunale Val San Martino, 4",
+      "indirizzo": "Strada Val S. Martino, 4",
       "zona": "Pre collina",
       "citta": "Torino",
       "recensore": "bloccato per Catia Gribaudo",
       "categoria": "riservato",
-      "lat": 45.0677551,
-      "lon": 7.6824892,
-      "approssimato": true,
+      "lat": 45.0618358,
+      "lon": 7.7164405,
+      "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
     {
@@ -2121,14 +2121,14 @@
     {
       "nome": "Snodo",
       "tipologia": "ristorante / cocktail bar",
-      "indirizzo": "Corso Castefidardo, 22",
+      "indirizzo": "Corso Castelfidardo, 22",
       "zona": "Cenisia",
       "citta": "Torino",
       "recensore": "",
       "categoria": "da_fare",
-      "lat": 45.0677551,
-      "lon": 7.6824892,
-      "approssimato": true,
+      "lat": 45.0666858,
+      "lon": 7.659651,
+      "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
     {
@@ -2147,13 +2147,13 @@
     {
       "nome": "Alberto Marchetti Gelaterie",
       "tipologia": "gelateria",
-      "indirizzo": "Corso Vittorio Emanuele II, 24/bis",
+      "indirizzo": "Corso Vittorio Emanuele II, 24",
       "zona": "Centro",
       "citta": "Torino",
       "recensore": "Fernanda D'Arienzo",
       "categoria": "fatto",
-      "lat": 45.0601903,
-      "lon": 7.686619,
+      "lat": 45.0600774,
+      "lon": 7.6869334,
       "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
@@ -2173,14 +2173,14 @@
     {
       "nome": "Alberto Marchetti Gelaterie",
       "tipologia": "gelateria",
-      "indirizzo": "Via Principe d'Acaja, 65/D",
+      "indirizzo": "Via Principi d'Acaja, 65/D",
       "zona": "Piazza Benefica",
       "citta": "Torino",
       "recensore": "Fernanda D'Arienzo",
       "categoria": "fatto",
-      "lat": 45.0677551,
-      "lon": 7.6824892,
-      "approssimato": true,
+      "lat": 45.0712515,
+      "lon": 7.6610396,
+      "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
     {
@@ -2732,14 +2732,14 @@
     {
       "nome": "Tellia",
       "tipologia": "pizzeria al taglio",
-      "indirizzo": "Corso Sebastoboli, 241",
+      "indirizzo": "Corso Sebastopoli, 241",
       "zona": "Santa Rita",
       "citta": "Torino",
       "recensore": "Fernanda D'Arienzo",
       "categoria": "fatto",
-      "lat": 45.0677551,
-      "lon": 7.6824892,
-      "approssimato": true,
+      "lat": 45.0479351,
+      "lon": 7.636572,
+      "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
     {
@@ -2773,8 +2773,8 @@
   "stats": {
     "totale_letti": 210,
     "con_coordinate": 210,
-    "approssimati": 5,
-    "precisi": 205,
+    "approssimati": 1,
+    "precisi": 209,
     "falliti": 0,
     "con_recensore": 113
   }
