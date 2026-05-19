@@ -506,6 +506,12 @@
     "lat": 41.8933203,
     "lon": 12.4829321
   },
+  "cuoco e camicia|via di monte polacco, 4|roma": {
+    "approssimato": true,
+    "geocoded_at": "2026-05-19",
+    "lat": 41.8933203,
+    "lon": 12.4829321
+  },
   "cus cus|via arezzo, 39|roma": {
     "geocoded_at": "2026-05-18",
     "lat": 41.912273,
@@ -603,6 +609,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.8933203,
     "lon": 12.4829321
+  },
+  "don choc|via flaminia, 732|roma": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 41.9553984,
+    "lon": 12.4871875
   },
   "dondolo|via di monte sacro, 23|roma": {
     "geocoded_at": "2026-05-18",

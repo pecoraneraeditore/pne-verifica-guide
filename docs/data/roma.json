@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T22:46:30+00:00",
+  "generated_at": "2026-05-19T08:45:53+00:00",
   "source_file": "Roma_2027.xlsx",
   "citta_default": "Roma",
   "regione": "Lazio",
@@ -522,7 +522,7 @@
     {
       "nome": "Cuoco e Camicia",
       "tipologia": "tradizionale con spunti creativi",
-      "indirizzo": "Via di Monte Polacco, 2",
+      "indirizzo": "Via di Monte Polacco, 4",
       "zona": "Monti",
       "citta": "Roma",
       "recensore": "bloccato per Giulia Maria Bellucci",
@@ -530,7 +530,7 @@
       "lat": 41.8933203,
       "lon": 12.4829321,
       "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Dogma",
@@ -5046,15 +5046,15 @@
     {
       "nome": "Don Choc",
       "tipologia": "gelateria / cioccolateria",
-      "indirizzo": "Via Flaminia Vecchia, 732",
+      "indirizzo": "Via Flaminia, 732",
       "zona": "Collina Fleming",
       "citta": "Roma",
       "recensore": "Fabrizio Sbicca",
       "categoria": "fatto",
-      "lat": 41.8933203,
-      "lon": 12.4829321,
-      "approssimato": true,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.9553984,
+      "lon": 12.4871875,
+      "approssimato": false,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "El maiz",
@@ -5997,8 +5997,8 @@
   "stats": {
     "totale_letti": 458,
     "con_coordinate": 458,
-    "approssimati": 23,
-    "precisi": 435,
+    "approssimati": 22,
+    "precisi": 436,
     "falliti": 0,
     "con_recensore": 356
   }
