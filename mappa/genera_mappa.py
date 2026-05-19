@@ -1,21 +1,23 @@
 """Genera il JSON dei ristoranti per la mappa auto-aggiornante.
 
-v2: geocoding a cascata con normalizzazione.
+v3: aggiunto override GPS manuale.
 
-Legge un file guida (es. Roma_2027.xlsx), geocodifica gli indirizzi nuovi via
-Nominatim (con cache su disco), e scrive un JSON che la pagina HTML legge.
+Per ogni ristorante, prima del geocoding controlla se c'è una colonna nel xlsx
+il cui header contiene "GPS" o "Coord" (case insensitive). Se compilata con
+"lat, lon" (es. "41.9028, 12.4964") quelle coordinate hanno PRIORITÀ ASSOLUTA:
+bypassano cache e cascata Nominatim. Utile per i ristoranti che Nominatim
+non geolocalizza bene.
 
-Strategia di geocoding per ogni ristorante:
+Cascata geocoding (se nessun GPS manuale):
   1. Indirizzo originale + città + "Italia"
-  2. Indirizzo normalizzato (tolti "Loc.", "c/o", "ang.", "Box", "snc",
-     civici suffissati tipo 44/D-E ridotti a 44, apostrofi curvi → dritti)
-  3. Solo la via estratta (es. "Galleria X, Via Y, 1" → "Via Y, 1")
-  4. Via senza numero civico
-  5. Solo città  → pin marcato come approssimato
-  6. Se anche città fallisce: il ristorante finisce nella lista falliti
+  2. Indirizzo normalizzato
+  3. Via estratta
+  4. Via senza civico
+  5. Solo città (approssimato)
+  6. Fallito
 
 Uso:
-    python mappa/genera_mappa.py data/Roma_2027.xlsx \
+    python mappa/genera_mappa.py Roma_2027.xlsx \
         --out docs/data/roma.json \
         --cache mappa/geocode_cache.json \
         --citta-default Roma --regione Lazio
@@ -38,7 +40,7 @@ CATEGORIES = {
     'plurimo':         {'label': 'Indirizzo plurimo','color': '#FB8C00'},
 }
 
-USER_AGENT = 'PNE-Mappa-Guida/2.0 (contatto: s.cargiani@lapecoranera.net)'
+USER_AGENT = 'PNE-Mappa-Guida/3.0 (contatto: s.cargiani@lapecoranera.net)'
 
 
 # --- Lettura xlsx -------------------------------------------------------------
@@ -62,15 +64,28 @@ def categorize(fill) -> str:
     return 'da_fare'
 
 
-def estrai_ristoranti(xlsx_path: Path) -> list[dict]:
+def trova_colonna_gps(ws) -> int | None:
+    """Cerca nella riga 7 (header) una colonna il cui testo contenga
+    'GPS' o 'Coord' (case insensitive). Ritorna l'indice 1-based o None."""
+    for col in range(1, ws.max_column + 1):
+        val = ws.cell(row=7, column=col).value
+        if val and isinstance(val, str):
+            v = val.lower()
+            if 'gps' in v or 'coord' in v:
+                return col
+    return None
+
+
+def estrai_ristoranti(xlsx_path: Path) -> tuple[list[dict], int | None]:
     wb = openpyxl.load_workbook(xlsx_path)
     ws = wb['Tavole e pause golose']
+    col_gps = trova_colonna_gps(ws)
     out = []
     for r in range(8, ws.max_row + 1):
         nome = ws.cell(row=r, column=4).value
         if not nome or not str(nome).strip():
             continue
-        out.append({
+        rec = {
             'nome':      str(nome).strip(),
             'tipologia': str(ws.cell(row=r, column=5).value or '').strip(),
             'indirizzo': str(ws.cell(row=r, column=6).value or '').strip(),
@@ -78,18 +93,46 @@ def estrai_ristoranti(xlsx_path: Path) -> list[dict]:
             'citta':     str(ws.cell(row=r, column=8).value or '').strip(),
             'recensore': str(ws.cell(row=r, column=14).value or '').strip(),
             'categoria': categorize(ws.cell(row=r, column=4).fill),
-        })
-    return out
+        }
+        if col_gps:
+            rec['coord_gps'] = str(ws.cell(row=r, column=col_gps).value or '').strip()
+        else:
+            rec['coord_gps'] = ''
+        out.append(rec)
+    return out, col_gps
+
+
+# --- Parsing GPS manuale ------------------------------------------------------
+
+def parse_gps(s: str) -> tuple[float, float] | None:
+    """Parsa una stringa 'lat, lon' o 'lat,lon'.
+    Supporta formato Google Maps copy: '41.9028, 12.4964'.
+    Ritorna (lat, lon) o None se non valido."""
+    if not s:
+        return None
+    # Tolleranza extra: rimuovi parentesi, virgole strane
+    s = s.strip().strip('()[]').replace(';', ',')
+    parts = [p.strip() for p in s.split(',')]
+    if len(parts) != 2:
+        return None
+    try:
+        lat, lon = float(parts[0]), float(parts[1])
+    except (ValueError, TypeError):
+        return None
+    if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+        return None
+    # Sanity check per l'Italia (~36-47 lat, ~6-19 lon) — warning ma non blocco
+    if not (35 <= lat <= 48 and 6 <= lon <= 20):
+        print(f"  ! coordinata sospetta (fuori Italia): {lat}, {lon}", file=sys.stderr)
+    return lat, lon
 
 
 # --- Normalizzazione indirizzo -----------------------------------------------
 
-# Prefissi via riconosciuti per l'estrazione "estrai_via"
 _PREFISSI_VIA = (r'Via|Viale|V\.le|Piazza|P\.zza|P\.za|Corso|C\.so|Largo|Lgo'
                  r'|Vicolo|Strada|S\.da|Salita|Lungomare|Lungotevere|Borgo'
                  r'|Contrada|Localit[àa]|Loc\.?')
 
-# Marker che tagliano la parte narrativa (tutto ciò che segue viene scartato)
 _CUT_MARKERS = [
     ' - Loc.', ' - Loc ', ' - loc.', ' - loc ',
     ' c/o ', ' C/O ',
@@ -101,28 +144,22 @@ _CUT_MARKERS = [
 
 
 def normalizza(s: str) -> str:
-    """Pulisce un indirizzo per migliorare il match Nominatim."""
     if not s:
         return ''
-    s = s.replace('’', "'").replace('‘', "'")  # apostrofi curvi → dritti
-    # Taglia tutto dopo il primo marker narrativo
+    s = s.replace('’', "'").replace('‘', "'")
     lower = s.lower()
     for cm in _CUT_MARKERS:
         idx = lower.find(cm.lower())
         if idx > 0:
             s = s[:idx]
             lower = s.lower()
-    # "44/D-E" → "44", "732/E-F-G-H" → "732"
     s = re.sub(r'(\d+)\s*/\s*[A-Za-z][\w\-/]*', r'\1', s)
-    # "732 F/G" → "732"
     s = re.sub(r'(\d+)\s+[A-Z](?:/[A-Z])+\b', r'\1', s)
-    # ", snc" finale
     s = re.sub(r',?\s*snc\s*$', '', s, flags=re.IGNORECASE)
     return s.strip(' ,')
 
 
 def estrai_via(s: str) -> str:
-    """Se l'indirizzo ha un prefisso narrativo, estrae solo la via + civico."""
     if not s:
         return ''
     pattern = rf'\b({_PREFISSI_VIA})\s+[^,]+(?:,\s*\d+\S*)?'
@@ -131,7 +168,6 @@ def estrai_via(s: str) -> str:
 
 
 def via_senza_civico(s: str) -> str:
-    """Rimuove il numero civico finale."""
     return re.sub(r',\s*\d.*$', '', s).strip(' ,')
 
 
@@ -151,7 +187,7 @@ def nominatim_query(q: str, timeout: int = 10) -> tuple[float, float] | None:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             data = json.loads(resp.read())
     except Exception as e:
-        print(f"  ! Nominatim error per '{q[:60]}…': {e}", file=sys.stderr)
+        print(f"  ! Nominatim error per '{q[:60]}...': {e}", file=sys.stderr)
         return None
     if not data:
         return None
@@ -162,7 +198,6 @@ def nominatim_query(q: str, timeout: int = 10) -> tuple[float, float] | None:
 
 
 def costruisci_varianti(r: dict) -> list[tuple[str, bool]]:
-    """Ritorna una lista di (query, approssimato) da provare in ordine."""
     ind = r['indirizzo']
     city = r['citta']
     varianti: list[tuple[str, bool]] = []
@@ -171,28 +206,23 @@ def costruisci_varianti(r: dict) -> list[tuple[str, bool]]:
         if q and (q, approx) not in varianti:
             varianti.append((q, approx))
 
-    # v1: originale
     if ind and city:
         add(f"{ind}, {city}, Italia", False)
     elif ind:
         add(f"{ind}, Italia", False)
 
-    # v2: normalizzato
     norm = normalizza(ind)
     if norm and city:
         add(f"{norm}, {city}, Italia", False)
 
-    # v3: via estratta da prefissi narrativi
     via = estrai_via(norm or ind)
     if via and city and via != norm:
         add(f"{via}, {city}, Italia", False)
 
-    # v4: via senza civico
     via_sc = via_senza_civico(via or norm or ind)
     if via_sc and city and via_sc != via:
         add(f"{via_sc}, {city}, Italia", False)
 
-    # v5: solo città (approssimato!)
     if city:
         add(f"{city}, Italia", True)
 
@@ -204,9 +234,9 @@ def geocodifica_tutti(
     cache_path: Path,
     no_geocode: bool = False,
     sleep_s: float = 1.1,
-) -> tuple[int, int, list[dict]]:
-    """Aggiunge lat/lon/approssimato ai ristoranti (in-place).
-    Ritorna (n_da_cache, n_nuovi, falliti)."""
+) -> tuple[int, int, int, list[dict]]:
+    """Aggiunge lat/lon/approssimato/manuale ai ristoranti (in-place).
+    Ritorna (n_cache, n_new, n_manual, falliti)."""
     cache: dict = {}
     if cache_path.exists():
         try:
@@ -214,15 +244,32 @@ def geocodifica_tutti(
         except json.JSONDecodeError:
             cache = {}
 
-    n_cache, n_new = 0, 0
+    n_cache, n_new, n_manual = 0, 0, 0
     falliti: list[dict] = []
+    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
     for r in ristoranti:
+        # ─── PRIORITÀ 1: override GPS manuale ───────────────────────────
+        if r.get('coord_gps'):
+            coords = parse_gps(r['coord_gps'])
+            if coords:
+                r['lat'], r['lon'] = coords
+                r['approssimato'] = False
+                r['manuale'] = True
+                r['geocoded_at'] = today
+                n_manual += 1
+                continue
+            else:
+                print(f"  ! GPS non valido per '{r['nome']}': {r['coord_gps']!r}",
+                      file=sys.stderr)
+
+        # ─── PRIORITÀ 2: cache ───────────────────────────────────────────
         key = cache_key(r)
         if key in cache and cache[key].get('lat') is not None:
             r['lat'] = cache[key]['lat']
             r['lon'] = cache[key]['lon']
             r['approssimato'] = bool(cache[key].get('approssimato', False))
+            r['manuale'] = False
             r['geocoded_at'] = cache[key].get('geocoded_at')
             n_cache += 1
             continue
@@ -233,17 +280,15 @@ def geocodifica_tutti(
             falliti.append({'nome': r['nome'], 'motivo': 'no-geocode flag'})
             continue
 
-        # Cascata di varianti
+        # ─── PRIORITÀ 3: cascata Nominatim ──────────────────────────────
         found = None
         approx_flag = False
-        used_q = None
         for q, approx in costruisci_varianti(r):
             coords = nominatim_query(q)
             time.sleep(sleep_s)
             if coords:
                 found = coords
                 approx_flag = approx
-                used_q = q
                 break
 
         if found is None:
@@ -253,16 +298,15 @@ def geocodifica_tutti(
                 'nome': r['nome'],
                 'indirizzo': r['indirizzo'],
                 'citta': r['citta'],
-                'motivo': 'no result dopo cascata (tentate '
-                          f"{len(costruisci_varianti(r))} varianti)",
+                'motivo': 'no result dopo cascata',
             })
             continue
 
         lat, lon = found
-        today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
         r['lat'] = lat
         r['lon'] = lon
         r['approssimato'] = approx_flag
+        r['manuale'] = False
         r['geocoded_at'] = today
         cache[key] = {
             'lat': lat, 'lon': lon,
@@ -270,22 +314,25 @@ def geocodifica_tutti(
         }
         n_new += 1
         if approx_flag:
-            print(f"  ~ {r['nome']}: approssimato a livello città ({r['citta']})")
+            print(f"  ~ {r['nome']}: approssimato a livello citta' ({r['citta']})")
 
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     cache_path.write_text(
         json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True),
         encoding='utf-8',
     )
-    return n_cache, n_new, falliti
+    return n_cache, n_new, n_manual, falliti
 
 
 # --- Output JSON --------------------------------------------------------------
 
 def scrivi_json(ristoranti, out_path, source_file, citta_default,
-                regione, falliti):
+                regione, falliti, col_gps):
     out_path.parent.mkdir(parents=True, exist_ok=True)
     valid = [r for r in ristoranti if r.get('lat') is not None]
+    # Rimuovi coord_gps dal payload pubblico per non esporlo nel JSON
+    for r in valid:
+        r.pop('coord_gps', None)
     payload = {
         'generated_at': datetime.now(timezone.utc).isoformat(timespec='seconds'),
         'source_file': source_file,
@@ -297,10 +344,12 @@ def scrivi_json(ristoranti, out_path, source_file, citta_default,
         'stats': {
             'totale_letti':    len(ristoranti),
             'con_coordinate':  len(valid),
+            'manuali':         sum(1 for r in valid if r.get('manuale')),
             'approssimati':    sum(1 for r in valid if r.get('approssimato')),
-            'precisi':         sum(1 for r in valid if not r.get('approssimato')),
+            'precisi':         sum(1 for r in valid if not r.get('approssimato') and not r.get('manuale')),
             'falliti':         len(falliti),
             'con_recensore':   sum(1 for r in ristoranti if r['recensore']),
+            'colonna_gps':     col_gps,
         },
     }
     out_path.write_text(
@@ -317,36 +366,37 @@ def main() -> int:
     p.add_argument('--no-geocode', action='store_true')
     p.add_argument('--sleep', type=float, default=1.1)
     p.add_argument('--citta-default', default='Roma')
-    p.add_argument('--regione', default='Lazio',
-                   help='Regione per overlay confine sulla mappa (default Lazio)')
+    p.add_argument('--regione', default='Lazio')
     args = p.parse_args()
 
     if not args.xlsx.exists():
         print(f"File non trovato: {args.xlsx}", file=sys.stderr)
         return 1
 
-    print(f"Lettura {args.xlsx.name}…")
-    ristoranti = estrai_ristoranti(args.xlsx)
+    print(f"Lettura {args.xlsx.name}...")
+    ristoranti, col_gps = estrai_ristoranti(args.xlsx)
     cats = Counter(r['categoria'] for r in ristoranti)
     print(f"  letti {len(ristoranti)} ristoranti  categorie: {dict(cats)}")
+    if col_gps:
+        n_gps = sum(1 for r in ristoranti if r.get('coord_gps'))
+        print(f"  colonna GPS trovata in col {col_gps}: {n_gps} ristoranti con coord manuali")
+    else:
+        print(f"  nessuna colonna GPS rilevata (cerco header con 'GPS' o 'Coord')")
 
-    print(f"Geocoding (cache: {args.cache.name})…")
-    n_cache, n_new, falliti = geocodifica_tutti(
+    print(f"Geocoding (cache: {args.cache.name})...")
+    n_cache, n_new, n_manual, falliti = geocodifica_tutti(
         ristoranti, args.cache,
         no_geocode=args.no_geocode, sleep_s=args.sleep,
     )
     approx = sum(1 for r in ristoranti if r.get('approssimato'))
+    print(f"  GPS manuali usate: {n_manual}")
     print(f"  da cache: {n_cache}")
     print(f"  nuovi geocodificati: {n_new}")
-    print(f"    di cui approssimati a livello città: {approx}")
+    print(f"    di cui approssimati a livello citta': {approx}")
     print(f"  falliti del tutto: {len(falliti)}")
-    if falliti[:8]:
-        print("  esempi falliti (necessitano fix manuale nel xlsx):")
-        for f in falliti[:8]:
-            print(f"    - {f['nome']}  [{f.get('citta')}]: {f['motivo']}")
 
     scrivi_json(ristoranti, args.out, args.xlsx.name,
-                args.citta_default, args.regione, falliti)
+                args.citta_default, args.regione, falliti, col_gps)
     print(f"JSON scritto: {args.out}")
     return 0
 
