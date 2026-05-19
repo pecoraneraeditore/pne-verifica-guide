@@ -25,6 +25,13 @@ jobs:
       - name: Installa dipendenze Python
         run: pip install pandas openpyxl requests beautifulsoup4 -q
 
+      # ──────────────────────────────────────────────────────────────────────
+      # NUOVO: scarica i master xlsx freschi da Dropbox PRIMA della verifica.
+      # Così non serve più ricordarsi di lanciare sync_github.ps1.
+      # ──────────────────────────────────────────────────────────────────────
+      - name: Scarica master xlsx freschi da Dropbox
+        run: python mappa/fetch_masters.py
+
       - name: Esegui verifica e invia email
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
@@ -35,23 +42,24 @@ jobs:
 
       # ──────────────────────────────────────────────────────────────────────
       # Rigenerazione mappa auto-aggiornante (GitHub Pages)
-      # Legge data/Roma_2027.xlsx, geocodifica i nuovi indirizzi (con cache),
-      # e committa il JSON in docs/data/ + la cache aggiornata in mappa/.
-      # La pagina docs/index.html lo legge a runtime → la mappa è sempre fresca.
+      # I master sono già stati scaricati dallo step "Scarica master" sopra.
       # ──────────────────────────────────────────────────────────────────────
       - name: Rigenera dati mappa (Roma)
         run: |
-          python mappa/genera_mappa.py data/Roma_2027.xlsx \
+          python mappa/genera_mappa.py Roma_2027.xlsx \
             --out docs/data/roma.json \
             --cache mappa/geocode_cache.json \
             --citta-default Roma \
-             --regione Lazio
+            --regione Lazio
 
       - name: Commit & push aggiornamenti mappa
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/*.json mappa/geocode_cache.json
+          # Includo i master scaricati da Dropbox così il repo riflette
+          # l'ultima versione, oltre al JSON della mappa e alla cache.
+          git add Roma_2027.xlsx Milano_2027.xlsx Torino_2027.xlsx \
+                  docs/data/*.json mappa/geocode_cache.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nessun cambiamento alla mappa."
           else
