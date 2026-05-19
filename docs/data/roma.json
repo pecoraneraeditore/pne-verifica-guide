@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T13:59:56+00:00",
+  "generated_at": "2026-05-19T14:05:59+00:00",
   "source_file": "Roma_2027.xlsx",
   "citta_default": "Roma",
   "regione": "Lazio",
@@ -1110,11 +1110,11 @@
       "citta": "Piglio",
       "recensore": "",
       "categoria": "da_fare",
-      "lat": 41.8308503,
-      "lon": 13.146399,
-      "approssimato": true,
-      "manuale": false,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.82955701496672,
+      "lon": 13.166111144621077,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Angelino \"ai Fori\" dal 1947",
@@ -1236,11 +1236,11 @@
       "citta": "Piglio",
       "recensore": "",
       "categoria": "da_fare",
-      "lat": 41.8308503,
-      "lon": 13.146399,
-      "approssimato": true,
-      "manuale": false,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.80976549234967,
+      "lon": 13.122920514770096,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Chalet del Lago",
@@ -1964,11 +1964,11 @@
       "citta": "Castelnuovo Parano",
       "recensore": "Simone Cargiani",
       "categoria": "fatto",
-      "lat": 41.3806561,
-      "lon": 13.744654,
-      "approssimato": true,
-      "manuale": false,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.37728946359321,
+      "lon": 13.737764537660487,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Osteria del Borgo",
@@ -2594,11 +2594,11 @@
       "citta": "Piglio",
       "recensore": "",
       "categoria": "da_fare",
-      "lat": 41.8308503,
-      "lon": 13.146399,
-      "approssimato": true,
-      "manuale": false,
-      "geocoded_at": "2026-05-18"
+      "lat": 41.82857927673047,
+      "lon": 13.143353525815082,
+      "approssimato": false,
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Osteria Fratelli Mori",
@@ -5226,11 +5226,11 @@
       "citta": "Roma",
       "recensore": "bloccato per Fabrizio Sbicca",
       "categoria": "riservato",
-      "lat": 41.8946474,
-      "lon": 12.4742641,
+      "lat": 41.89456883018618,
+      "lon": 12.474274381610769,
       "approssimato": false,
-      "manuale": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Arte Bianca di Gabriele",
@@ -5520,11 +5520,11 @@
       "citta": "Roma",
       "recensore": "bloccato per Elisa Del Frate",
       "categoria": "riservato",
-      "lat": 41.8947077,
-      "lon": 12.4742642,
+      "lat": 41.89472309055656,
+      "lon": 12.474234812461015,
       "approssimato": false,
-      "manuale": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Fatamorgana",
@@ -6455,9 +6455,9 @@
   "stats": {
     "totale_letti": 458,
     "con_coordinate": 458,
-    "manuali": 31,
-    "approssimati": 4,
-    "precisi": 423,
+    "manuali": 37,
+    "approssimati": 0,
+    "precisi": 421,
     "falliti": 0,
     "con_recensore": 356,
     "colonna_gps": 17
