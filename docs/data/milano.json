@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T09:36:53+00:00",
+  "generated_at": "2026-05-19T09:59:01+00:00",
   "source_file": "Milano_2027.xlsx",
   "citta_default": "Milano",
   "regione": "Lombardia",
@@ -2043,13 +2043,13 @@
     {
       "nome": "La Corte - Romanengo 1780",
       "tipologia": "confetteria",
-      "indirizzo": "Via Manzoni, 5",
+      "indirizzo": "Via Alessandro Manzoni, 5",
       "zona": "Centro",
       "citta": "Milano",
       "recensore": "Fernanda D'Arienzo",
       "categoria": "fatto",
-      "lat": 45.5478967,
-      "lon": 9.1759972,
+      "lat": 45.4680145,
+      "lon": 9.1904585,
       "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
@@ -2433,13 +2433,13 @@
     {
       "nome": "Mag cafè",
       "tipologia": "cocktail bar",
-      "indirizzo": "i",
+      "indirizzo": "Ripa di Porta Ticinese, 43",
       "zona": "Navigli",
       "citta": "Milano",
       "recensore": "bloccato per Alice D'Adda",
       "categoria": "riservato",
-      "lat": 45.4293559,
-      "lon": 9.0862402,
+      "lat": 45.451322,
+      "lon": 9.1734295,
       "approssimato": false,
       "geocoded_at": "2026-05-19"
     },

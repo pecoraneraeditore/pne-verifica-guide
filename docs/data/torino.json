@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T09:37:01+00:00",
+  "generated_at": "2026-05-19T09:59:06+00:00",
   "source_file": "Torino_2027.xlsx",
   "citta_default": "Torino",
   "regione": "Piemonte",
@@ -80,13 +80,13 @@
     {
       "nome": "Condividere",
       "tipologia": "ricercata",
-      "indirizzo": "Via Bologna, 20",
+      "indirizzo": "Via Bologna, 20/a",
       "zona": "Aurora",
       "citta": "Torino",
       "recensore": "bloccato per Andrea Magnani",
       "categoria": "riservato",
-      "lat": 44.9972862,
-      "lon": 7.6944664,
+      "lat": 45.0804194,
+      "lon": 7.6908032,
       "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
@@ -1302,13 +1302,13 @@
     {
       "nome": "Cabaret Pasticceria dal 1991",
       "tipologia": "bar / pasticceria",
-      "indirizzo": "Via dei Mercanti, 8b",
+      "indirizzo": "Via dei Mercanti, 8",
       "zona": "Quadrilatero Romano",
       "citta": "Torino",
       "recensore": "Fernanda D'Arienzo",
       "categoria": "fatto",
-      "lat": 45.1363188,
-      "lon": 7.0462088,
+      "lat": 45.1358954,
+      "lon": 7.0470865,
       "approssimato": false,
       "geocoded_at": "2026-05-19"
     },
@@ -1575,13 +1575,13 @@
     {
       "nome": "Mei Shi Mei Ke",
       "tipologia": "ristorante cinese",
-      "indirizzo": "Via Cibrario, 3/bis",
+      "indirizzo": "Via Luigi Cibrario, 9",
       "zona": "Piazza Statuto",
       "citta": "Torino",
       "recensore": "",
       "categoria": "da_fare",
-      "lat": 45.2731092,
-      "lon": 7.4776982,
+      "lat": 45.0773568,
+      "lon": 7.6673025,
       "approssimato": false,
       "geocoded_at": "2026-05-19"
     },

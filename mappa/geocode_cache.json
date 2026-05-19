@@ -699,6 +699,12 @@
     "lat": 45.1363188,
     "lon": 7.0462088
   },
+  "cabaret pasticceria dal 1991|via dei mercanti, 8|torino": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.1358954,
+    "lon": 7.0470865
+  },
   "cafezal specialty coffee|corso magenta, 96|milano": {
     "approssimato": false,
     "geocoded_at": "2026-05-19",
@@ -984,6 +990,12 @@
     "geocoded_at": "2026-05-18",
     "lat": 41.9058395,
     "lon": 12.4724184
+  },
+  "condividere|via bologna, 20/a|torino": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.0804194,
+    "lon": 7.6908032
   },
   "condividere|via bologna, 20|torino": {
     "approssimato": false,
@@ -2438,6 +2450,12 @@
     "lat": 41.8968095,
     "lon": 12.4768677
   },
+  "la corte - romanengo 1780|via alessandro manzoni, 5|milano": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.4680145,
+    "lon": 9.1904585
+  },
   "la corte - romanengo 1780|via caminadella, 23|milano": {
     "approssimato": false,
     "geocoded_at": "2026-05-19",
@@ -2932,6 +2950,12 @@
     "lat": 45.4487918,
     "lon": 9.1611948
   },
+  "mag cafè|ripa di porta ticinese, 43|milano": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.451322,
+    "lon": 9.1734295
+  },
   "magazzini oz|via giovanni giolitti, 19/a|torino": {
     "approssimato": false,
     "geocoded_at": "2026-05-19",
@@ -3104,6 +3128,12 @@
     "geocoded_at": "2026-05-19",
     "lat": 45.2731092,
     "lon": 7.4776982
+  },
+  "mei shi mei ke|via luigi cibrario, 9|torino": {
+    "approssimato": false,
+    "geocoded_at": "2026-05-19",
+    "lat": 45.0773568,
+    "lon": 7.6673025
   },
   "menabó vino e cucina|via delle palme, 44/d-e|roma": {
     "approssimato": false,
