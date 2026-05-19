@@ -7,285 +7,127 @@
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
 <link rel="apple-touch-icon" href="favicon-64.png">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="">
 <style>
-  html, body { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  #app { display: grid; grid-template-rows: auto 1fr; height: 100vh; }
-
-  header {
-    background: #000; color: #fff; padding: 8px 16px;
-    display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
-    border-bottom: 2px solid #1a1a1a;
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; min-height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #000; color: #fff;
   }
-  header .brand { display: flex; align-items: center; gap: 14px; }
-  header .brand img { height: 48px; width: auto; display: block; }
-  header .titles { display: flex; flex-direction: column; gap: 2px; }
-  header h1 { font-size: 15px; margin: 0; font-weight: 600; letter-spacing: 0.3px; }
-  header .meta { font-size: 11px; opacity: 0.65; }
-
-  .legend {
-    display: flex; gap: 8px; flex-wrap: wrap; margin-left: auto;
-    font-size: 12px;
+  .page {
+    min-height: 100vh; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 40px 20px;
   }
-  .legend label {
-    display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
-    user-select: none; padding: 3px 8px; border-radius: 12px; background: #1f1f1f;
+  .brand {
+    display: flex; flex-direction: column; align-items: center; gap: 24px;
+    margin-bottom: 60px;
   }
-  .legend label.off { opacity: 0.35; }
-  .legend input { display: none; }
-  .legend .swatch {
-    width: 12px; height: 12px; border-radius: 50%;
-    border: 1.5px solid rgba(255,255,255,0.6);
+  .brand img { width: 320px; max-width: 80vw; height: auto; }
+  .tagline {
+    font-size: 14px; letter-spacing: 2px; text-transform: uppercase;
+    opacity: 0.6; font-weight: 400;
   }
-  #map { width: 100%; height: 100%; background: #f5f5f5; }
-
-  /* Pin custom (divIcon) — preciso */
-  .pn-pin {
-    width: 22px; height: 22px; border-radius: 50% 50% 50% 0;
-    transform: rotate(-45deg); border: 2px solid #222;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-    display: flex; align-items: center; justify-content: center;
+  .cards {
+    display: grid; gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    width: 100%; max-width: 780px;
   }
-  .pn-pin::after {
-    content: ""; width: 6px; height: 6px; background: rgba(0,0,0,0.55);
-    border-radius: 50%; transform: rotate(45deg);
+  .card {
+    display: flex; flex-direction: column;
+    background: #111; border: 1px solid #222; border-radius: 10px;
+    padding: 28px 24px; text-decoration: none; color: #fff;
+    transition: all 0.18s ease;
   }
-  /* Pin approssimato (geocodificato solo a livello città) */
-  .pn-pin.approx {
-    border-style: dashed;
-    border-width: 2.5px;
-    opacity: 0.85;
+  .card:hover {
+    background: #181818; border-color: #444;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
   }
-  .pn-pin.approx::after { background: rgba(0,0,0,0.25); }
-
-  /* Dot della posizione utente */
-  .me-dot {
-    width: 16px; height: 16px; border-radius: 50%;
-    background: #1976D2; border: 3px solid #fff;
-    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.4),
-                0 2px 6px rgba(0, 0, 0, 0.4);
+  .card .city {
+    font-size: 26px; font-weight: 700; letter-spacing: 0.5px;
+    margin-bottom: 12px;
   }
-
-  /* Bottone "centra su di me" */
-  .me-btn {
-    background: #fff; border: 2px solid rgba(0,0,0,0.2); border-radius: 4px;
-    width: 34px; height: 34px; cursor: pointer; font-size: 18px;
-    display: flex; align-items: center; justify-content: center;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  .card .count {
+    font-size: 13px; color: #aaa; line-height: 1.5;
+    margin-bottom: 16px; min-height: 40px;
   }
-  .me-btn:hover { background: #f4f4f4; }
-  .me-btn.disabled { opacity: 0.4; cursor: not-allowed; }
-
-  /* Popup */
-  .pn-popup { font-size: 13px; line-height: 1.45; min-width: 200px; max-width: 260px; }
-  .pn-popup h3 {
-    margin: 0 0 6px 0; font-size: 15px; font-weight: 700; color: #1a1a1a;
-    border-bottom: 2px solid currentColor; padding-bottom: 4px;
+  .card .count .num { color: #fff; font-weight: 600; font-size: 16px; }
+  .card .updated { font-size: 11px; color: #666; margin-top: auto; }
+  .card .arrow {
+    display: inline-block; margin-top: 12px; font-size: 14px;
+    color: #fff; opacity: 0.5; transition: opacity 0.18s, transform 0.18s;
   }
-  .pn-popup .recensore {
-    font-weight: 600; margin: 6px 0; padding: 4px 8px;
-    background: #f5f5f5; border-radius: 4px;
+  .card:hover .arrow { opacity: 1; transform: translateX(3px); }
+  .card.disabled {
+    opacity: 0.4; pointer-events: none;
   }
-  .pn-popup .field { margin: 2px 0; color: #444; }
-  .pn-popup .field strong { color: #222; font-weight: 600; }
-  .pn-popup .stato { margin-top: 6px; font-size: 11px; text-transform: uppercase;
-    letter-spacing: 0.5px; font-weight: 700; }
-  .pn-popup .warn-approx {
-    margin-top: 8px; padding: 4px 8px;
-    background: #FFF3CD; color: #856404; font-size: 11px;
-    border-left: 3px solid #FFC107; border-radius: 3px;
+  .card.disabled .count { color: #555; font-style: italic; }
+  footer {
+    margin-top: 60px; font-size: 11px; opacity: 0.4;
+    text-align: center;
   }
-
-  #error {
-    position: fixed; top: 80px; left: 50%; transform: translateX(-50%);
-    background: #c0392b; color: white; padding: 10px 16px; border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3); display: none; z-index: 1000;
-  }
+  footer a { color: inherit; }
 </style>
 </head>
 <body>
-<div id="app">
-  <header>
-    <div class="brand">
-      <img src="logo_pn.png" alt="La Pecora Nera">
-      <div class="titles">
-        <h1>Mappa Ristoranti — Guida Roma</h1>
-        <span class="meta" id="meta">Caricamento…</span>
-      </div>
-    </div>
-    <div class="legend" id="legend"></div>
-  </header>
-  <div id="map"></div>
+<div class="page">
+  <div class="brand">
+    <img src="logo_pn.png" alt="La Pecora Nera">
+    <div class="tagline">Mappa Ristoranti · Guide 2027</div>
+  </div>
+
+  <div class="cards">
+    <a class="card" href="roma/" data-city="roma" data-default-name="Roma">
+      <div class="city">Roma</div>
+      <div class="count" data-count>Caricamento…</div>
+      <div class="updated" data-updated></div>
+      <div class="arrow">Apri mappa →</div>
+    </a>
+    <a class="card" href="milano/" data-city="milano" data-default-name="Milano">
+      <div class="city">Milano</div>
+      <div class="count" data-count>Caricamento…</div>
+      <div class="updated" data-updated></div>
+      <div class="arrow">Apri mappa →</div>
+    </a>
+    <a class="card" href="torino/" data-city="torino" data-default-name="Torino">
+      <div class="city">Torino</div>
+      <div class="count" data-count>Caricamento…</div>
+      <div class="updated" data-updated></div>
+      <div class="arrow">Apri mappa →</div>
+    </a>
+  </div>
+
+  <footer>
+    Pecora Nera Editore · Indipendente per vocazione
+  </footer>
 </div>
-<div id="error"></div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
 <script>
-(async function () {
-  const DATA_URL = new URLSearchParams(location.search).get('data') || './data/roma.json';
-
-  const map = L.map('map', { preferCanvas: true, zoomControl: true })
-                .setView([41.9028, 12.4964], 9);
-
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> ' +
-                 '&copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd', maxZoom: 19,
-  }).addTo(map);
-
-  const REGIONS_URL = 'https://cdn.jsdelivr.net/gh/openpolis/geojson-italy@master/geojson/limits_IT_regions.geojson';
-  const regionPromise = fetch(REGIONS_URL).then(r => r.ok ? r.json() : null).catch(() => null);
-
-  let payload;
+// Per ogni card carica il JSON e popola count + data aggiornamento.
+// Se il file non esiste ancora (es. Milano/Torino non ancora generati),
+// la card viene marcata come "in arrivo" e disabilitata.
+document.querySelectorAll('.card').forEach(async card => {
+  const city = card.dataset.city;
+  const countEl = card.querySelector('[data-count]');
+  const updatedEl = card.querySelector('[data-updated]');
   try {
-    const resp = await fetch(DATA_URL + '?t=' + Date.now());
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    payload = await resp.json();
+    const r = await fetch(`data/${city}.json?t=${Date.now()}`);
+    if (!r.ok) throw new Error('non disponibile');
+    const data = await r.json();
+    const n = data.stats?.con_coordinate ?? 0;
+    if (n === 0) throw new Error('vuoto');
+    const approx = data.stats?.approssimati || 0;
+    countEl.innerHTML = approx
+      ? `<span class="num">${n}</span> ristoranti<br>(${data.stats.precisi} precisi, ${approx} approssimati)`
+      : `<span class="num">${n}</span> ristoranti mappati`;
+    const d = new Date(data.generated_at);
+    updatedEl.textContent = `Aggiornata ${d.toLocaleString('it-IT',{dateStyle:'medium', timeStyle:'short'})}`;
   } catch (e) {
-    document.getElementById('error').textContent =
-      'Errore caricando i dati: ' + e.message + ' (URL: ' + DATA_URL + ')';
-    document.getElementById('error').style.display = 'block';
-    return;
+    card.classList.add('disabled');
+    countEl.textContent = 'In arrivo prossimamente';
+    updatedEl.textContent = '';
   }
-
-  const targetRegion = payload.regione || 'Lazio';
-  regionPromise.then(geo => {
-    if (!geo) return;
-    const feat = geo.features.find(f =>
-      f.properties.reg_name === targetRegion ||
-      f.properties.name === targetRegion ||
-      f.properties.NAME === targetRegion
-    );
-    if (!feat) return;
-    L.geoJSON(feat, {
-      style: { color: '#1a1a1a', weight: 2.5, dashArray: '8,5',
-               fillColor: '#000', fillOpacity: 0.03 },
-      interactive: false,
-    }).addTo(map);
-  });
-
-  const d = new Date(payload.generated_at);
-  const s = payload.stats;
-  let metaText = `${s.con_coordinate} ristoranti`;
-  if (s.approssimati) metaText += ` (${s.precisi} precisi, ${s.approssimati} approssimati)`;
-  metaText += ` · aggiornata il ${d.toLocaleString('it-IT', {dateStyle:'medium', timeStyle:'short'})}`;
-  document.getElementById('meta').textContent = metaText;
-
-  const visibleCats = new Set(Object.keys(payload.categories));
-  const legend = document.getElementById('legend');
-  Object.entries(payload.categories).forEach(([key, cat]) => {
-    const count = payload.restaurants.filter(r => r.categoria === key).length;
-    if (count === 0) return;
-    const lbl = document.createElement('label');
-    lbl.innerHTML = `<input type="checkbox" checked data-cat="${key}">
-                     <span class="swatch" style="background:${cat.color}"></span>
-                     ${cat.label} <span style="opacity:.6">(${count})</span>`;
-    lbl.querySelector('input').addEventListener('change', (ev) => {
-      if (ev.target.checked) { visibleCats.add(key); lbl.classList.remove('off'); }
-      else { visibleCats.delete(key); lbl.classList.add('off'); }
-      refreshMarkers();
-    });
-    legend.appendChild(lbl);
-  });
-
-  const cluster = L.markerClusterGroup({
-    maxClusterRadius: 40, showCoverageOnHover: false, spiderfyOnMaxZoom: true,
-  });
-  map.addLayer(cluster);
-
-  function makeIcon(color, approx) {
-    const cls = approx ? 'pn-pin approx' : 'pn-pin';
-    return L.divIcon({
-      className: '',
-      html: `<div class="${cls}" style="background:${color}"></div>`,
-      iconSize: [22, 22], iconAnchor: [11, 22], popupAnchor: [0, -22],
-    });
-  }
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, c =>
-      ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  }
-  function makePopup(r, cat) {
-    let html = `<div class="pn-popup" style="color:${cat.color}">`;
-    html += `<h3>${escapeHtml(r.nome)}</h3>`;
-    if (r.recensore) html += `<div class="recensore">Recensore: ${escapeHtml(r.recensore)}</div>`;
-    if (r.tipologia) html += `<div class="field"><strong>Tipologia:</strong> ${escapeHtml(r.tipologia)}</div>`;
-    if (r.indirizzo) html += `<div class="field"><strong>Indirizzo:</strong> ${escapeHtml(r.indirizzo)}</div>`;
-    if (r.zona)      html += `<div class="field"><strong>Zona:</strong> ${escapeHtml(r.zona)}</div>`;
-    if (r.citta)     html += `<div class="field"><strong>Città:</strong> ${escapeHtml(r.citta)}</div>`;
-    html += `<div class="stato">${escapeHtml(cat.label)}</div>`;
-    if (r.approssimato) {
-      html += `<div class="warn-approx">⚠ Posizione approssimata (livello città). Verifica l'indirizzo nel file guida.</div>`;
-    }
-    html += `</div>`;
-    return html;
-  }
-
-  const allMarkers = payload.restaurants.map(r => {
-    const cat = payload.categories[r.categoria] || {label: r.categoria, color: '#888'};
-    const m = L.marker([r.lat, r.lon], {
-      icon: makeIcon(cat.color, r.approssimato), title: r.nome
-    });
-    m.bindPopup(makePopup(r, cat));
-    m._cat = r.categoria;
-    return m;
-  });
-  function refreshMarkers() {
-    cluster.clearLayers();
-    cluster.addLayers(allMarkers.filter(m => visibleCats.has(m._cat)));
-  }
-  refreshMarkers();
-  if (allMarkers.length) {
-    const group = L.featureGroup(allMarkers);
-    map.fitBounds(group.getBounds().pad(0.05));
-  }
-
-  // ─── Geolocalizzazione utente ──────────────────────────────────────────
-  let meMarker = null, meCircle = null;
-  const MeControl = L.Control.extend({
-    options: { position: 'topright' },
-    onAdd: function () {
-      const btn = L.DomUtil.create('button', 'me-btn disabled');
-      btn.innerHTML = '📍';
-      btn.title = 'Centra sulla mia posizione';
-      L.DomEvent.disableClickPropagation(btn);
-      L.DomEvent.on(btn, 'click', () => {
-        if (meMarker) map.setView(meMarker.getLatLng(), 15);
-      });
-      this._btn = btn;
-      return btn;
-    },
-    enable: function () { this._btn.classList.remove('disabled'); },
-  });
-  const meCtrl = new MeControl();
-  meCtrl.addTo(map);
-
-  function showMe(lat, lon, accuracy) {
-    if (meMarker) { map.removeLayer(meMarker); map.removeLayer(meCircle); }
-    meMarker = L.marker([lat, lon], {
-      icon: L.divIcon({ className: '', html: '<div class="me-dot"></div>',
-                        iconSize: [16, 16], iconAnchor: [8, 8] }),
-      zIndexOffset: 1000, interactive: false,
-    }).addTo(map);
-    meCircle = L.circle([lat, lon], {
-      radius: accuracy, color: '#1976D2', weight: 1,
-      fillColor: '#1976D2', fillOpacity: 0.1, interactive: false,
-    }).addTo(map);
-    meCtrl.enable();
-  }
-  if ('geolocation' in navigator) {
-    navigator.geolocation.watchPosition(
-      pos => showMe(pos.coords.latitude, pos.coords.longitude, pos.coords.accuracy),
-      err => console.warn('Geolocation error:', err.message),
-      { enableHighAccuracy: true, maximumAge: 30000, timeout: 15000 }
-    );
-  }
-})();
+});
 </script>
 </body>
 </html>
