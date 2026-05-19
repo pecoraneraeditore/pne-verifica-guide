@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T13:56:50+00:00",
+  "generated_at": "2026-05-19T13:59:56+00:00",
   "source_file": "Roma_2027.xlsx",
   "citta_default": "Roma",
   "regione": "Lazio",
@@ -326,11 +326,11 @@
       "citta": "Roma",
       "recensore": "Simone Cargiani",
       "categoria": "fatto",
-      "lat": 41.8993964,
-      "lon": 12.4666817,
+      "lat": 41.89776107504589,
+      "lon": 12.468759116941461,
       "approssimato": false,
-      "manuale": false,
-      "geocoded_at": "2026-05-18"
+      "manuale": true,
+      "geocoded_at": "2026-05-19"
     },
     {
       "nome": "Pulejo",
@@ -6455,9 +6455,9 @@
   "stats": {
     "totale_letti": 458,
     "con_coordinate": 458,
-    "manuali": 30,
+    "manuali": 31,
     "approssimati": 4,
-    "precisi": 424,
+    "precisi": 423,
     "falliti": 0,
     "con_recensore": 356,
     "colonna_gps": 17
