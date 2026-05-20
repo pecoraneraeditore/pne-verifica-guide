@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T14:10:33+00:00",
+  "generated_at": "2026-05-20T07:35:31+00:00",
   "source_file": "Milano_2027.xlsx",
   "citta_default": "Milano",
   "regione": "Lombardia",
@@ -1912,7 +1912,7 @@
       "lon": 9.157788011970972,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Tre Chicchere",
@@ -1920,8 +1920,8 @@
       "indirizzo": "Via Gian Antonio Boltraffio, 12",
       "zona": "Isola",
       "citta": "Milano",
-      "recensore": "",
-      "categoria": "da_fare",
+      "recensore": "Domiziana Caliari",
+      "categoria": "fatto",
       "lat": 45.4917672,
       "lon": 9.186898,
       "approssimato": false,
@@ -2542,7 +2542,7 @@
       "lon": 9.220205980253644,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Porcobrado",
@@ -3004,7 +3004,7 @@
       "lon": 9.212648146393095,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Rigoletto",
@@ -3141,7 +3141,15 @@
     "approssimati": 0,
     "precisi": 218,
     "falliti": 0,
-    "con_recensore": 183,
-    "colonna_gps": 17
+    "con_recensore": 184,
+    "colonne_rilevate": {
+      "nome": 4,
+      "tipologia": 5,
+      "indirizzo": 6,
+      "zona": 7,
+      "citta": 8,
+      "recensore": 14,
+      "gps": 17
+    }
   }
 }

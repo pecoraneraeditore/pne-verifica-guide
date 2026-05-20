@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T14:10:33+00:00",
+  "generated_at": "2026-05-20T07:35:31+00:00",
   "source_file": "Roma_2027.xlsx",
   "citta_default": "Roma",
   "regione": "Lazio",
@@ -218,7 +218,7 @@
       "lon": 12.849190594785567,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "L'Osteria dell'Orologio",
@@ -330,7 +330,7 @@
       "lon": 12.468759116941461,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Pulejo",
@@ -372,7 +372,7 @@
       "lon": 12.741851017737611,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Zia Restaurant",
@@ -568,7 +568,7 @@
       "lon": 12.493778041993513,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Dogma",
@@ -694,7 +694,7 @@
       "lon": 12.47526483926433,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Isotta - Trattoria Cortese",
@@ -736,7 +736,7 @@
       "lon": 13.606285625808828,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "La Tana dei Carbonari",
@@ -750,7 +750,7 @@
       "lon": 13.154755650341361,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Locanda Altobelli",
@@ -792,7 +792,7 @@
       "lon": 12.229620634749661,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Metis",
@@ -1072,7 +1072,7 @@
       "lon": 12.967058864523024,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Ai Due Otri",
@@ -1114,7 +1114,7 @@
       "lon": 13.166111144621077,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Angelino \"ai Fori\" dal 1947",
@@ -1212,7 +1212,7 @@
       "lon": 12.978489249161939,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Buccia",
@@ -1240,7 +1240,7 @@
       "lon": 13.122920514770096,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Chalet del Lago",
@@ -1254,7 +1254,7 @@
       "lon": 12.262343120947389,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Chinappi",
@@ -1338,7 +1338,7 @@
       "lon": 12.914128534051267,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Divina Giulia",
@@ -1436,7 +1436,7 @@
       "lon": 13.431396627622997,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Il Grecale",
@@ -1576,7 +1576,7 @@
       "lon": 12.359566954675824,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "La Palazzina",
@@ -1618,7 +1618,7 @@
       "lon": 12.692992578950797,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "La Villetta",
@@ -1660,7 +1660,7 @@
       "lon": 13.520841403709602,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Locanda Dorica",
@@ -1968,7 +1968,7 @@
       "lon": 13.737764537660487,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Osteria del Borgo",
@@ -1982,7 +1982,7 @@
       "lon": 12.34996953999624,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Osteria del Tempo Perso",
@@ -1996,7 +1996,7 @@
       "lon": 13.713537624096158,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Osteria di Maccarese",
@@ -2136,7 +2136,7 @@
       "lon": 12.495906231519927,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Santuccio ai Colli",
@@ -2472,7 +2472,7 @@
       "lon": 12.10927651128648,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Iotto",
@@ -2598,7 +2598,7 @@
       "lon": 13.143353525815082,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Osteria Fratelli Mori",
@@ -2752,7 +2752,7 @@
       "lon": 12.469034833268445,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Dar Basha",
@@ -3228,7 +3228,7 @@
       "lon": 12.228188973513207,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Crunch!",
@@ -3718,7 +3718,7 @@
       "lon": 12.473496611504828,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Casa Manfredi",
@@ -3970,7 +3970,7 @@
       "lon": 12.47504955492014,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Nero Vaniglia",
@@ -4082,7 +4082,7 @@
       "lon": 12.474733789090989,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Slow",
@@ -4096,7 +4096,7 @@
       "lon": 12.476047171258973,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Sordoni",
@@ -4670,7 +4670,7 @@
       "lon": 12.472919696984244,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Mostò",
@@ -5062,7 +5062,7 @@
       "lon": 12.46968372581943,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Drink Kong",
@@ -5230,7 +5230,7 @@
       "lon": 12.474274381610769,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Arte Bianca di Gabriele",
@@ -5440,7 +5440,7 @@
       "lon": 12.473223499943083,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "El maiz",
@@ -5524,7 +5524,7 @@
       "lon": 12.474234812461015,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Fatamorgana",
@@ -6224,7 +6224,7 @@
       "lon": 12.476063715583715,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "San Biagio pizza e bolle",
@@ -6280,7 +6280,7 @@
       "lon": 12.229144156450465,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Sancho",
@@ -6460,6 +6460,14 @@
     "precisi": 421,
     "falliti": 0,
     "con_recensore": 356,
-    "colonna_gps": 17
+    "colonne_rilevate": {
+      "nome": 4,
+      "tipologia": 5,
+      "indirizzo": 6,
+      "zona": 7,
+      "citta": 8,
+      "recensore": 14,
+      "gps": 17
+    }
   }
 }

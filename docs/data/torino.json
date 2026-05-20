@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T14:10:33+00:00",
+  "generated_at": "2026-05-20T07:35:31+00:00",
   "source_file": "Torino_2027.xlsx",
   "citta_default": "Torino",
   "regione": "Piemonte",
@@ -372,7 +372,7 @@
       "lon": 7.682245039229181,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Silos",
@@ -708,7 +708,7 @@
       "lon": 7.674135480627022,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Trattoria Tarassaco",
@@ -1030,7 +1030,7 @@
       "lon": 7.690986168275447,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "El Beso",
@@ -1268,7 +1268,7 @@
       "lon": 7.682089683753758,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Da Zero",
@@ -1408,7 +1408,7 @@
       "lon": 7.681117647008224,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Caffè San Carlo",
@@ -1422,7 +1422,7 @@
       "lon": 7.682495521878584,
       "approssimato": false,
       "manuale": true,
-      "geocoded_at": "2026-05-19"
+      "geocoded_at": "2026-05-20"
     },
     {
       "nome": "Cibrario forno contemporaneo",
@@ -2988,6 +2988,14 @@
     "precisi": 204,
     "falliti": 0,
     "con_recensore": 113,
-    "colonna_gps": 17
+    "colonne_rilevate": {
+      "nome": 4,
+      "tipologia": 5,
+      "indirizzo": 6,
+      "zona": 7,
+      "citta": 8,
+      "recensore": 14,
+      "gps": 17
+    }
   }
 }
