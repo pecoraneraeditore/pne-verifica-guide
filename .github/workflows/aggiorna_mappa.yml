@@ -1,8 +1,11 @@
 name: Aggiorna solo Mappa
 
-# Workflow manuale: rigenera i dati delle 3 mappe (Roma + Milano + Torino),
-# senza rifare la verifica. Scarica i master direttamente da Dropbox.
+# Rigenera i dati delle 3 mappe (Roma + Milano + Torino).
+# Triggerato automaticamente ogni notte alle 03:00 ora italiana (01:00 UTC).
+# Lanciabile anche manualmente dal tab Actions.
 on:
+  schedule:
+    - cron: '0 1 * * *'  # ogni notte alle 03:00 italiane (CEST)
   workflow_dispatch:
 
 permissions:
@@ -46,6 +49,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nessun cambiamento."
           else
-            git commit -m "chore(mappa): aggiornamento manuale $(date -u +%Y-%m-%d-%H%M)"
+            git commit -m "chore(mappa): aggiornamento $(date -u +%Y-%m-%d-%H%M)"
             git push
           fi
