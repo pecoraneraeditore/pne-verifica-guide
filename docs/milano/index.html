@@ -9,8 +9,6 @@
 <link rel="apple-touch-icon" href="../favicon-64.png">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="">
 <style>
   html, body { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
   #app { display: grid; grid-template-rows: auto 1fr; height: 100vh; }
@@ -24,9 +22,7 @@
   header .brand a.logo { display: block; line-height: 0; }
   header .brand img { height: 48px; width: auto; display: block; }
   header .titles { display: flex; flex-direction: column; gap: 2px; }
-  header h1 {
-    font-size: 15px; margin: 0; font-weight: 600; letter-spacing: 0.3px;
-  }
+  header h1 { font-size: 15px; margin: 0; font-weight: 600; letter-spacing: 0.3px; }
   header h1 a {
     color: #888; text-decoration: none; margin-right: 8px;
     font-weight: 400; transition: color .15s;
@@ -125,7 +121,6 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
 <script>
 (async function () {
   // City-specific
@@ -198,10 +193,8 @@
     legend.appendChild(lbl);
   });
 
-  const cluster = L.markerClusterGroup({
-    maxClusterRadius: 40, showCoverageOnHover: false, spiderfyOnMaxZoom: true,
-  });
-  map.addLayer(cluster);
+  // Layer group SENZA cluster: ogni pin sempre visibile, anche se molto vicini
+  const layerGroup = L.layerGroup().addTo(map);
 
   function makeIcon(color, approx) {
     const cls = approx ? 'pn-pin approx' : 'pn-pin';
@@ -241,8 +234,8 @@
     return m;
   });
   function refreshMarkers() {
-    cluster.clearLayers();
-    cluster.addLayers(allMarkers.filter(m => visibleCats.has(m._cat)));
+    layerGroup.clearLayers();
+    allMarkers.filter(m => visibleCats.has(m._cat)).forEach(m => layerGroup.addLayer(m));
   }
   refreshMarkers();
   if (allMarkers.length) {
